@@ -12,7 +12,7 @@ About 7.4 million Americans age 65 and older are living with Alzheimer's disease
 
 ## What makes it different from asking ChatGPT
 
-Every flag comes from a fixed lookup in published tables (the ACB scale and the AGS Beers Criteria), not from a language model's memory. The AI is only used to read the list and to reword flags it is handed. On our 31 held-out lists, a plain LLM got the total ACB score exactly right between 29% and 39% of the time across runs, while MedBurden got it right 97% of the time every run, and MedBurden raised no false Beers flags (LLM only: 7 to 8 false flags). This matters for dementia caregivers because a total anticholinergic score is the number that tells them whether several mild drugs add up to a problem. The tradeoff is real: the LLM recognised more rare brand names (see Results).
+**AI does the reading, identifying and writing. Published tables do the checking.** A language model reads the typed list or photo, suggests the active ingredient for medicine names the drug lookups cannot settle, and writes the final questions for the doctor in plain English. Every flag it is handed comes from a fixed lookup in published tables (the ACB scale and the AGS Beers Criteria), not from the model's memory, and every AI output is checked before it is shown (see "The AI layer" below). On our 31 held-out lists, a plain LLM got the total ACB score exactly right between 29% and 39% of the time across runs, while MedBurden got it right 97% of the time every run, and MedBurden raised no false Beers flags (LLM only: 7 to 8 false flags). This matters for dementia caregivers because a total anticholinergic score is the number that tells them whether several mild drugs add up to a problem. The tradeoff is real: the LLM recognised more rare brand names (see Results).
 
 ## Demo
 
@@ -28,20 +28,30 @@ Run `streamlit run app/app.py` to see the app. [ADD DEMO GIF OR APP SCREENSHOTS 
  photo / pasted list
         |
         v
- 1. Extract    LLM (optional) reads the list. No key: rule-based parser (text) or Tesseract OCR (photos).
+ 1. Extract    AI reads the list or photo (LLM, src/extract.py). No key: rule-based parser or Tesseract OCR.
         |      The caregiver reviews and edits the list.
         v
- 2. Normalize  Clean the name, then RxNav exact -> local brand map -> RxNav approximate (close names only)
-        |      -> spelling fix (shown to the user) -> otherwise "please confirm" or "not identified"
+ 2. Identify   Drug lookups first: RxNav exact -> local brand map -> RxNav approximate -> spelling fix.
+        |      AI second opinion (src/ai_layer.py) for names still unsettled: it suggests the ingredient,
+        |      asked twice and kept only if both answers agree. Suggestions stay "please confirm" until the user ticks them.
         v
- 3. Score      Rules only, no LLM: data/acb_scale.csv (ACB 2012), data/beers_2023*.csv (Beers 2023),
-        |      duplicate ingredients, stacked sedating drugs
+ 3. Check      Fixed rules, no AI: data/acb_scale.csv (ACB 2012), data/beers_2023*.csv (Beers 2023),
+        |      duplicate ingredients, stacked sedating drugs. This is the safety net behind the AI.
         v
- 4. Report     Risk table, ACB meter, "Questions for your doctor" (text or PDF).
-               Optional AI summary, written only from the flags and rejected if it names other drugs.
+ 4. Write      AI turns each checked finding into a plain-English question for the doctor. Each rewrite is verified
+               (same medicines and numbers, no new medicine, no "stop taking" advice) or the standard wording is used.
 ```
 
 The output is questions to ask a doctor, such as "Could any of them be swapped for one with less anticholinergic effect?". The app never tells anyone to stop a medicine. Medicines it cannot identify are never scored, and the app says so.
+
+## The AI layer
+
+Two places where the AI does real work, both measured with `python scripts/ai_eval.py` (needs an API key; run on Nov 15 with `gpt-6-luna`; output in [`results/ai_layer.json`](results/ai_layer.json) and [`results/ai_layer_main.json`](results/ai_layer_main.json)). The AI's output varies a little between runs, so treat these as one run each.
+
+- **Identifying names the drug lookups could not settle** (held-out set, 31 text lists). Of 10 real drugs left unsettled (unmatched or only a weak "please confirm" guess), the AI's suggestion had exactly the right ingredient for 9 (the lookups alone had 0 of 10 right). The other one was "Megace": the AI said "megestrol acetate" where the answer key says "megestrol", a naming-format difference, but counted as wrong here. Of the 2 made-up drug names, the AI invented an ingredient for 1: "Zolvarex" was read as acyclovir. This is why every AI suggestion needs the user's confirmation and is never scored on its own. In a separate quick test, 5 repeats on 5 made-up names accepted 0 of 25 with the agree-twice check, but that is a small sample. On the main set (24 text lists) no real drug was left unsettled, and the AI invented nothing for its 2 made-up names.
+- **Writing the questions.** Held-out: 81 of 83 AI-written questions passed the verification check and were used, 2 fell back to the standard wording. Main set: 56 of 57 passed, 1 fell back. We did not measure whether the AI wording is easier to understand than the template. We only checked that it stays faithful to the checked findings.
+
+Why the tables stay in charge: in our own comparison a plain LLM got the total ACB score exactly right only 29 to 39% of the time (see Results). The AI proposes and words things, the tables decide what is flagged.
 
 ## Results
 
@@ -90,6 +100,7 @@ Held-out list h12 (patient age 80, dementia, falls): `Librium 10mg tid prn`, `Zy
 ## Limitations
 - **Small test set.** 31 held-out lists and 30 main lists, all made up and labeled by the team. The numbers show a trend, not a measured clinical accuracy.
 - **Ingredient matching vs LLM-only.** MedBurden matches fewer real drugs (87% vs 97%) because it refuses to guess. Missed names mean missed flags, so a short list of risky drugs can look cleaner than it is when a drug shows as "please confirm".
+- **The AI can be wrong.** It can suggest the wrong ingredient for a name, including a confident suggestion for a made-up one (see "The AI layer"). Suggestions need the user's confirmation, but a caregiver might confirm one without checking the label. The AI wording of questions was only checked for faithfulness, not for readability with real caregivers.
 - **Photo reading can fail.** AI reading or Tesseract OCR can misread blurry, angled or handwritten labels. The caregiver must check the extracted list before scoring. Without a key or Tesseract, photos cannot be read at all and the app asks the user to type the list.
 - **The tables do not cover every drug.** The ACB list has 99 scored ingredients (plus 7 reviewed and not added). A drug not on a list is not proof that it is safe. US drug names only (RxNorm).
 - **Beers has exceptions** (indication, duration, dose). Only those checkable from a list are applied (doxepin up to 6 mg, digoxin up to 0.125 mg, extended-release nifedipine, dipyridamole with aspirin). Others are shown as notes.
@@ -124,7 +135,7 @@ Tests (90 pass, 4 skipped when no key or OCR): `python -m pytest -q`. Full evalu
 - Images and medication lists: made up by the team, generated with `scripts/make_demo_images.py` and `scripts/make_eval_images.py`. No real patient data.
 
 **Models and APIs**
-- OpenAI `gpt-6-luna` ([model page](https://developers.openai.com/api/docs/models/gpt-6-luna)): reads the list, writes the optional summary, and is the LLM-only baseline.
+- OpenAI `gpt-6-luna` ([model page](https://developers.openai.com/api/docs/models/gpt-6-luna)): reads the list or photo, suggests ingredients for unsettled names, writes the doctor questions and the optional summary, and is the LLM-only baseline.
 - Anthropic `claude-sonnet-5-5` ([models overview](https://platform.claude.com/docs/en/models/overview)): optional alternative provider. It was not used for the reported results.
 
 **Libraries**: [Streamlit](https://streamlit.io), [pandas](https://pandas.pydata.org), [requests](https://requests.readthedocs.io), [Pillow](https://python-pillow.org), [ReportLab](https://www.reportlab.com/opensource/), [matplotlib](https://matplotlib.org), [pytest](https://pytest.org), [Tesseract OCR](https://github.com/tesseract-ocr/tesseract).
@@ -134,11 +145,11 @@ Tests (90 pass, 4 skipped when no key or OCR): `python -m pytest -q`. Full evalu
 ## Layout
 ```
 app/app.py        Streamlit app (Check, Demo cases, Accuracy, About)
-src/              extract.py (LLM / parser / OCR), normalize.py (names, RxNav, brand map), score.py (rules), report.py (questions, PDF)
+src/              extract.py (LLM / parser / OCR), ai_layer.py (AI ingredient suggestions and question writing, with checks), normalize.py (names, RxNav, brand map), score.py (rules), report.py (questions, PDF)
 data/             cited tables, brand map, aliases, demo cases, RxNav cache
 demo/             3 made-up sample photos
 tests/            pytest, eval_set/ (30 cases), eval_set_holdout/ (31 cases)
-scripts/          evaluate, build tables, make photos, warm cache, check brand map
+scripts/          evaluate, ai_eval, build tables, make photos, warm cache, check brand map
 results/          metrics, reports, comparison chart
 eval/verify_10.md hand check of 10 cases against the source tables
 ```

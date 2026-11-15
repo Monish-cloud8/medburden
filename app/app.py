@@ -19,6 +19,7 @@ sys.path.insert(0, str(ROOT))
 from src.extract import MedItem, extract, llm_status, ocr_status          # noqa: E402
 from src.normalize import RxNavClient, normalize_all                       # noqa: E402
 from src.score import score                                                # noqa: E402
+from src.ai_layer import apply_ai_identification, write_questions, ai_available   # noqa: E402
 from src.report import questions, note_text, note_pdf, llm_summary, DISCLAIMER  # noqa: E402
 
 st.set_page_config(page_title="MedBurden: medicine check for caregivers", page_icon="💊", layout="centered")
@@ -175,6 +176,7 @@ def cached_llm_status():
 
 def run_pipeline(items, patient, accepted=None):
     norms = normalize_all([i.name for i in items], rx_client())
+    apply_ai_identification(norms)         # AI suggests ingredients for names the lookups could not resolve (user confirms)
     for idx in (accepted or []):           # user confirmed a suggestion
         if idx < len(norms) and norms[idx].status == "needs_review" and norms[idx].ingredients:
             norms[idx].status = "matched"
@@ -182,9 +184,9 @@ def run_pipeline(items, patient, accepted=None):
     return norms, score(items, norms, patient)
 
 
-def _pdf(rep, items, who):
+def _pdf(rep, items, who, qs=None):
     try:
-        return note_pdf(rep, items, who)
+        return note_pdf(rep, items, who, qs)
     except Exception:
         return None
 
@@ -258,20 +260,27 @@ def render_results(items, norms, rep, who, key, show_label=True):
     st.markdown("<h3 style='margin:26px 0 4px 0'>Questions to ask the doctor</h3>"
                 "<p class='mb-help'>Print these or save them on your phone. They are questions, not instructions.</p>",
                 unsafe_allow_html=True)
-    qs = questions(rep, items, who)
+    base_qs = questions(rep, items, who)
+    qs, by_ai = base_qs, False
+    if base_qs and ai_available():
+        with st.spinner("The AI is writing your questions..."):
+            qs, by_ai = write_questions(base_qs, who)
     if qs:
         st.markdown("".join(f"<div class='mb-q'>{esc(q)}</div>" for q in qs), unsafe_allow_html=True)
     else:
         st.markdown("<div class='mb-card'>No questions came up. You can still bring the full medicine list to the next appointment.</div>",
                     unsafe_allow_html=True)
+    if qs:
+        st.caption("Written by AI from findings checked against the published tables, then verified (same medicines, no new ones, no stop advice)."
+                   if by_ai else "Standard wording. No AI writer was available, so the questions use fixed templates.")
     c1, c2 = st.columns(2)
-    pdf = _pdf(rep, items, who)
+    pdf = _pdf(rep, items, who, qs)
     if pdf:
         wide(c1.download_button, "Download as PDF", pdf, "questions_for_doctor.pdf", mime="application/pdf",
              key=f"{key}_pdf", type="primary")
     else:
         c1.caption("PDF is not available here. Use the text version.")
-    wide(c2.download_button, "Download as text", note_text(rep, items, who), "questions_for_doctor.txt", key=f"{key}_txt")
+    wide(c2.download_button, "Download as text", note_text(rep, items, who, qs), "questions_for_doctor.txt", key=f"{key}_txt")
 
     if rep["needs_review"] or rep["unmatched"]:
         names = ", ".join(f"\"{esc(u['drug'])}\"" for u in rep["needs_review"] + rep["unmatched"])
@@ -425,7 +434,7 @@ with tab_check:
             if review:
                 st.markdown("**We think we know these, but please confirm.** Only tick if you are sure:")
                 for i in review:
-                    if st.checkbox(f"\"{items[i].name}\" is {norms[i].matched_name} "
+                    if st.checkbox(f"\"{items[i].name}\" is {norms[i].matched_name}" + (" (AI suggestion)" if norms[i].method == "ai suggestion" else "") + " "
                                    f"({', '.join(x['name'] for x in norms[i].ingredients)})", key=f"acc_{st.session_state['ver']}_{i}"):
                         accepted.append(i)
             norms2, rep = run_pipeline(items, patient, accepted)
@@ -483,14 +492,16 @@ Family caregivers often do not know which ones to ask about. MedBurden turns pub
 questions to take to the doctor.
 
 ### How it works
-1. **Read.** You type or photograph the list. An AI can help read a photo. You check and fix the list before anything is scored.
-2. **Identify.** Each medicine is looked up in the NIH **RxNav / RxNorm** service and a local list of brands. Combination
-   products are split into their ingredients. Names it cannot identify are shown as not identified and never guessed.
-3. **Check.** Each ingredient is checked against published tables using fixed rules. **No AI decides any flag.**
+1. **Read (AI).** You type or photograph the list. An AI reads it. You check and fix the list before anything is scored.
+2. **Identify (lookup, then AI).** Each medicine is looked up in the NIH **RxNav / RxNorm** service and a local list of brands.
+   If the lookup cannot settle a name, the AI suggests what it contains. A suggestion is never used until you confirm it,
+   and the AI can be wrong.
+3. **Check (published tables).** Each ingredient is checked against published tables using fixed rules. **The AI does not decide any flag.**
    - Anticholinergic Cognitive Burden (ACB) Scale, 2012 update (Aging Brain Care, Indiana University).
    - 2023 American Geriatrics Society Beers Criteria, Tables 2, 3, 5 and 7.
    - The same ingredient appearing in two products.
-4. **Explain.** The results become plain-English questions you can print or save.
+4. **Write (AI).** The AI turns each checked finding into a plain-English question. Each one is verified against the finding
+   it came from, or a standard wording is used. You can print or save the questions.
 
 ### Limits
 - The tables cover common medicines only. A medicine that is not listed is not proof that it is safe.

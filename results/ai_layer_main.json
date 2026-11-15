@@ -1,0 +1,20 @@
+{
+ "cases_text_only": 24,
+ "identify": {
+  "real_unsettled": 0,
+  "lookup_right": 0,
+  "final_right": 0,
+  "ai_changed_to_right": 0,
+  "ai_changed_to_wrong": 0,
+  "made_up_unsettled": 2,
+  "ai_invented": 0
+ },
+ "write": {
+  "lists_with_questions": 24,
+  "questions": 57,
+  "ai_kept": 56,
+  "fell_back": 1
+ },
+ "wrong_suggestions": [],
+ "suggestions_for_made_up_drugs": []
+}

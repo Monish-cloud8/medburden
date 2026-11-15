@@ -1,0 +1,38 @@
+{
+ "cases_text_only": 31,
+ "identify": {
+  "real_unsettled": 10,
+  "lookup_right": 0,
+  "final_right": 9,
+  "ai_changed_to_right": 9,
+  "ai_changed_to_wrong": 1,
+  "made_up_unsettled": 2,
+  "ai_invented": 1
+ },
+ "write": {
+  "lists_with_questions": 27,
+  "questions": 83,
+  "ai_kept": 81,
+  "fell_back": 2
+ },
+ "wrong_suggestions": [
+  {
+   "name": "Megace",
+   "ai_said": [
+    "megestrol acetate"
+   ],
+   "gold": [
+    "megestrol"
+   ],
+   "lookup_said": []
+  }
+ ],
+ "suggestions_for_made_up_drugs": [
+  {
+   "name": "Zolvarex",
+   "ai_said": [
+    "acyclovir"
+   ]
+  }
+ ]
+}

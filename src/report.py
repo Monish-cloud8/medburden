@@ -61,9 +61,9 @@ def questions(report: dict, items, who: str = "My relative") -> list[str]:
     return qs
 
 
-def note_text(report: dict, items, who: str = "My relative") -> str:
+def note_text(report: dict, items, who: str = "My relative", qs: list | None = None) -> str:
     lines = [f"Questions for the doctor ({date.today():%d %b %Y})", ""]
-    lines += [f"{i + 1}. {q}" for i, q in enumerate(questions(report, items, who))] or ["No flags were found in the lists we check."]
+    lines += [f"{i + 1}. {q}" for i, q in enumerate(qs or questions(report, items, who))] or ["No flags were found in the lists we check."]
     lines += ["", f"Total anticholinergic burden (ACB) score: {report['acb_total']} ({report['acb_level']})"
               + (" (incomplete: some medicines could not be identified)" if report["acb_incomplete"] else ""), "",
               "Medicines checked:"]
@@ -73,7 +73,7 @@ def note_text(report: dict, items, who: str = "My relative") -> str:
     return "\n".join(lines)
 
 
-def note_pdf(report: dict, items, who: str = "My relative") -> bytes:
+def note_pdf(report: dict, items, who: str = "My relative", qs: list | None = None) -> bytes:
     from reportlab.lib.pagesizes import letter
     from reportlab.lib.styles import getSampleStyleSheet, ParagraphStyle
     from reportlab.platypus import SimpleDocTemplate, Paragraph, Spacer, ListFlowable, ListItem
@@ -87,7 +87,7 @@ def note_pdf(report: dict, items, who: str = "My relative") -> bytes:
     small = ParagraphStyle("s", parent=body, fontSize=8.5, leading=11, textColor="#555555")
     story = [Paragraph("Questions for the doctor", ss["Title"]),
              Paragraph(f"Prepared {date.today():%d %B %Y} with MedBurden", small), Spacer(1, 10)]
-    qs = questions(report, items, who) or ["No flags were found in the lists we check."]
+    qs = qs or questions(report, items, who) or ["No flags were found in the lists we check."]
     story.append(ListFlowable([ListItem(Paragraph(escape(q), body), leftIndent=12) for q in qs], bulletType="1"))
     story += [Spacer(1, 10), Paragraph(f"<b>Total anticholinergic burden score:</b> {report['acb_total']} ({report['acb_level']})", body),
               Spacer(1, 6), Paragraph("<b>Medicines checked:</b> " + escape("; ".join(f"{i.name} {i.strength}".strip() for i in items)), body),

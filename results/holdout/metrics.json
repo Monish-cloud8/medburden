@@ -21,7 +21,7 @@
    "requests": 0,
    "errors": 0
   },
-  "runtime_s": 252.7
+  "runtime_s": 248.7
  },
  "medburden": {
   "extraction_precision": 0.989247311827957,
@@ -47,13 +47,13 @@
   "cases": 31,
   "errors": 0,
   "ingredient_match_rate": 0.967032967032967,
-  "acb_exact_match_rate": 0.3870967741935484,
-  "beers_precision": 0.9090909090909091,
-  "beers_recall": 0.7368421052631579,
+  "acb_exact_match_rate": 0.2903225806451613,
+  "beers_precision": 0.9047619047619048,
+  "beers_recall": 0.8,
   "beers_counts": {
-   "tp": 70,
-   "fp": 7,
-   "fn": 25
+   "tp": 76,
+   "fp": 8,
+   "fn": 19
   },
   "unmatched_correctly_flagged": "2/2"
  },
@@ -86,9 +86,7 @@
    "baseline": {
     "acb": 3,
     "fp": [],
-    "fn": [
-     "dicyclomine|dementia"
-    ]
+    "fn": []
    }
   },
   {
@@ -180,11 +178,10 @@
    "beers_fn": [],
    "warnings": [],
    "baseline": {
-    "acb": 6,
+    "acb": 7,
     "fp": [],
     "fn": [
-     "flavoxate|dementia",
-     "hyoscyamine|dementia"
+     "flavoxate|dementia"
     ]
    }
   },
@@ -314,8 +311,7 @@
     "acb": 6,
     "fp": [],
     "fn": [
-     "clozapine|all",
-     "trihexyphenidyl|dementia"
+     "clozapine|all"
     ]
    }
   },
@@ -347,10 +343,6 @@
     "acb": 5,
     "fp": [],
     "fn": [
-     "desipramine|dementia",
-     "desipramine|falls",
-     "imipramine|dementia",
-     "imipramine|falls",
      "lansoprazole|all"
     ]
    }
@@ -384,9 +376,10 @@
    "warnings": [],
    "baseline": {
     "acb": 9,
-    "fp": [],
+    "fp": [
+     "prochlorperazine|all"
+    ],
     "fn": [
-     "chlorpromazine|all",
      "paroxetine|dementia"
     ]
    }
@@ -419,6 +412,7 @@
     "acb": 3,
     "fp": [],
     "fn": [
+     "clorazepate|falls",
      "orphenadrine|falls"
     ]
    }
@@ -452,7 +446,7 @@
    ],
    "warnings": [],
    "baseline": {
-    "acb": 1,
+    "acb": 0,
     "fp": [],
     "fn": []
    }
@@ -487,9 +481,7 @@
    "baseline": {
     "acb": 0,
     "fp": [],
-    "fn": [
-     "guanfacine|all"
-    ]
+    "fn": []
    }
   },
   {
@@ -547,7 +539,7 @@
    "beers_fn": [],
    "warnings": [],
    "baseline": {
-    "acb": 2,
+    "acb": 3,
     "fp": [],
     "fn": [
      "lurasidone|all",
@@ -675,7 +667,7 @@
    "beers_fn": [],
    "warnings": [],
    "baseline": {
-    "acb": 2,
+    "acb": 3,
     "fp": [],
     "fn": []
    }
@@ -775,9 +767,7 @@
    "warnings": [],
    "baseline": {
     "acb": 1,
-    "fp": [
-     "chlorzoxazone|falls"
-    ],
+    "fp": [],
     "fn": []
    }
   },
@@ -806,7 +796,7 @@
    "beers_fn": [],
    "warnings": [],
    "baseline": {
-    "acb": 0,
+    "acb": 1,
     "fp": [],
     "fn": []
    }
@@ -869,7 +859,9 @@
    "warnings": [],
    "baseline": {
     "acb": 0,
-    "fp": [],
+    "fp": [
+     "hydromorphone|dementia"
+    ],
     "fn": []
    }
   },
@@ -898,7 +890,7 @@
    "beers_fn": [],
    "warnings": [],
    "baseline": {
-    "acb": 0,
+    "acb": 1,
     "fp": [],
     "fn": []
    }
@@ -990,7 +982,7 @@
    "beers_fn": [],
    "warnings": [],
    "baseline": {
-    "acb": 2,
+    "acb": 3,
     "fp": [
      "trazodone|falls"
     ],
@@ -1022,11 +1014,13 @@
    "beers_fn": [],
    "warnings": [],
    "baseline": {
-    "acb": 5,
+    "acb": 4,
     "fp": [],
     "fn": [
+     "meclizine|dementia",
      "meclizine|falls",
      "risperidone|all",
+     "zolpidem|all",
      "zolpidem|dementia"
     ]
    }
@@ -1056,7 +1050,7 @@
    "beers_fn": [],
    "warnings": [],
    "baseline": {
-    "acb": 0,
+    "acb": 1,
     "fp": [],
     "fn": []
    }

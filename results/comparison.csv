@@ -1,5 +1,5 @@
 metric,medburden,llm_only,note
 Ingredient match,0.989,1.0,
-ACB total exact,1.0,0.3667,
-Beers precision,1.0,0.9623,
-Beers recall,1.0,0.8095,
+ACB total exact,1.0,0.4667,
+Beers precision,1.0,0.9412,
+Beers recall,1.0,0.7619,

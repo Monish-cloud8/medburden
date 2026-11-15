@@ -21,7 +21,7 @@
    "requests": 0,
    "errors": 0
   },
-  "runtime_s": 231.8
+  "runtime_s": 219.9
  },
  "medburden": {
   "extraction_precision": 1.0,
@@ -47,13 +47,13 @@
   "cases": 30,
   "errors": 0,
   "ingredient_match_rate": 1.0,
-  "acb_exact_match_rate": 0.36666666666666664,
-  "beers_precision": 0.9622641509433962,
-  "beers_recall": 0.8095238095238095,
+  "acb_exact_match_rate": 0.4666666666666667,
+  "beers_precision": 0.9411764705882353,
+  "beers_recall": 0.7619047619047619,
   "beers_counts": {
-   "tp": 51,
-   "fp": 2,
-   "fn": 12
+   "tp": 48,
+   "fp": 3,
+   "fn": 15
   },
   "unmatched_correctly_flagged": "2/2"
  },
@@ -150,7 +150,9 @@
    "baseline": {
     "acb": 3,
     "fp": [],
-    "fn": []
+    "fn": [
+     "ibuprofen|all"
+    ]
    }
   },
   {
@@ -181,10 +183,11 @@
    "beers_fn": [],
    "warnings": [],
    "baseline": {
-    "acb": 3,
+    "acb": 4,
     "fp": [],
     "fn": [
-     "zolpidem|all"
+     "sertraline|falls",
+     "zolpidem|falls"
     ]
    }
   },
@@ -345,9 +348,11 @@
    "beers_fn": [],
    "warnings": [],
    "baseline": {
-    "acb": 2,
+    "acb": 3,
     "fp": [],
-    "fn": []
+    "fn": [
+     "cyclobenzaprine|falls"
+    ]
    }
   },
   {
@@ -437,7 +442,7 @@
    "beers_fn": [],
    "warnings": [],
    "baseline": {
-    "acb": 3,
+    "acb": 4,
     "fp": [],
     "fn": []
    }
@@ -498,7 +503,9 @@
    "warnings": [],
    "baseline": {
     "acb": 5,
-    "fp": [],
+    "fp": [
+     "trazodone|falls"
+    ],
     "fn": []
    }
   },
@@ -587,8 +594,10 @@
    "beers_fn": [],
    "warnings": [],
    "baseline": {
-    "acb": 0,
-    "fp": [],
+    "acb": 1,
+    "fp": [
+     "digoxin|all"
+    ],
     "fn": []
    }
   },
@@ -644,7 +653,7 @@
    "beers_fn": [],
    "warnings": [],
    "baseline": {
-    "acb": 4,
+    "acb": 3,
     "fp": [],
     "fn": [
      "haloperidol|all"
@@ -766,11 +775,9 @@
    "beers_fn": [],
    "warnings": [],
    "baseline": {
-    "acb": 2,
+    "acb": 0,
     "fp": [],
-    "fn": [
-     "warfarin|all"
-    ]
+    "fn": []
    }
   },
   {
@@ -799,12 +806,8 @@
    "warnings": [],
    "baseline": {
     "acb": 0,
-    "fp": [
-     "tramadol|dementia"
-    ],
-    "fn": [
-     "zolpidem|falls"
-    ]
+    "fp": [],
+    "fn": []
    }
   },
   {
@@ -834,7 +837,9 @@
    "baseline": {
     "acb": 4,
     "fp": [],
-    "fn": []
+    "fn": [
+     "benztropine|dementia"
+    ]
    }
   },
   {
@@ -926,7 +931,10 @@
    "baseline": {
     "acb": 2,
     "fp": [],
-    "fn": []
+    "fn": [
+     "cyclobenzaprine|falls",
+     "naproxen|all"
+    ]
    }
   },
   {
@@ -954,11 +962,9 @@
    "beers_fn": [],
    "warnings": [],
    "baseline": {
-    "acb": 4,
+    "acb": 5,
     "fp": [],
-    "fn": [
-     "promethazine|dementia"
-    ]
+    "fn": []
    }
   },
   {

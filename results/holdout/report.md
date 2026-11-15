@@ -2,12 +2,12 @@
 
 31 made-up medication lists (0 as photos). Labels written by hand; see tests/eval_set/cases.json and eval/verify_10.md.
 
-**Run conditions:** extraction = {'llm:openai': 31}; RxNav = NOT reachable (cache + local brand map only); LLM = openai · gpt-6-luna; OCR = Tesseract not installed. Photo reading without an AI key needs the free Tesseract OCR program. Install it with `brew install tesseract` (Mac) or `sudo apt install tesseract-ocr` (Linux). On Streamlit Cloud it is installed from packages.txt. You can also type or paste the list instead..
+**Run conditions:** extraction = {'llm:openai': 31}; RxNav = NOT reachable (cache + local brand map only); LLM = openai · gpt-6-luna; OCR = Tesseract not installed. Photo reading without an AI key needs the free Tesseract OCR program. Install it with `brew install tesseract` (Mac) or `sudo apt install tesseract-ocr` (Linux). On Streamlit Cloud it is installed from packages.txt. You can also type or paste the list instead.
 
 | System | Drug extraction (precision / recall) | Ingredient match (exactly right) | ACB total exact | Beers precision | Beers recall |
 |---|---|---|---|---|---|
 | MedBurden (rules + tables) | 99% / 99% | 87% (79/91 real drugs matched with exactly the right ingredients) | 97% | 100% | 86% |
-| LLM only (gpt-6-luna, no tables) | n/a | 97% | 39% | 91% | 74% |
+| LLM only (gpt-6-luna, no tables) | n/a | 97% | 29% | 90% | 80% |
 
 - Fictional drug names correctly left unmatched: **2/2** (wrongly matched: 0).
 - Beers counts (MedBurden): {'tp': 82, 'fp': 0, 'fn': 13}.

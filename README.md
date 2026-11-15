@@ -12,7 +12,7 @@ About 7.4 million Americans age 65 and older are living with Alzheimer's disease
 
 ## What makes it different from asking ChatGPT
 
-Every flag comes from a fixed lookup in published tables (the ACB scale and the AGS Beers Criteria), not from a language model's memory. The AI is only used to read the list and to reword flags it is handed. On our 31 held-out lists, a plain LLM got the total ACB score exactly right 39% of the time, while MedBurden got it right 97% of the time, and MedBurden raised no false Beers flags (LLM only: 7 false flags). This matters for dementia caregivers because a total anticholinergic score is the number that tells them whether several mild drugs add up to a problem. The tradeoff is real: the LLM recognised more rare brand names (see Results).
+Every flag comes from a fixed lookup in published tables (the ACB scale and the AGS Beers Criteria), not from a language model's memory. The AI is only used to read the list and to reword flags it is handed. On our 31 held-out lists, a plain LLM got the total ACB score exactly right between 29% and 39% of the time across runs, while MedBurden got it right 97% of the time every run, and MedBurden raised no false Beers flags (LLM only: 7 to 8 false flags). This matters for dementia caregivers because a total anticholinergic score is the number that tells them whether several mild drugs add up to a problem. The tradeoff is real: the LLM recognised more rare brand names (see Results).
 
 ## Demo
 
@@ -52,12 +52,12 @@ Two evaluations, both on made-up lists labeled by hand by the team (the same peo
 | | MedBurden | LLM only (gpt-6-luna) |
 |---|---|---|
 | Ingredient match | 87% (79/91) | 97% (88/91) |
-| ACB total exactly right | 97% (30/31) | 39% (12/31) |
-| Beers precision (flags that are real) | 100% (82/82) | 91% (70/77) |
-| Beers recall (real flags found) | 86% (82/95) | 74% (70/95) |
-| False Beers flags | 0 | 7 |
+| ACB total exactly right | 97% (30/31) | 29% (9/31) |
+| Beers precision (flags that are real) | 100% (82/82) | 90% (76/84) |
+| Beers recall (real flags found) | 86% (82/95) | 80% (76/95) |
+| False Beers flags | 0 | 8 |
 
-Source: [`results/holdout/metrics.json`](results/holdout/metrics.json), produced by `python scripts/evaluate.py --eval-dir tests/eval_set_holdout --out-dir results/holdout` with an OpenAI key. The LLM-only column varies a few points between runs (ACB 35 to 39%, Beers recall 74 to 84% over three runs) because the model is not deterministic. MedBurden's rule-based part does not vary. Re-run without any key (built-in parser instead of AI text reading), MedBurden gets 86% ingredient match (78/91) and the same ACB 97% and Beers 100% / 86%.
+Source: [`results/holdout/metrics.json`](results/holdout/metrics.json), produced by `python scripts/evaluate.py --eval-dir tests/eval_set_holdout --out-dir results/holdout` with an OpenAI key. This is the latest run (Nov 15). The LLM-only column changes between runs because the model is not deterministic: over four runs, ACB exact ranged 29 to 39%, Beers precision 90 to 91% and Beers recall 74 to 84%. MedBurden's rule-based part does not vary. Re-run without any key (built-in parser instead of AI text reading), MedBurden gets 86% ingredient match (78/91) and the same ACB 97% and Beers 100% / 86%.
 
 ### Main set: 30 lists (6 as photos), partly in-sample
 
@@ -69,7 +69,7 @@ The local brand map was built to cover these drugs, so treat this as a smoke tes
 | System | Drug extraction (precision / recall) | Ingredient match (exactly right) | ACB total exact | Beers precision | Beers recall |
 |---|---|---|---|---|---|
 | MedBurden (rules + tables) | 100% / 100% | 99% (90/91 real drugs matched with exactly the right ingredients) | 100% | 100% | 100% |
-| LLM only (gpt-6-luna, no tables) | n/a | 100% | 37% | 96% | 81% |
+| LLM only (gpt-6-luna, no tables) | n/a | 100% | 47% | 94% | 76% |
 
 - Fictional drug names correctly left unmatched: **2/2** (wrongly matched: 0).
 - Beers counts (MedBurden): {'tp': 63, 'fp': 0, 'fn': 0}.
@@ -79,6 +79,7 @@ The local brand map was built to cover these drugs, so treat this as a smoke tes
 Without an AI key and without Tesseract installed, the 6 photo lists cannot be read, and the same run drops to ACB 83% and Beers recall 73% (precision stays 100%).
 
 ### Reading these numbers honestly
+- Both runs used the saved RxNav answers in `data/rxnav_cache.json` (0 live requests), so the drug lookup part is repeatable. A live RxNav run could differ slightly.
 - The LLM alone recognises more obscure brand names. MedBurden refuses to guess and sends most of the 12 it misses to "needs review". It is better at the ACB total and never raised a false Beers flag in either set.
 - MedBurden's Beers misses all come from names it declined to guess, not from wrong rules.
 - Two wrong matches were found on the held-out set and fixed afterwards, with regression tests in `tests/test_normalize_strict.py`: the made-up "Nexaprine" matched a real combination drug, and "Librium" was spell-corrected to "lithium". The held-out set was therefore used to fix bugs, so it is no longer fully untouched.

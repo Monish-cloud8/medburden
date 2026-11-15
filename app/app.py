@@ -223,6 +223,9 @@ with tab_check:
     if st.button("Read the list", type="primary", disabled=not (text or img)):
         with st.spinner("Reading..."):
             got, method, warns = extract(text=text, image_bytes=img)
+        if not got:
+            warns = list(warns) + ["No medicines could be read from this input. For a photo, try a sharper, well-lit, "
+                                   "straight-on picture, or type the medicines in the box instead."]
         st.session_state["items_df"] = pd.DataFrame([i.to_dict() for i in got] or
                                                     [{"name": "", "strength": "", "dose": "", "frequency": "", "confidence": 0.0}])
         st.session_state["extract_info"] = (method, warns)
@@ -290,6 +293,8 @@ with tab_demo:
             st.caption(f"Read with `{method}` · assumed: age 80, dementia")
         for w in warns:
             st.warning(w)
+        if not items:
+            st.warning("No medicines could be read from this photo. Try a sharper, well-lit picture or type the list instead.")
         st.markdown(f"### {title}")
         if items:
             norms, rep = run_pipeline(items, pat)

@@ -337,7 +337,7 @@ def extract(text: str | None = None, image_bytes: bytes | None = None, use_llm: 
                 items = llm_extract(text=text, image_bytes=image_bytes)
                 return items, f"llm:{llm_provider()}", warnings
             except LLMError as e:
-                warnings.append(f"AI reader error: {e}. Used the basic reader instead.")
+                warnings.append("The AI reader could not process this input (for example an unsupported or damaged image). Used the basic reader instead.")
             except Exception as e:
                 warnings.append(f"The AI reader failed ({type(e).__name__}). Used the basic reader instead.")
     if image_bytes is not None:

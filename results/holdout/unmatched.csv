@@ -1,0 +1,14 @@
+case,written,status,expected,gold_ingredients,note
+h02,Requip,unmatched,no,ropinirole,No match in RxNorm or in the local drug list. Please check the spelling or ask the pharmacist.
+h05,Megace,needs_review,no,megestrol,Closest RxNorm name is 'megestrol acetate Oral Tablet [Megace]'. Please confirm this is the right drug.
+h06,Toradol,needs_review,no,ketorolac,Closest RxNorm name is 'ketorolac tromethamine Injectable Solution [Toradol]'. Please confirm this is the right drug.
+h10,Pexeva,needs_review,no,paroxetine,Closest RxNorm name is 'paroxetine mesylate Oral Tablet [Pexeva]'. Please confirm this is the right drug.
+h12,Librium,needs_review,no,chlordiazepoxide,Closest RxNorm name is 'chlordiazepoxide hydrochloride Oral Capsule [Librium]'. Please confirm this is the right drug.
+h13,Cordarone,needs_review,no,amiodarone,Closest RxNorm name is 'amiodarone hydrochloride Oral Tablet [Cordarone]'. Please confirm this is the right drug.
+h13,Tenex,needs_review,no,guanfacine,Closest RxNorm name is 'Iris tenax extract'. Please confirm this is the right drug.
+h21,Tenex,needs_review,no,guanfacine,Closest RxNorm name is 'Iris tenax extract'. Please confirm this is the right drug.
+h22,Luminal,needs_review,no,phenobarbital,Closest RxNorm name is 'sodium fluoride 0.00243 MG/MG Toothpaste'. Please confirm this is the right drug.
+h22,Parafon Forte,needs_review,no,chlorzoxazone,Closest RxNorm name is 'Pred Forte'. Please confirm this is the right drug.
+h25,Zolvarex,needs_review,yes,,Closest RxNorm name is 'Zoladex'. Please confirm this is the right drug.
+h25,Nexaprine,needs_review,yes,,Closest RxNorm name is 'Exaprin'. Please confirm this is the right drug.
+h28,(not extracted: hydroxyzin),not extracted,no,hydroxyzine,

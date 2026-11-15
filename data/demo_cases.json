@@ -1,0 +1,44 @@
+{
+ "cases": [
+  {
+   "title": "Featured story: Grandpa, 82, takes Benadryl, oxybutynin and Ativan",
+   "who": "Grandpa",
+   "patient": {
+    "age": 82,
+    "dementia": true,
+    "falls": true
+   },
+   "text": "Benadryl 25 mg at bedtime\nOxybutynin 5 mg twice daily\nAtivan 0.5 mg at bedtime\nDonepezil 10 mg daily"
+  },
+  {
+   "title": "Mom, 84, has dementia",
+   "who": "Mom",
+   "patient": {
+    "age": 84,
+    "dementia": true,
+    "falls": false
+   },
+   "text": "Tylenol PM 2 caplets at bedtime\nOxybutynin 5 mg twice daily\nDonepezil 10 mg daily\nLisinopril 10 mg daily\nBenadryl 25 mg as needed for itching"
+  },
+  {
+   "title": "Dad, 79, had a fall this year",
+   "who": "Dad",
+   "patient": {
+    "age": 79,
+    "dementia": false,
+    "falls": true
+   },
+   "text": "Zolpidem 10 mg at bedtime\nOxycodone 5 mg every 6 hours as needed\nGabapentin 300 mg three times daily\nSertraline 50 mg daily\nMeclizine 25 mg as needed for dizziness"
+  },
+  {
+   "title": "Aunt Rose, 72, no memory problems",
+   "who": "Aunt Rose",
+   "patient": {
+    "age": 72,
+    "dementia": false,
+    "falls": false
+   },
+   "text": "Atorvastatin 20 mg at night\nAmlodipine 5 mg daily\nOmeprazole 20 mg daily\nAspirin 81 mg daily\nLoratadine 10 mg daily"
+  }
+ ]
+}

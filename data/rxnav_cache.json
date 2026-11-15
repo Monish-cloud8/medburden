@@ -1,0 +1,10167 @@
+{
+"/approximateTerm.json?term=blorpaxin&maxEntries=5&option=1": {
+"approximateGroup": {
+"inputTerm": null
+}
+},
+"/approximateTerm.json?term=cordarone&maxEntries=5&option=1": {
+"approximateGroup": {
+"candidate": [
+{
+"name": "amiodarone hydrochloride Oral Tablet [Cordarone]",
+"rank": "1",
+"rxaui": "12837504",
+"rxcui": "2654581",
+"score": "6.27562681582184",
+"source": "RXNORM"
+},
+{
+"name": "amiodarone hydrochloride Injectable Solution [Cordarone]",
+"rank": "1",
+"rxaui": "12841469",
+"rxcui": "2658546",
+"score": "6.27562681582184",
+"source": "RXNORM"
+},
+{
+"name": "amiodarone hydrochloride Oral Tablet [Cordarone X]",
+"rank": "3",
+"rxaui": "12841370",
+"rxcui": "2658447",
+"score": "5.405347959166462",
+"source": "RXNORM"
+},
+{
+"name": "carbinoxamine maleate Oral Solution [Cordron NR]",
+"rank": "4",
+"rxaui": "12840631",
+"rxcui": "2657708",
+"score": "1.858378901705597",
+"source": "RXNORM"
+},
+{
+"name": "chlorpheniramine maleate / hydrocodone bitartrate / pseudoephedrine hydrochloride Oral Solution [Cordron HC]",
+"rank": "5",
+"rxaui": "12837379",
+"rxcui": "2654456",
+"score": "1.1886231142235015",
+"source": "RXNORM"
+}
+],
+"inputTerm": null
+}
+},
+"/approximateTerm.json?term=donepezyl&maxEntries=5&option=1": {
+"approximateGroup": {
+"candidate": [
+{
+"rank": "1",
+"rxaui": "10325066",
+"rxcui": "135447",
+"score": "9.035232543945312",
+"source": "GS"
+},
+{
+"name": "DONEPEZIL",
+"rank": "1",
+"rxaui": "2627950",
+"rxcui": "135447",
+"score": "9.035232543945312",
+"source": "VANDF"
+},
+{
+"name": "donepezil",
+"rank": "1",
+"rxaui": "5479839",
+"rxcui": "135447",
+"score": "9.035232543945312",
+"source": "ATC"
+},
+{
+"rank": "1",
+"rxaui": "6804166",
+"rxcui": "135447",
+"score": "9.035232543945312",
+"source": "NDDF"
+},
+{
+"name": "Donepezil",
+"rank": "1",
+"rxaui": "8414249",
+"rxcui": "135447",
+"score": "9.035232543945312",
+"source": "DRUGBANK"
+},
+{
+"rank": "1",
+"rxaui": "930124",
+"rxcui": "135447",
+"score": "9.035232543945312",
+"source": "MMSL"
+},
+{
+"name": "donepezil",
+"rank": "1",
+"rxaui": "930125",
+"rxcui": "135447",
+"score": "9.035232543945312",
+"source": "RXNORM"
+}
+],
+"inputTerm": null
+}
+},
+"/approximateTerm.json?term=doxazocin&maxEntries=5&option=1": {
+"approximateGroup": {
+"candidate": [
+{
+"rank": "1",
+"rxaui": "10325957",
+"rxcui": "49276",
+"score": "9.090097427368164",
+"source": "GS"
+},
+{
+"name": "doxazosin",
+"rank": "1",
+"rxaui": "12254005",
+"rxcui": "49276",
+"score": "9.090097427368164",
+"source": "RXNORM"
+},
+{
+"name": "DOXAZOSIN",
+"rank": "1",
+"rxaui": "2070301",
+"rxcui": "49276",
+"score": "9.090097427368164",
+"source": "VANDF"
+},
+{
+"rank": "1",
+"rxaui": "3630147",
+"rxcui": "49276",
+"score": "9.090097427368164",
+"source": "NDDF"
+},
+{
+"name": "doxazosin",
+"rank": "1",
+"rxaui": "5479849",
+"rxcui": "49276",
+"score": "9.090097427368164",
+"source": "ATC"
+},
+{
+"name": "Doxazosin",
+"rank": "1",
+"rxaui": "8530849",
+"rxcui": "49276",
+"score": "9.090097427368164",
+"source": "DRUGBANK"
+}
+],
+"inputTerm": null
+}
+},
+"/approximateTerm.json?term=foobarium&maxEntries=5&option=1": {
+"approximateGroup": {
+"inputTerm": null
+}
+},
+"/approximateTerm.json?term=librium&maxEntries=5&option=1": {
+"approximateGroup": {
+"candidate": [
+{
+"name": "chlordiazepoxide hydrochloride Oral Capsule [Librium]",
+"rank": "1",
+"rxaui": "12837803",
+"rxcui": "2654880",
+"score": "6.15510348418626",
+"source": "RXNORM"
+},
+{
+"name": "chlordiazepoxide hydrochloride Injectable Solution [Librium]",
+"rank": "1",
+"rxaui": "12838309",
+"rxcui": "2655386",
+"score": "6.15510348418626",
+"source": "RXNORM"
+},
+{
+"name": "chlordiazePOXIDE hydrochloride Injectable Solution [Librium]",
+"rank": "3",
+"rxaui": "12847437",
+"rxcui": "2655386",
+"score": "4.538341054996159",
+"source": "RXNORM"
+},
+{
+"name": "chlordiazePOXIDE hydrochloride Oral Capsule [Librium]",
+"rank": "3",
+"rxaui": "12847477",
+"rxcui": "2654880",
+"score": "4.538341054996159",
+"source": "RXNORM"
+}
+],
+"inputTerm": null
+}
+},
+"/approximateTerm.json?term=lorazapam&maxEntries=5&option=1": {
+"approximateGroup": {
+"candidate": [
+{
+"name": "Lorazepam",
+"rank": "1",
+"rxaui": "10282816",
+"rxcui": "6470",
+"score": "8.297043800354004",
+"source": "USP"
+},
+{
+"rank": "1",
+"rxaui": "10328263",
+"rxcui": "6470",
+"score": "8.297043800354004",
+"source": "GS"
+},
+{
+"name": "lorazepam",
+"rank": "1",
+"rxaui": "12253907",
+"rxcui": "6470",
+"score": "8.297043800354004",
+"source": "RXNORM"
+},
+{
+"rank": "1",
+"rxaui": "1847128",
+"rxcui": "6470",
+"score": "8.297043800354004",
+"source": "MMSL"
+},
+{
+"rank": "1",
+"rxaui": "1847140",
+"rxcui": "6470",
+"score": "8.297043800354004",
+"source": "MMSL"
+},
+{
+"name": "LORAZEPAM",
+"rank": "1",
+"rxaui": "2072094",
+"rxcui": "6470",
+"score": "8.297043800354004",
+"source": "VANDF"
+},
+{
+"rank": "1",
+"rxaui": "3754446",
+"rxcui": "6470",
+"score": "8.297043800354004",
+"source": "NDDF"
+},
+{
+"name": "lorazepam",
+"rank": "1",
+"rxaui": "5480885",
+"rxcui": "6470",
+"score": "8.297043800354004",
+"source": "ATC"
+},
+{
+"name": "Lorazepam",
+"rank": "1",
+"rxaui": "8612257",
+"rxcui": "6470",
+"score": "8.297043800354004",
+"source": "DRUGBANK"
+}
+],
+"inputTerm": null
+}
+},
+"/approximateTerm.json?term=luminal&maxEntries=5&option=1": {
+"approximateGroup": {
+"candidate": [
+{
+"name": "SODIUM FLUORIDE 1.5 mg in 1 g ORAL PASTE, DENTIFRICE [Brisa Luminous Whitening]",
+"rank": "1",
+"rxaui": "11795876",
+"rxcui": "891775",
+"score": "1.5652977590168604",
+"source": "MTHSPL"
+},
+{
+"name": "MENTHOL 4 g in 100 mL TOPICAL CREAM [LUMINA Natures Creation UNVEILED]",
+"rank": "2",
+"rxaui": "12806987",
+"rxcui": "1148430",
+"score": "1.2080905551992047",
+"source": "MTHSPL"
+},
+{
+"name": "SODIUM FLUORIDE 1.6 mg in 1 g DENTAL PASTE, DENTIFRICE [Crest 3D White Advanced Luminous Mint]",
+"rank": "3",
+"rxaui": "12796733",
+"rxcui": "891775",
+"score": "1.0211092306231697",
+"source": "MTHSPL"
+},
+{
+"name": "SODIUM FLUORIDE 1.6 mg in 1 g DENTAL PASTE, DENTIFRICE [Crest 3D White Brilliance Luminous Purple]",
+"rank": "3",
+"rxaui": "12809399",
+"rxcui": "891775",
+"score": "1.0211092306231697",
+"source": "MTHSPL"
+},
+{
+"name": "SODIUM FLUORIDE 1.5 mg in 1 g DENTAL PASTE, DENTIFRICE [Crest 3D White Advanced Luminous Mint Daily Whitening Upkeep]",
+"rank": "5",
+"rxaui": "13049123",
+"rxcui": "891775",
+"score": "0.6745584325311292",
+"source": "MTHSPL"
+}
+],
+"inputTerm": null
+}
+},
+"/approximateTerm.json?term=meclazine&maxEntries=5&option=1": {
+"approximateGroup": {
+"candidate": [
+{
+"rank": "1",
+"rxaui": "10327241",
+"rxcui": "6676",
+"score": "9.829666137695312",
+"source": "GS"
+},
+{
+"name": "meclizine",
+"rank": "1",
+"rxaui": "12252166",
+"rxcui": "6676",
+"score": "9.829666137695312",
+"source": "RXNORM"
+},
+{
+"name": "MECLIZINE",
+"rank": "1",
+"rxaui": "2072191",
+"rxcui": "6676",
+"score": "9.829666137695312",
+"source": "VANDF"
+},
+{
+"rank": "1",
+"rxaui": "3640298",
+"rxcui": "6676",
+"score": "9.829666137695312",
+"source": "NDDF"
+},
+{
+"name": "Meclizine",
+"rank": "1",
+"rxaui": "8482793",
+"rxcui": "6676",
+"score": "9.829666137695312",
+"source": "DRUGBANK"
+}
+],
+"inputTerm": null
+}
+},
+"/approximateTerm.json?term=megace&maxEntries=5&option=1": {
+"approximateGroup": {
+"candidate": [
+{
+"name": "megestrol acetate Oral Tablet [Megace]",
+"rank": "1",
+"rxaui": "12837772",
+"rxcui": "2654849",
+"score": "6.20123607913538",
+"source": "RXNORM"
+},
+{
+"name": "megestrol acetate Oral Suspension [Megace]",
+"rank": "1",
+"rxaui": "12840388",
+"rxcui": "2657465",
+"score": "6.20123607913538",
+"source": "RXNORM"
+}
+],
+"inputTerm": null
+}
+},
+"/approximateTerm.json?term=metforman&maxEntries=5&option=1": {
+"approximateGroup": {
+"candidate": [
+{
+"rank": "1",
+"rxaui": "10328664",
+"rxcui": "6809",
+"score": "8.579360008239746",
+"source": "GS"
+},
+{
+"name": "metformin",
+"rank": "1",
+"rxaui": "12251601",
+"rxcui": "6809",
+"score": "8.579360008239746",
+"source": "RXNORM"
+},
+{
+"name": "METFORMIN",
+"rank": "1",
+"rxaui": "2628685",
+"rxcui": "6809",
+"score": "8.579360008239746",
+"source": "VANDF"
+},
+{
+"rank": "1",
+"rxaui": "3605328",
+"rxcui": "6809",
+"score": "8.579360008239746",
+"source": "NDDF"
+},
+{
+"name": "metformin",
+"rank": "1",
+"rxaui": "5481094",
+"rxcui": "6809",
+"score": "8.579360008239746",
+"source": "ATC"
+},
+{
+"name": "Metformin",
+"rank": "1",
+"rxaui": "8381393",
+"rxcui": "6809",
+"score": "8.579360008239746",
+"source": "DRUGBANK"
+}
+],
+"inputTerm": null
+}
+},
+"/approximateTerm.json?term=nexaprine&maxEntries=5&option=1": {
+"approximateGroup": {
+"candidate": [
+{
+"name": "Exaprin",
+"rank": "1",
+"rxaui": "5032762",
+"rxcui": "1358848",
+"score": "8.730292320251465",
+"source": "RXNORM"
+},
+{
+"name": "Exaprin Pill",
+"rank": "2",
+"rxaui": "5032766",
+"rxcui": "1358852",
+"score": "8.609467412471771",
+"source": "RXNORM"
+},
+{
+"name": "Exaprin Oral Product",
+"rank": "3",
+"rxaui": "5032765",
+"rxcui": "1358851",
+"score": "8.505733869513037",
+"source": "RXNORM"
+},
+{
+"name": "acetaminophen / aspirin / caffeine / salicylamide Oral Tablet [Exaprin]",
+"rank": "4",
+"rxaui": "12321780",
+"rxcui": "1358850",
+"score": "8.220264395761014",
+"source": "RXNORM"
+},
+{
+"name": "Exaprin Plus",
+"rank": "5",
+"rxaui": "12999298",
+"rxcui": "2723563",
+"score": "7.748520671224595",
+"source": "RXNORM"
+}
+],
+"inputTerm": null
+}
+},
+"/approximateTerm.json?term=oxybutinin&maxEntries=5&option=1": {
+"approximateGroup": {
+"candidate": [
+{
+"rank": "1",
+"rxaui": "10325022",
+"rxcui": "32675",
+"score": "8.328962326049805",
+"source": "GS"
+},
+{
+"name": "OXYBUTYNIN",
+"rank": "1",
+"rxaui": "2072672",
+"rxcui": "32675",
+"score": "8.328962326049805",
+"source": "VANDF"
+},
+{
+"rank": "1",
+"rxaui": "4243741",
+"rxcui": "32675",
+"score": "8.328962326049805",
+"source": "MMSL"
+},
+{
+"name": "oxybutynin",
+"rank": "1",
+"rxaui": "448325",
+"rxcui": "32675",
+"score": "8.328962326049805",
+"source": "RXNORM"
+},
+{
+"rank": "1",
+"rxaui": "4609615",
+"rxcui": "32675",
+"score": "8.328962326049805",
+"source": "NDDF"
+},
+{
+"name": "oxybutynin",
+"rank": "1",
+"rxaui": "5481565",
+"rxcui": "32675",
+"score": "8.328962326049805",
+"source": "ATC"
+},
+{
+"name": "Oxybutynin",
+"rank": "1",
+"rxaui": "8477664",
+"rxcui": "32675",
+"score": "8.328962326049805",
+"source": "DRUGBANK"
+}
+],
+"inputTerm": null
+}
+},
+"/approximateTerm.json?term=oxybutnin&maxEntries=5&option=1": {
+"approximateGroup": {
+"candidate": [
+{
+"rank": "1",
+"rxaui": "10325022",
+"rxcui": "32675",
+"score": "8.220928192138672",
+"source": "GS"
+},
+{
+"name": "OXYBUTYNIN",
+"rank": "1",
+"rxaui": "2072672",
+"rxcui": "32675",
+"score": "8.220928192138672",
+"source": "VANDF"
+},
+{
+"rank": "1",
+"rxaui": "4243741",
+"rxcui": "32675",
+"score": "8.220928192138672",
+"source": "MMSL"
+},
+{
+"name": "oxybutynin",
+"rank": "1",
+"rxaui": "448325",
+"rxcui": "32675",
+"score": "8.220928192138672",
+"source": "RXNORM"
+},
+{
+"rank": "1",
+"rxaui": "4609615",
+"rxcui": "32675",
+"score": "8.220928192138672",
+"source": "NDDF"
+},
+{
+"name": "oxybutynin",
+"rank": "1",
+"rxaui": "5481565",
+"rxcui": "32675",
+"score": "8.220928192138672",
+"source": "ATC"
+},
+{
+"name": "Oxybutynin",
+"rank": "1",
+"rxaui": "8477664",
+"rxcui": "32675",
+"score": "8.220928192138672",
+"source": "DRUGBANK"
+}
+],
+"inputTerm": null
+}
+},
+"/approximateTerm.json?term=parafon%20forte&maxEntries=5&option=1": {
+"approximateGroup": {
+"candidate": [
+{
+"rank": "1",
+"rxaui": "1136787",
+"rxcui": "202844",
+"score": "11.21699080467224",
+"source": "MMSL"
+},
+{
+"name": "Pred Forte",
+"rank": "1",
+"rxaui": "1136788",
+"rxcui": "202844",
+"score": "11.21699080467224",
+"source": "RXNORM"
+},
+{
+"rank": "1",
+"rxaui": "1176275",
+"rxcui": "216066",
+"score": "11.21699080467224",
+"source": "MMSL"
+},
+{
+"name": "Citanest Forte",
+"rank": "1",
+"rxaui": "1176276",
+"rxcui": "216066",
+"score": "11.21699080467224",
+"source": "RXNORM"
+},
+{
+"name": "Urso Forte",
+"rank": "1",
+"rxaui": "2258737",
+"rxcui": "544268",
+"score": "11.21699080467224",
+"source": "RXNORM"
+},
+{
+"rank": "1",
+"rxaui": "2376208",
+"rxcui": "544268",
+"score": "11.21699080467224",
+"source": "MMSL"
+},
+{
+"rank": "1",
+"rxaui": "7268498",
+"rxcui": "830645",
+"score": "11.21699080467224",
+"source": "MMSL"
+}
+],
+"inputTerm": null
+}
+},
+"/approximateTerm.json?term=pexeva&maxEntries=5&option=1": {
+"approximateGroup": {
+"candidate": [
+{
+"name": "paroxetine mesylate Oral Tablet [Pexeva]",
+"rank": "1",
+"rxaui": "12841138",
+"rxcui": "2658215",
+"score": "6.090368675837663",
+"source": "RXNORM"
+},
+{
+"name": "PARoxetine mesylate Oral Tablet [Pexeva]",
+"rank": "2",
+"rxaui": "12849325",
+"rxcui": "2658215",
+"score": "4.473606246647561",
+"source": "RXNORM"
+}
+],
+"inputTerm": null
+}
+},
+"/approximateTerm.json?term=requip&maxEntries=5&option=1": {
+"approximateGroup": {
+"inputTerm": null
+}
+},
+"/approximateTerm.json?term=rispiridone&maxEntries=5&option=1": {
+"approximateGroup": {
+"candidate": [
+{
+"name": "Risperidone",
+"rank": "1",
+"rxaui": "10284683",
+"rxcui": "35636",
+"score": "8.242891311645508",
+"source": "USP"
+},
+{
+"rank": "1",
+"rxaui": "10325582",
+"rxcui": "35636",
+"score": "8.242891311645508",
+"source": "GS"
+},
+{
+"name": "risperidone",
+"rank": "1",
+"rxaui": "12252248",
+"rxcui": "35636",
+"score": "8.242891311645508",
+"source": "RXNORM"
+},
+{
+"name": "RISPERIDONE",
+"rank": "1",
+"rxaui": "2074171",
+"rxcui": "35636",
+"score": "8.242891311645508",
+"source": "VANDF"
+},
+{
+"rank": "1",
+"rxaui": "3619888",
+"rxcui": "35636",
+"score": "8.242891311645508",
+"source": "NDDF"
+},
+{
+"rank": "1",
+"rxaui": "3808568",
+"rxcui": "35636",
+"score": "8.242891311645508",
+"source": "MMSL"
+},
+{
+"rank": "1",
+"rxaui": "460535",
+"rxcui": "35636",
+"score": "8.242891311645508",
+"source": "MMSL"
+},
+{
+"name": "risperidone",
+"rank": "1",
+"rxaui": "5482138",
+"rxcui": "35636",
+"score": "8.242891311645508",
+"source": "ATC"
+},
+{
+"name": "Risperidone",
+"rank": "1",
+"rxaui": "8359897",
+"rxcui": "35636",
+"score": "8.242891311645508",
+"source": "DRUGBANK"
+}
+],
+"inputTerm": null
+}
+},
+"/approximateTerm.json?term=script%20alert%20/script&maxEntries=5&option=1": {
+"approximateGroup": {
+"candidate": [
+{
+"rank": "1",
+"rxaui": "10268750",
+"rxcui": "1595302",
+"score": "13.100130081176758",
+"source": "MMSL"
+},
+{
+"name": "Jet-Alert",
+"rank": "1",
+"rxaui": "6814006",
+"rxcui": "1595302",
+"score": "13.100130081176758",
+"source": "RXNORM"
+},
+{
+"name": "Jet-Alert Pill",
+"rank": "3",
+"rxaui": "6814010",
+"rxcui": "1595306",
+"score": "12.667180468559266",
+"source": "RXNORM"
+},
+{
+"name": "Jet-Alert Oral Product",
+"rank": "4",
+"rxaui": "6814009",
+"rxcui": "1595305",
+"score": "12.292581196452382",
+"source": "RXNORM"
+},
+{
+"name": "caffeine Oral Tablet [Jet-Alert]",
+"rank": "5",
+"rxaui": "12314564",
+"rxcui": "1595304",
+"score": "11.971181760133746",
+"source": "RXNORM"
+}
+],
+"inputTerm": null
+}
+},
+"/approximateTerm.json?term=table&maxEntries=5&option=1": {
+"approximateGroup": {
+"candidate": [
+{
+"rank": "1",
+"rxaui": "9185858",
+"rxcui": "861134",
+"score": "5.715616230035471",
+"source": "GS"
+},
+{
+"name": "milbemycin oxime 2.3 MG / praziquantel 22.8 MG Chewable Table",
+"rank": "2",
+"rxaui": "10338082",
+"rxcui": "2058475",
+"score": "3.763104444105269",
+"source": "RXNORM"
+},
+{
+"rank": "3",
+"rxaui": "129878",
+"rxcui": "4254",
+"score": "3.3566119797348977",
+"source": "SNOMEDCT_US"
+},
+{
+"name": "(9-L-TYROSINE)HEAT-STABLE ENTEROTOXIN (ESCHERICHIA COLI)-(6-19)-PEPTIDE",
+"rank": "4",
+"rxaui": "12818810",
+"rxcui": "1307404",
+"score": "1.0861782557424116",
+"source": "DRUGBANK"
+},
+{
+"name": "ABL",
+"rank": "5",
+"rxaui": "9704074",
+"rxcui": "1363435",
+"score": "0.7385204434394836",
+"source": "DRUGBANK"
+}
+],
+"inputTerm": null
+}
+},
+"/approximateTerm.json?term=tenex&maxEntries=5&option=1": {
+"approximateGroup": {
+"candidate": [
+{
+"name": "Iris tenax extract",
+"rank": "1",
+"rxaui": "7269610",
+"rxcui": "1666105",
+"score": "6.242600799530062",
+"source": "RXNORM"
+},
+{
+"name": "Phormium tenax seed oil",
+"rank": "2",
+"rxaui": "9736247",
+"rxcui": "2001129",
+"score": "6.2138682685653475",
+"source": "RXNORM"
+},
+{
+"name": "IRIS TENAX",
+"rank": "3",
+"rxaui": "7269575",
+"rxcui": "1666105",
+"score": "5.173558195710182",
+"source": "MTHSPL"
+},
+{
+"name": "IRIS TENAX WHOLE",
+"rank": "4",
+"rxaui": "12824138",
+"rxcui": "1666105",
+"score": "4.624220394530061",
+"source": "MTHSPL"
+},
+{
+"name": "PHORMIUM TENAX SEED OIL",
+"rank": "5",
+"rxaui": "9736219",
+"rxcui": "2001129",
+"score": "4.596297053767847",
+"source": "MTHSPL"
+}
+],
+"inputTerm": null
+}
+},
+"/approximateTerm.json?term=toradol&maxEntries=5&option=1": {
+"approximateGroup": {
+"candidate": [
+{
+"name": "ketorolac tromethamine Injectable Solution [Toradol]",
+"rank": "1",
+"rxaui": "12839125",
+"rxcui": "2656202",
+"score": "6.2315352644076105",
+"source": "RXNORM"
+},
+{
+"name": "ketorolac tromethamine Oral Tablet [Toradol]",
+"rank": "1",
+"rxaui": "12841570",
+"rxcui": "2658647",
+"score": "6.2315352644076105",
+"source": "RXNORM"
+},
+{
+"rank": "3",
+"rxaui": "7275645",
+"rxcui": "860114",
+"score": "3.711875598158845",
+"source": "MMX"
+},
+{
+"rank": "3",
+"rxaui": "7703806",
+"rxcui": "860092",
+"score": "3.711875598158845",
+"source": "MMX"
+}
+],
+"inputTerm": null
+}
+},
+"/approximateTerm.json?term=trazadone&maxEntries=5&option=1": {
+"approximateGroup": {
+"candidate": [
+{
+"rank": "1",
+"rxaui": "10325647",
+"rxcui": "10737",
+"score": "10.190174102783203",
+"source": "GS"
+},
+{
+"name": "trazodone",
+"rank": "1",
+"rxaui": "12252814",
+"rxcui": "10737",
+"score": "10.190174102783203",
+"source": "RXNORM"
+},
+{
+"name": "TRAZODONE",
+"rank": "1",
+"rxaui": "2074948",
+"rxcui": "10737",
+"score": "10.190174102783203",
+"source": "VANDF"
+},
+{
+"rank": "1",
+"rxaui": "3619902",
+"rxcui": "10737",
+"score": "10.190174102783203",
+"source": "NDDF"
+},
+{
+"name": "trazodone",
+"rank": "1",
+"rxaui": "5482709",
+"rxcui": "10737",
+"score": "10.190174102783203",
+"source": "ATC"
+},
+{
+"name": "Trazodone",
+"rank": "1",
+"rxaui": "8357425",
+"rxcui": "10737",
+"score": "10.190174102783203",
+"source": "DRUGBANK"
+}
+],
+"inputTerm": null
+}
+},
+"/approximateTerm.json?term=xanaxx&maxEntries=5&option=1": {
+"approximateGroup": {
+"candidate": [
+{
+"rank": "1",
+"rxaui": "1135627",
+"rxcui": "202363",
+"score": "8.558408737182617",
+"source": "MMSL"
+},
+{
+"name": "Xanax",
+"rank": "1",
+"rxaui": "1135628",
+"rxcui": "202363",
+"score": "8.558408737182617",
+"source": "RXNORM"
+},
+{
+"name": "Xanax Pill",
+"rank": "3",
+"rxaui": "3850066",
+"rxcui": "1186301",
+"score": "8.45118039226532",
+"source": "RXNORM"
+},
+{
+"name": "Xanax Oral Product",
+"rank": "4",
+"rxaui": "3850065",
+"rxcui": "1186300",
+"score": "8.359060584517003",
+"source": "RXNORM"
+},
+{
+"name": "alprazolam Oral Tablet [Xanax]",
+"rank": "5",
+"rxaui": "12312115",
+"rxcui": "94610",
+"score": "8.283111581364633",
+"source": "RXNORM"
+}
+],
+"inputTerm": null
+}
+},
+"/approximateTerm.json?term=zolpidum&maxEntries=5&option=1": {
+"approximateGroup": {
+"candidate": [
+{
+"rank": "1",
+"rxaui": "10328319",
+"rxcui": "39993",
+"score": "8.352178573608398",
+"source": "GS"
+},
+{
+"name": "ZOLPIDEM",
+"rank": "1",
+"rxaui": "2629375",
+"rxcui": "39993",
+"score": "8.352178573608398",
+"source": "VANDF"
+},
+{
+"name": "zolpidem",
+"rank": "1",
+"rxaui": "477579",
+"rxcui": "39993",
+"score": "8.352178573608398",
+"source": "RXNORM"
+},
+{
+"name": "zolpidem",
+"rank": "1",
+"rxaui": "5482944",
+"rxcui": "39993",
+"score": "8.352178573608398",
+"source": "ATC"
+},
+{
+"rank": "1",
+"rxaui": "6809313",
+"rxcui": "39993",
+"score": "8.352178573608398",
+"source": "NDDF"
+},
+{
+"name": "Zolpidem",
+"rank": "1",
+"rxaui": "8631031",
+"rxcui": "39993",
+"score": "8.352178573608398",
+"source": "DRUGBANK"
+}
+],
+"inputTerm": null
+}
+},
+"/approximateTerm.json?term=zolvarex&maxEntries=5&option=1": {
+"approximateGroup": {
+"candidate": [
+{
+"rank": "1",
+"rxaui": "535347",
+"rxcui": "58328",
+"score": "7.726723670959473",
+"source": "MMSL"
+},
+{
+"name": "Zoladex",
+"rank": "1",
+"rxaui": "535348",
+"rxcui": "58328",
+"score": "7.726723670959473",
+"source": "RXNORM"
+},
+{
+"name": "goserelin Drug Implant [Zoladex]",
+"rank": "3",
+"rxaui": "12312993",
+"rxcui": "370482",
+"score": "7.621632234062792",
+"source": "RXNORM"
+},
+{
+"name": "Zoladex Drug Implant Product",
+"rank": "4",
+"rxaui": "3850468",
+"rxcui": "1188163",
+"score": "7.617821417945761",
+"source": "RXNORM"
+}
+],
+"inputTerm": null
+}
+},
+"/approximateTerm.json?term=zorvatrex&maxEntries=5&option=1": {
+"approximateGroup": {
+"inputTerm": null
+}
+},
+"/rxcui.json?name=abilify&search=2": {
+"idGroup": {
+"rxnormId": [
+"352393"
+]
+}
+},
+"/rxcui.json?name=aciphex&search=2": {
+"idGroup": {
+"rxnormId": [
+"261440"
+]
+}
+},
+"/rxcui.json?name=actos&search=2": {
+"idGroup": {
+"rxnormId": [
+"261442"
+]
+}
+},
+"/rxcui.json?name=advil%20pm&search=2": {
+"idGroup": {}
+},
+"/rxcui.json?name=advil&search=2": {
+"idGroup": {
+"rxnormId": [
+"153010"
+]
+}
+},
+"/rxcui.json?name=aleve%20pm&search=2": {
+"idGroup": {
+"rxnormId": [
+"1550958"
+]
+}
+},
+"/rxcui.json?name=aleve&search=2": {
+"idGroup": {
+"rxnormId": [
+"215101"
+]
+}
+},
+"/rxcui.json?name=allegra&search=2": {
+"idGroup": {
+"rxnormId": [
+"324026"
+]
+}
+},
+"/rxcui.json?name=altace&search=2": {
+"idGroup": {
+"rxnormId": [
+"262418"
+]
+}
+},
+"/rxcui.json?name=amantadine&search=2": {
+"idGroup": {
+"rxnormId": [
+"620"
+]
+}
+},
+"/rxcui.json?name=amaryl&search=2": {
+"idGroup": {}
+},
+"/rxcui.json?name=ambien%20cr&search=2": {
+"idGroup": {}
+},
+"/rxcui.json?name=ambien&search=2": {
+"idGroup": {
+"rxnormId": [
+"131725"
+]
+}
+},
+"/rxcui.json?name=amitriptylin&search=2": {
+"idGroup": {
+"rxnormId": [
+"704"
+]
+}
+},
+"/rxcui.json?name=amitriptyline&search=2": {
+"idGroup": {
+"rxnormId": [
+"704"
+]
+}
+},
+"/rxcui.json?name=amlodipine&search=2": {
+"idGroup": {
+"rxnormId": [
+"17767"
+]
+}
+},
+"/rxcui.json?name=antivert&search=2": {
+"idGroup": {
+"rxnormId": [
+"91818"
+]
+}
+},
+"/rxcui.json?name=apixaban&search=2": {
+"idGroup": {
+"rxnormId": [
+"1364430"
+]
+}
+},
+"/rxcui.json?name=aricept&search=2": {
+"idGroup": {
+"rxnormId": [
+"135446"
+]
+}
+},
+"/rxcui.json?name=armour%20thyroid&search=2": {
+"idGroup": {
+"rxnormId": [
+"215407"
+]
+}
+},
+"/rxcui.json?name=artane&search=2": {
+"idGroup": {}
+},
+"/rxcui.json?name=aspirin&search=2": {
+"idGroup": {
+"rxnormId": [
+"1191"
+]
+}
+},
+"/rxcui.json?name=atarax&search=2": {
+"idGroup": {}
+},
+"/rxcui.json?name=ativan&search=2": {
+"idGroup": {
+"rxnormId": [
+"202479"
+]
+}
+},
+"/rxcui.json?name=atorvastatin&search=2": {
+"idGroup": {
+"rxnormId": [
+"83367"
+]
+}
+},
+"/rxcui.json?name=bactrim&search=2": {
+"idGroup": {
+"rxnormId": [
+"151399"
+]
+}
+},
+"/rxcui.json?name=bayer%20aspirin&search=2": {
+"idGroup": {
+"rxnormId": [
+"215568"
+]
+}
+},
+"/rxcui.json?name=benadryl&search=2": {
+"idGroup": {
+"rxnormId": [
+"203457"
+]
+}
+},
+"/rxcui.json?name=bentyl&search=2": {
+"idGroup": {
+"rxnormId": [
+"203018"
+]
+}
+},
+"/rxcui.json?name=benztropine&search=2": {
+"idGroup": {
+"rxnormId": [
+"1424"
+]
+}
+},
+"/rxcui.json?name=blorpaxin&search=2": {
+"idGroup": {}
+},
+"/rxcui.json?name=bonine&search=2": {
+"idGroup": {
+"rxnormId": [
+"1694"
+]
+}
+},
+"/rxcui.json?name=buspar&search=2": {
+"idGroup": {
+"rxnormId": [
+"154990"
+]
+}
+},
+"/rxcui.json?name=calcium%20carbonate&search=2": {
+"idGroup": {
+"rxnormId": [
+"1897"
+]
+}
+},
+"/rxcui.json?name=carafate&search=2": {
+"idGroup": {
+"rxnormId": [
+"227743"
+]
+}
+},
+"/rxcui.json?name=cardura&search=2": {
+"idGroup": {
+"rxnormId": [
+"196468"
+]
+}
+},
+"/rxcui.json?name=carvedilol&search=2": {
+"idGroup": {
+"rxnormId": [
+"20352"
+]
+}
+},
+"/rxcui.json?name=catapres&search=2": {
+"idGroup": {
+"rxnormId": [
+"202941"
+]
+}
+},
+"/rxcui.json?name=celebrex&search=2": {
+"idGroup": {
+"rxnormId": [
+"215927"
+]
+}
+},
+"/rxcui.json?name=celexa&search=2": {
+"idGroup": {
+"rxnormId": [
+"215928"
+]
+}
+},
+"/rxcui.json?name=cetirizine&search=2": {
+"idGroup": {
+"rxnormId": [
+"20610"
+]
+}
+},
+"/rxcui.json?name=chlor-trimeton&search=2": {
+"idGroup": {
+"rxnormId": [
+"202384"
+]
+}
+},
+"/rxcui.json?name=cipro&search=2": {
+"idGroup": {
+"rxnormId": [
+"203563"
+]
+}
+},
+"/rxcui.json?name=claritin&search=2": {
+"idGroup": {
+"rxnormId": [
+"203576"
+]
+}
+},
+"/rxcui.json?name=clozaril&search=2": {
+"idGroup": {
+"rxnormId": [
+"216102"
+]
+}
+},
+"/rxcui.json?name=cogentin&search=2": {
+"idGroup": {}
+},
+"/rxcui.json?name=colcrys&search=2": {
+"idGroup": {
+"rxnormId": [
+"858068"
+]
+}
+},
+"/rxcui.json?name=compazine&search=2": {
+"idGroup": {
+"rxnormId": [
+"203546"
+]
+}
+},
+"/rxcui.json?name=cordarone&search=2": {
+"idGroup": {}
+},
+"/rxcui.json?name=coreg&search=2": {
+"idGroup": {
+"rxnormId": [
+"216221"
+]
+}
+},
+"/rxcui.json?name=coricidin%20hbp%20cold%20%26%20flu&search=2": {
+"idGroup": {}
+},
+"/rxcui.json?name=coumadin&search=2": {
+"idGroup": {
+"rxnormId": [
+"202421"
+]
+}
+},
+"/rxcui.json?name=cozaar&search=2": {
+"idGroup": {
+"rxnormId": [
+"151558"
+]
+}
+},
+"/rxcui.json?name=crestor&search=2": {
+"idGroup": {
+"rxnormId": [
+"320864"
+]
+}
+},
+"/rxcui.json?name=cyclobenzaprine&search=2": {
+"idGroup": {
+"rxnormId": [
+"21949"
+]
+}
+},
+"/rxcui.json?name=cymbalta&search=2": {
+"idGroup": {
+"rxnormId": [
+"482574"
+]
+}
+},
+"/rxcui.json?name=dayquil&search=2": {
+"idGroup": {}
+},
+"/rxcui.json?name=ddavp&search=2": {
+"idGroup": {
+"rxnormId": [
+"203658"
+]
+}
+},
+"/rxcui.json?name=deltasone&search=2": {
+"idGroup": {
+"rxnormId": [
+"227730"
+]
+}
+},
+"/rxcui.json?name=demerol&search=2": {
+"idGroup": {
+"rxnormId": [
+"282381"
+]
+}
+},
+"/rxcui.json?name=depakote%20er&search=2": {
+"idGroup": {}
+},
+"/rxcui.json?name=depakote&search=2": {
+"idGroup": {
+"rxnormId": [
+"216459"
+]
+}
+},
+"/rxcui.json?name=desyrel&search=2": {
+"idGroup": {}
+},
+"/rxcui.json?name=detrol%20la&search=2": {
+"idGroup": {}
+},
+"/rxcui.json?name=detrol&search=2": {
+"idGroup": {
+"rxnormId": [
+"216511"
+]
+}
+},
+"/rxcui.json?name=diabeta&search=2": {
+"idGroup": {}
+},
+"/rxcui.json?name=digoxin&search=2": {
+"idGroup": {
+"rxnormId": [
+"3407"
+]
+}
+},
+"/rxcui.json?name=dilantin&search=2": {
+"idGroup": {
+"rxnormId": [
+"202740"
+]
+}
+},
+"/rxcui.json?name=dilaudid&search=2": {
+"idGroup": {
+"rxnormId": [
+"224913"
+]
+}
+},
+"/rxcui.json?name=diovan&search=2": {
+"idGroup": {
+"rxnormId": [
+"216652"
+]
+}
+},
+"/rxcui.json?name=diphenhydramin&search=2": {
+"idGroup": {
+"rxnormId": [
+"1362",
+"3498",
+"360283",
+"82004"
+]
+}
+},
+"/rxcui.json?name=diphenhydramine&search=2": {
+"idGroup": {
+"rxnormId": [
+"3498"
+]
+}
+},
+"/rxcui.json?name=ditropan%20xl&search=2": {
+"idGroup": {}
+},
+"/rxcui.json?name=ditropan&search=2": {
+"idGroup": {}
+},
+"/rxcui.json?name=donepezil&search=2": {
+"idGroup": {
+"rxnormId": [
+"135447"
+]
+}
+},
+"/rxcui.json?name=donepezyl&search=2": {
+"idGroup": {}
+},
+"/rxcui.json?name=doxazocin&search=2": {
+"idGroup": {}
+},
+"/rxcui.json?name=doxepin&search=2": {
+"idGroup": {
+"rxnormId": [
+"3638"
+]
+}
+},
+"/rxcui.json?name=dramamine&search=2": {
+"idGroup": {
+"rxnormId": [
+"151666"
+]
+}
+},
+"/rxcui.json?name=duragesic&search=2": {
+"idGroup": {}
+},
+"/rxcui.json?name=ecotrin&search=2": {
+"idGroup": {
+"rxnormId": [
+"202554"
+]
+}
+},
+"/rxcui.json?name=effexor%20xr&search=2": {
+"idGroup": {}
+},
+"/rxcui.json?name=effexor&search=2": {
+"idGroup": {
+"rxnormId": [
+"151692"
+]
+}
+},
+"/rxcui.json?name=elavil&search=2": {
+"idGroup": {
+"rxnormId": [
+"42940"
+]
+}
+},
+"/rxcui.json?name=eliquis&search=2": {
+"idGroup": {
+"rxnormId": [
+"1364436"
+]
+}
+},
+"/rxcui.json?name=enablex&search=2": {
+"idGroup": {
+"rxnormId": [
+"397392"
+]
+}
+},
+"/rxcui.json?name=estrace&search=2": {
+"idGroup": {
+"rxnormId": [
+"202619"
+]
+}
+},
+"/rxcui.json?name=excedrin%20pm&search=2": {
+"idGroup": {
+"rxnormId": [
+"217025"
+]
+}
+},
+"/rxcui.json?name=exelon&search=2": {
+"idGroup": {
+"rxnormId": [
+"225807"
+]
+}
+},
+"/rxcui.json?name=famotidine&search=2": {
+"idGroup": {
+"rxnormId": [
+"4278"
+]
+}
+},
+"/rxcui.json?name=feldene&search=2": {
+"idGroup": {
+"rxnormId": [
+"197288"
+]
+}
+},
+"/rxcui.json?name=finasteride&search=2": {
+"idGroup": {
+"rxnormId": [
+"25025"
+]
+}
+},
+"/rxcui.json?name=fioricet&search=2": {
+"idGroup": {
+"rxnormId": [
+"175184"
+]
+}
+},
+"/rxcui.json?name=flexeril&search=2": {
+"idGroup": {}
+},
+"/rxcui.json?name=flomax&search=2": {
+"idGroup": {
+"rxnormId": [
+"190283"
+]
+}
+},
+"/rxcui.json?name=flonase%20nasal%20spray&search=2": {
+"idGroup": {}
+},
+"/rxcui.json?name=flonase&search=2": {
+"idGroup": {
+"rxnormId": [
+"83373"
+]
+}
+},
+"/rxcui.json?name=foobarium&search=2": {
+"idGroup": {}
+},
+"/rxcui.json?name=fosamax&search=2": {
+"idGroup": {
+"rxnormId": [
+"114265"
+]
+}
+},
+"/rxcui.json?name=furosemide&search=2": {
+"idGroup": {
+"rxnormId": [
+"4603"
+]
+}
+},
+"/rxcui.json?name=gabapentin&search=2": {
+"idGroup": {
+"rxnormId": [
+"25480"
+]
+}
+},
+"/rxcui.json?name=gabapentine&search=2": {
+"idGroup": {
+"rxnormId": [
+"25480"
+]
+}
+},
+"/rxcui.json?name=geodon&search=2": {
+"idGroup": {
+"rxnormId": [
+"285064"
+]
+}
+},
+"/rxcui.json?name=glipizide&search=2": {
+"idGroup": {
+"rxnormId": [
+"4821"
+]
+}
+},
+"/rxcui.json?name=glucophage&search=2": {
+"idGroup": {
+"rxnormId": [
+"151827"
+]
+}
+},
+"/rxcui.json?name=glucotrol%20xl&search=2": {
+"idGroup": {}
+},
+"/rxcui.json?name=glucotrol&search=2": {
+"idGroup": {
+"rxnormId": [
+"203680"
+]
+}
+},
+"/rxcui.json?name=glynase&search=2": {
+"idGroup": {
+"rxnormId": [
+"881404"
+]
+}
+},
+"/rxcui.json?name=halcion&search=2": {
+"idGroup": {
+"rxnormId": [
+"227423"
+]
+}
+},
+"/rxcui.json?name=haldol&search=2": {
+"idGroup": {
+"rxnormId": [
+"151839"
+]
+}
+},
+"/rxcui.json?name=haloperidol&search=2": {
+"idGroup": {
+"rxnormId": [
+"5093"
+]
+}
+},
+"/rxcui.json?name=hydrochlorothiazide&search=2": {
+"idGroup": {
+"rxnormId": [
+"5487"
+]
+}
+},
+"/rxcui.json?name=hydrocodone/apap&search=2": {
+"idGroup": {
+"rxnormId": [
+"214182"
+]
+}
+},
+"/rxcui.json?name=hydroxyzin%20pamoate&search=2": {
+"idGroup": {
+"rxnormId": [
+"154987",
+"203182",
+"5553"
+]
+}
+},
+"/rxcui.json?name=hydroxyzine&search=2": {
+"idGroup": {
+"rxnormId": [
+"5553"
+]
+}
+},
+"/rxcui.json?name=hytrin&search=2": {
+"idGroup": {}
+},
+"/rxcui.json?name=hyzaar&search=2": {
+"idGroup": {
+"rxnormId": [
+"217681"
+]
+}
+},
+"/rxcui.json?name=imitrex&search=2": {
+"idGroup": {
+"rxnormId": [
+"217713"
+]
+}
+},
+"/rxcui.json?name=indocin&search=2": {
+"idGroup": {
+"rxnormId": [
+"203365"
+]
+}
+},
+"/rxcui.json?name=invega&search=2": {
+"idGroup": {
+"rxnormId": [
+"686438"
+]
+}
+},
+"/rxcui.json?name=jantoven&search=2": {
+"idGroup": {
+"rxnormId": [
+"405155"
+]
+}
+},
+"/rxcui.json?name=januvia&search=2": {
+"idGroup": {
+"rxnormId": [
+"638596"
+]
+}
+},
+"/rxcui.json?name=k-dur&search=2": {
+"idGroup": {}
+},
+"/rxcui.json?name=keppra&search=2": {
+"idGroup": {
+"rxnormId": [
+"261547"
+]
+}
+},
+"/rxcui.json?name=klonopin&search=2": {
+"idGroup": {
+"rxnormId": [
+"202585"
+]
+}
+},
+"/rxcui.json?name=klor-con&search=2": {
+"idGroup": {
+"rxnormId": [
+"217905"
+]
+}
+},
+"/rxcui.json?name=lamictal&search=2": {
+"idGroup": {
+"rxnormId": [
+"196502"
+]
+}
+},
+"/rxcui.json?name=lanoxin&search=2": {
+"idGroup": {
+"rxnormId": [
+"202988"
+]
+}
+},
+"/rxcui.json?name=lasix&search=2": {
+"idGroup": {
+"rxnormId": [
+"202991"
+]
+}
+},
+"/rxcui.json?name=latuda&search=2": {
+"idGroup": {
+"rxnormId": [
+"1040032"
+]
+}
+},
+"/rxcui.json?name=levothyroxine&search=2": {
+"idGroup": {
+"rxnormId": [
+"10582"
+]
+}
+},
+"/rxcui.json?name=levoxyl&search=2": {
+"idGroup": {
+"rxnormId": [
+"218002"
+]
+}
+},
+"/rxcui.json?name=levsin&search=2": {
+"idGroup": {
+"rxnormId": [
+"218003"
+]
+}
+},
+"/rxcui.json?name=lexapro&search=2": {
+"idGroup": {
+"rxnormId": [
+"352741"
+]
+}
+},
+"/rxcui.json?name=librium&search=2": {
+"idGroup": {}
+},
+"/rxcui.json?name=lioresal&search=2": {
+"idGroup": {
+"rxnormId": [
+"202996"
+]
+}
+},
+"/rxcui.json?name=lipitor&search=2": {
+"idGroup": {
+"rxnormId": [
+"153165"
+]
+}
+},
+"/rxcui.json?name=lisinopril&search=2": {
+"idGroup": {
+"rxnormId": [
+"29046"
+]
+}
+},
+"/rxcui.json?name=lisinoprill&search=2": {
+"idGroup": {
+"rxnormId": [
+"29046"
+]
+}
+},
+"/rxcui.json?name=lithobid&search=2": {
+"idGroup": {
+"rxnormId": [
+"203321"
+]
+}
+},
+"/rxcui.json?name=lopid&search=2": {
+"idGroup": {
+"rxnormId": [
+"202999"
+]
+}
+},
+"/rxcui.json?name=lopressor&search=2": {
+"idGroup": {
+"rxnormId": [
+"203344"
+]
+}
+},
+"/rxcui.json?name=loratadine&search=2": {
+"idGroup": {
+"rxnormId": [
+"28889"
+]
+}
+},
+"/rxcui.json?name=lorazapam&search=2": {
+"idGroup": {}
+},
+"/rxcui.json?name=lorazepam&search=2": {
+"idGroup": {
+"rxnormId": [
+"6470"
+]
+}
+},
+"/rxcui.json?name=lortab&search=2": {
+"idGroup": {}
+},
+"/rxcui.json?name=losartan&search=2": {
+"idGroup": {
+"rxnormId": [
+"52175"
+]
+}
+},
+"/rxcui.json?name=luminal&search=2": {
+"idGroup": {}
+},
+"/rxcui.json?name=lunesta&search=2": {
+"idGroup": {
+"rxnormId": [
+"540404"
+]
+}
+},
+"/rxcui.json?name=lyrica&search=2": {
+"idGroup": {
+"rxnormId": [
+"593441"
+]
+}
+},
+"/rxcui.json?name=macrobid&search=2": {
+"idGroup": {
+"rxnormId": [
+"152001"
+]
+}
+},
+"/rxcui.json?name=macrodantin&search=2": {
+"idGroup": {
+"rxnormId": [
+"203054"
+]
+}
+},
+"/rxcui.json?name=meclazine&search=2": {
+"idGroup": {}
+},
+"/rxcui.json?name=meclizin&search=2": {
+"idGroup": {
+"rxnormId": [
+"6676",
+"82041"
+]
+}
+},
+"/rxcui.json?name=meclizine&search=2": {
+"idGroup": {
+"rxnormId": [
+"6676"
+]
+}
+},
+"/rxcui.json?name=megace&search=2": {
+"idGroup": {}
+},
+"/rxcui.json?name=meloxicam&search=2": {
+"idGroup": {
+"rxnormId": [
+"41493"
+]
+}
+},
+"/rxcui.json?name=metforman&search=2": {
+"idGroup": {}
+},
+"/rxcui.json?name=metformin&search=2": {
+"idGroup": {
+"rxnormId": [
+"6809"
+]
+}
+},
+"/rxcui.json?name=metoclopramide&search=2": {
+"idGroup": {
+"rxnormId": [
+"6915"
+]
+}
+},
+"/rxcui.json?name=metoprolol%20succinate%20er&search=2": {
+"idGroup": {}
+},
+"/rxcui.json?name=metoprolol%20succinate&search=2": {
+"idGroup": {
+"rxnormId": [
+"221124"
+]
+}
+},
+"/rxcui.json?name=metoprolol%20tartrate&search=2": {
+"idGroup": {
+"rxnormId": [
+"203191"
+]
+}
+},
+"/rxcui.json?name=metozolv&search=2": {
+"idGroup": {
+"rxnormId": [
+"863583"
+]
+}
+},
+"/rxcui.json?name=micronase&search=2": {
+"idGroup": {}
+},
+"/rxcui.json?name=minipress&search=2": {
+"idGroup": {
+"rxnormId": [
+"71515"
+]
+}
+},
+"/rxcui.json?name=mirapex&search=2": {
+"idGroup": {
+"rxnormId": [
+"218402"
+]
+}
+},
+"/rxcui.json?name=mirtazapine&search=2": {
+"idGroup": {
+"rxnormId": [
+"15996"
+]
+}
+},
+"/rxcui.json?name=mobic&search=2": {
+"idGroup": {
+"rxnormId": [
+"152699"
+]
+}
+},
+"/rxcui.json?name=motrin&search=2": {
+"idGroup": {
+"rxnormId": [
+"202488"
+]
+}
+},
+"/rxcui.json?name=myrbetriq&search=2": {
+"idGroup": {
+"rxnormId": [
+"1300792"
+]
+}
+},
+"/rxcui.json?name=namenda&search=2": {
+"idGroup": {
+"rxnormId": [
+"405206"
+]
+}
+},
+"/rxcui.json?name=naprosyn&search=2": {
+"idGroup": {
+"rxnormId": [
+"203012"
+]
+}
+},
+"/rxcui.json?name=naproxen&search=2": {
+"idGroup": {
+"rxnormId": [
+"7258"
+]
+}
+},
+"/rxcui.json?name=neurontin&search=2": {
+"idGroup": {
+"rxnormId": [
+"196498"
+]
+}
+},
+"/rxcui.json?name=nexaprine&search=2": {
+"idGroup": {}
+},
+"/rxcui.json?name=nexium&search=2": {
+"idGroup": {
+"rxnormId": [
+"284799"
+]
+}
+},
+"/rxcui.json?name=norco&search=2": {
+"idGroup": {
+"rxnormId": [
+"218772"
+]
+}
+},
+"/rxcui.json?name=norflex%20er&search=2": {
+"idGroup": {}
+},
+"/rxcui.json?name=norflex&search=2": {
+"idGroup": {}
+},
+"/rxcui.json?name=norpramin&search=2": {
+"idGroup": {
+"rxnormId": [
+"203771"
+]
+}
+},
+"/rxcui.json?name=norvasc&search=2": {
+"idGroup": {
+"rxnormId": [
+"58927"
+]
+}
+},
+"/rxcui.json?name=nyquil&search=2": {
+"idGroup": {}
+},
+"/rxcui.json?name=omeprazol&search=2": {
+"idGroup": {
+"rxnormId": [
+"7646"
+]
+}
+},
+"/rxcui.json?name=omeprazole&search=2": {
+"idGroup": {
+"rxnormId": [
+"7646"
+]
+}
+},
+"/rxcui.json?name=ondansetron&search=2": {
+"idGroup": {
+"rxnormId": [
+"26225"
+]
+}
+},
+"/rxcui.json?name=oxybutinin&search=2": {
+"idGroup": {}
+},
+"/rxcui.json?name=oxybutnin&search=2": {
+"idGroup": {}
+},
+"/rxcui.json?name=oxybutynin&search=2": {
+"idGroup": {
+"rxnormId": [
+"32675"
+]
+}
+},
+"/rxcui.json?name=oxycodone&search=2": {
+"idGroup": {
+"rxnormId": [
+"7804"
+]
+}
+},
+"/rxcui.json?name=oxycontin&search=2": {
+"idGroup": {
+"rxnormId": [
+"218986"
+]
+}
+},
+"/rxcui.json?name=pamelor&search=2": {
+"idGroup": {
+"rxnormId": [
+"7866"
+]
+}
+},
+"/rxcui.json?name=pantoprazole&search=2": {
+"idGroup": {
+"rxnormId": [
+"40790"
+]
+}
+},
+"/rxcui.json?name=parafon%20forte&search=2": {
+"idGroup": {}
+},
+"/rxcui.json?name=paroxetine&search=2": {
+"idGroup": {
+"rxnormId": [
+"32937"
+]
+}
+},
+"/rxcui.json?name=paxil&search=2": {
+"idGroup": {
+"rxnormId": [
+"114228"
+]
+}
+},
+"/rxcui.json?name=pepcid&search=2": {
+"idGroup": {
+"rxnormId": [
+"196458"
+]
+}
+},
+"/rxcui.json?name=percocet&search=2": {
+"idGroup": {
+"rxnormId": [
+"42844"
+]
+}
+},
+"/rxcui.json?name=pexeva&search=2": {
+"idGroup": {}
+},
+"/rxcui.json?name=phenergan&search=2": {
+"idGroup": {
+"rxnormId": [
+"152218"
+]
+}
+},
+"/rxcui.json?name=plavix&search=2": {
+"idGroup": {
+"rxnormId": [
+"174742"
+]
+}
+},
+"/rxcui.json?name=potassium%20chloride&search=2": {
+"idGroup": {
+"rxnormId": [
+"8591"
+]
+}
+},
+"/rxcui.json?name=pravachol&search=2": {
+"idGroup": {
+"rxnormId": [
+"203333"
+]
+}
+},
+"/rxcui.json?name=prednisone&search=2": {
+"idGroup": {
+"rxnormId": [
+"8640"
+]
+}
+},
+"/rxcui.json?name=premarin&search=2": {
+"idGroup": {
+"rxnormId": [
+"202896"
+]
+}
+},
+"/rxcui.json?name=prevacid&search=2": {
+"idGroup": {
+"rxnormId": [
+"83156"
+]
+}
+},
+"/rxcui.json?name=prilosec&search=2": {
+"idGroup": {
+"rxnormId": [
+"203345"
+]
+}
+},
+"/rxcui.json?name=prinivil&search=2": {
+"idGroup": {
+"rxnormId": [
+"203644"
+]
+}
+},
+"/rxcui.json?name=procardia&search=2": {
+"idGroup": {
+"rxnormId": [
+"203423"
+]
+}
+},
+"/rxcui.json?name=promethazine&search=2": {
+"idGroup": {
+"rxnormId": [
+"8745"
+]
+}
+},
+"/rxcui.json?name=proscar&search=2": {
+"idGroup": {
+"rxnormId": [
+"196476"
+]
+}
+},
+"/rxcui.json?name=protonix&search=2": {
+"idGroup": {
+"rxnormId": [
+"261624"
+]
+}
+},
+"/rxcui.json?name=prozac&search=2": {
+"idGroup": {
+"rxnormId": [
+"58827"
+]
+}
+},
+"/rxcui.json?name=ranitidine&search=2": {
+"idGroup": {
+"rxnormId": [
+"9143"
+]
+}
+},
+"/rxcui.json?name=razadyne&search=2": {
+"idGroup": {}
+},
+"/rxcui.json?name=reglan&search=2": {
+"idGroup": {
+"rxnormId": [
+"9230"
+]
+}
+},
+"/rxcui.json?name=remeron&search=2": {
+"idGroup": {
+"rxnormId": [
+"134774"
+]
+}
+},
+"/rxcui.json?name=requip&search=2": {
+"idGroup": {}
+},
+"/rxcui.json?name=restoril&search=2": {
+"idGroup": {
+"rxnormId": [
+"219641"
+]
+}
+},
+"/rxcui.json?name=risperdal&search=2": {
+"idGroup": {
+"rxnormId": [
+"152318"
+]
+}
+},
+"/rxcui.json?name=rispiridone&search=2": {
+"idGroup": {}
+},
+"/rxcui.json?name=robaxin&search=2": {
+"idGroup": {
+"rxnormId": [
+"202955"
+]
+}
+},
+"/rxcui.json?name=savella&search=2": {
+"idGroup": {
+"rxnormId": [
+"833136"
+]
+}
+},
+"/rxcui.json?name=script%20alert%20/script&search=2": {
+"idGroup": {}
+},
+"/rxcui.json?name=seroquel&search=2": {
+"idGroup": {
+"rxnormId": [
+"83553"
+]
+}
+},
+"/rxcui.json?name=sertraline&search=2": {
+"idGroup": {
+"rxnormId": [
+"36437"
+]
+}
+},
+"/rxcui.json?name=sinemet&search=2": {
+"idGroup": {
+"rxnormId": [
+"36572"
+]
+}
+},
+"/rxcui.json?name=singulair&search=2": {
+"idGroup": {
+"rxnormId": [
+"153889"
+]
+}
+},
+"/rxcui.json?name=skelaxin&search=2": {
+"idGroup": {
+"rxnormId": [
+"204315"
+]
+}
+},
+"/rxcui.json?name=soma&search=2": {
+"idGroup": {
+"rxnormId": [
+"204362"
+]
+}
+},
+"/rxcui.json?name=sominex&search=2": {
+"idGroup": {
+"rxnormId": [
+"152371"
+]
+}
+},
+"/rxcui.json?name=sonata&search=2": {
+"idGroup": {}
+},
+"/rxcui.json?name=spiriva&search=2": {
+"idGroup": {
+"rxnormId": [
+"274535"
+]
+}
+},
+"/rxcui.json?name=symmetrel&search=2": {
+"idGroup": {}
+},
+"/rxcui.json?name=synthroid&search=2": {
+"idGroup": {
+"rxnormId": [
+"224920"
+]
+}
+},
+"/rxcui.json?name=table&search=2": {
+"idGroup": {}
+},
+"/rxcui.json?name=tamsulosin&search=2": {
+"idGroup": {
+"rxnormId": [
+"77492"
+]
+}
+},
+"/rxcui.json?name=tegretol%20xr&search=2": {
+"idGroup": {}
+},
+"/rxcui.json?name=tegretol&search=2": {
+"idGroup": {
+"rxnormId": [
+"203029"
+]
+}
+},
+"/rxcui.json?name=tenex&search=2": {
+"idGroup": {}
+},
+"/rxcui.json?name=tenormin&search=2": {
+"idGroup": {
+"rxnormId": [
+"152413"
+]
+}
+},
+"/rxcui.json?name=thorazine&search=2": {
+"idGroup": {}
+},
+"/rxcui.json?name=tizanidine&search=2": {
+"idGroup": {
+"rxnormId": [
+"57258"
+]
+}
+},
+"/rxcui.json?name=tofranil&search=2": {
+"idGroup": {}
+},
+"/rxcui.json?name=topamax&search=2": {
+"idGroup": {
+"rxnormId": [
+"220343"
+]
+}
+},
+"/rxcui.json?name=toprol%20xl&search=2": {
+"idGroup": {}
+},
+"/rxcui.json?name=toradol&search=2": {
+"idGroup": {}
+},
+"/rxcui.json?name=toviaz&search=2": {
+"idGroup": {
+"rxnormId": [
+"810072"
+]
+}
+},
+"/rxcui.json?name=tramadol&search=2": {
+"idGroup": {
+"rxnormId": [
+"10689"
+]
+}
+},
+"/rxcui.json?name=tramadole&search=2": {
+"idGroup": {
+"rxnormId": [
+"10689",
+"82110"
+]
+}
+},
+"/rxcui.json?name=tranxene&search=2": {
+"idGroup": {
+"rxnormId": [
+"202966"
+]
+}
+},
+"/rxcui.json?name=trazadone&search=2": {
+"idGroup": {}
+},
+"/rxcui.json?name=trazodone&search=2": {
+"idGroup": {
+"rxnormId": [
+"10737"
+]
+}
+},
+"/rxcui.json?name=triamcinolone%20cream&search=2": {
+"idGroup": {}
+},
+"/rxcui.json?name=triamcinolone&search=2": {
+"idGroup": {
+"rxnormId": [
+"10759"
+]
+}
+},
+"/rxcui.json?name=tylenol%20arthritis&search=2": {
+"idGroup": {}
+},
+"/rxcui.json?name=tylenol%20extra%20strength&search=2": {
+"idGroup": {}
+},
+"/rxcui.json?name=tylenol%20pm&search=2": {
+"idGroup": {
+"rxnormId": [
+"220581"
+]
+}
+},
+"/rxcui.json?name=tylenol&search=2": {
+"idGroup": {
+"rxnormId": [
+"202433"
+]
+}
+},
+"/rxcui.json?name=ultracet&search=2": {
+"idGroup": {
+"rxnormId": [
+"353062"
+]
+}
+},
+"/rxcui.json?name=ultram&search=2": {
+"idGroup": {
+"rxnormId": [
+"220606"
+]
+}
+},
+"/rxcui.json?name=unisom%20sleepgels&search=2": {
+"idGroup": {}
+},
+"/rxcui.json?name=unisom%20sleeptabs&search=2": {
+"idGroup": {}
+},
+"/rxcui.json?name=unisom&search=2": {
+"idGroup": {
+"rxnormId": [
+"220672"
+]
+}
+},
+"/rxcui.json?name=urispas&search=2": {
+"idGroup": {}
+},
+"/rxcui.json?name=valium&search=2": {
+"idGroup": {
+"rxnormId": [
+"202472"
+]
+}
+},
+"/rxcui.json?name=vesicare&search=2": {
+"idGroup": {
+"rxnormId": [
+"539812"
+]
+}
+},
+"/rxcui.json?name=vicodin&search=2": {
+"idGroup": {}
+},
+"/rxcui.json?name=vistaril&search=2": {
+"idGroup": {
+"rxnormId": [
+"282519"
+]
+}
+},
+"/rxcui.json?name=vitamin%20d3&search=2": {
+"idGroup": {
+"rxnormId": [
+"1244014",
+"2418"
+]
+}
+},
+"/rxcui.json?name=voltaren&search=2": {
+"idGroup": {
+"rxnormId": [
+"202976"
+]
+}
+},
+"/rxcui.json?name=warfarin&search=2": {
+"idGroup": {
+"rxnormId": [
+"11289"
+]
+}
+},
+"/rxcui.json?name=wellbutrin&search=2": {
+"idGroup": {
+"rxnormId": [
+"42568"
+]
+}
+},
+"/rxcui.json?name=xanax&search=2": {
+"idGroup": {
+"rxnormId": [
+"202363"
+]
+}
+},
+"/rxcui.json?name=xanaxx&search=2": {
+"idGroup": {}
+},
+"/rxcui.json?name=xarelto&search=2": {
+"idGroup": {
+"rxnormId": [
+"1114199"
+]
+}
+},
+"/rxcui.json?name=xyzal&search=2": {
+"idGroup": {
+"rxnormId": [
+"398335"
+]
+}
+},
+"/rxcui.json?name=zantac%20360&search=2": {
+"idGroup": {}
+},
+"/rxcui.json?name=zantac&search=2": {
+"idGroup": {
+"rxnormId": [
+"152523"
+]
+}
+},
+"/rxcui.json?name=zestoretic&search=2": {
+"idGroup": {
+"rxnormId": [
+"85783"
+]
+}
+},
+"/rxcui.json?name=zestril&search=2": {
+"idGroup": {
+"rxnormId": [
+"196472"
+]
+}
+},
+"/rxcui.json?name=zetia&search=2": {
+"idGroup": {
+"rxnormId": [
+"353099"
+]
+}
+},
+"/rxcui.json?name=zocor&search=2": {
+"idGroup": {
+"rxnormId": [
+"196503"
+]
+}
+},
+"/rxcui.json?name=zofran&search=2": {
+"idGroup": {}
+},
+"/rxcui.json?name=zoloft&search=2": {
+"idGroup": {
+"rxnormId": [
+"82728"
+]
+}
+},
+"/rxcui.json?name=zolpidem&search=2": {
+"idGroup": {
+"rxnormId": [
+"39993"
+]
+}
+},
+"/rxcui.json?name=zolpidum&search=2": {
+"idGroup": {}
+},
+"/rxcui.json?name=zolvarex&search=2": {
+"idGroup": {}
+},
+"/rxcui.json?name=zorvatrex&search=2": {
+"idGroup": {}
+},
+"/rxcui.json?name=zyloprim&search=2": {
+"idGroup": {
+"rxnormId": [
+"203600"
+]
+}
+},
+"/rxcui.json?name=zyprexa&search=2": {
+"idGroup": {
+"rxnormId": [
+"135423"
+]
+}
+},
+"/rxcui.json?name=zyrtec&search=2": {
+"idGroup": {
+"rxnormId": [
+"58930"
+]
+}
+},
+"/rxcui.json?name=zzzquil&search=2": {
+"idGroup": {
+"rxnormId": [
+"1233547"
+]
+}
+},
+"/rxcui/1040032/properties.json": {
+"properties": {
+"language": "ENG",
+"name": "Latuda",
+"rxcui": "1040032",
+"suppress": "N",
+"synonym": "",
+"tty": "BN",
+"umlscui": ""
+}
+},
+"/rxcui/1040032/related.json?tty=IN+MIN": {
+"relatedGroup": {
+"conceptGroup": [
+{
+"conceptProperties": [
+{
+"language": "ENG",
+"name": "lurasidone",
+"rxcui": "1040028",
+"suppress": "N",
+"synonym": "",
+"tty": "IN",
+"umlscui": ""
+}
+],
+"tty": "IN"
+},
+{
+"tty": "MIN"
+}
+],
+"rxcui": null
+}
+},
+"/rxcui/10582/properties.json": {
+"properties": {
+"language": "ENG",
+"name": "levothyroxine",
+"rxcui": "10582",
+"suppress": "N",
+"synonym": "",
+"tty": "IN",
+"umlscui": ""
+}
+},
+"/rxcui/10689/properties.json": {
+"properties": {
+"language": "ENG",
+"name": "tramadol",
+"rxcui": "10689",
+"suppress": "N",
+"synonym": "",
+"tty": "IN",
+"umlscui": ""
+}
+},
+"/rxcui/10737/properties.json": {
+"properties": {
+"language": "ENG",
+"name": "trazodone",
+"rxcui": "10737",
+"suppress": "N",
+"synonym": "",
+"tty": "IN",
+"umlscui": ""
+}
+},
+"/rxcui/10759/properties.json": {
+"properties": {
+"language": "ENG",
+"name": "triamcinolone",
+"rxcui": "10759",
+"suppress": "N",
+"synonym": "",
+"tty": "IN",
+"umlscui": ""
+}
+},
+"/rxcui/1114199/properties.json": {
+"properties": {
+"language": "ENG",
+"name": "Xarelto",
+"rxcui": "1114199",
+"suppress": "N",
+"synonym": "",
+"tty": "BN",
+"umlscui": ""
+}
+},
+"/rxcui/1114199/related.json?tty=IN+MIN": {
+"relatedGroup": {
+"conceptGroup": [
+{
+"conceptProperties": [
+{
+"language": "ENG",
+"name": "rivaroxaban",
+"rxcui": "1114195",
+"suppress": "N",
+"synonym": "",
+"tty": "IN",
+"umlscui": ""
+}
+],
+"tty": "IN"
+},
+{
+"tty": "MIN"
+}
+],
+"rxcui": null
+}
+},
+"/rxcui/11289/properties.json": {
+"properties": {
+"language": "ENG",
+"name": "warfarin",
+"rxcui": "11289",
+"suppress": "N",
+"synonym": "",
+"tty": "IN",
+"umlscui": ""
+}
+},
+"/rxcui/114228/properties.json": {
+"properties": {
+"language": "ENG",
+"name": "Paxil",
+"rxcui": "114228",
+"suppress": "N",
+"synonym": "",
+"tty": "BN",
+"umlscui": ""
+}
+},
+"/rxcui/114228/related.json?tty=IN+MIN": {
+"relatedGroup": {
+"conceptGroup": [
+{
+"conceptProperties": [
+{
+"language": "ENG",
+"name": "paroxetine",
+"rxcui": "32937",
+"suppress": "N",
+"synonym": "",
+"tty": "IN",
+"umlscui": ""
+}
+],
+"tty": "IN"
+},
+{
+"tty": "MIN"
+}
+],
+"rxcui": null
+}
+},
+"/rxcui/114265/properties.json": {
+"properties": {
+"language": "ENG",
+"name": "Fosamax",
+"rxcui": "114265",
+"suppress": "N",
+"synonym": "",
+"tty": "BN",
+"umlscui": ""
+}
+},
+"/rxcui/114265/related.json?tty=IN+MIN": {
+"relatedGroup": {
+"conceptGroup": [
+{
+"conceptProperties": [
+{
+"language": "ENG",
+"name": "alendronate",
+"rxcui": "46041",
+"suppress": "N",
+"synonym": "",
+"tty": "IN",
+"umlscui": ""
+}
+],
+"tty": "IN"
+},
+{
+"tty": "MIN"
+}
+],
+"rxcui": null
+}
+},
+"/rxcui/1191/properties.json": {
+"properties": {
+"language": "ENG",
+"name": "aspirin",
+"rxcui": "1191",
+"suppress": "N",
+"synonym": "",
+"tty": "IN",
+"umlscui": ""
+}
+},
+"/rxcui/1233547/properties.json": {
+"properties": {
+"language": "ENG",
+"name": "Zzzquil",
+"rxcui": "1233547",
+"suppress": "N",
+"synonym": "",
+"tty": "BN",
+"umlscui": ""
+}
+},
+"/rxcui/1233547/related.json?tty=IN+MIN": {
+"relatedGroup": {
+"conceptGroup": [
+{
+"conceptProperties": [
+{
+"language": "ENG",
+"name": "diphenhydramine",
+"rxcui": "3498",
+"suppress": "N",
+"synonym": "",
+"tty": "IN",
+"umlscui": ""
+}
+],
+"tty": "IN"
+},
+{
+"tty": "MIN"
+}
+],
+"rxcui": null
+}
+},
+"/rxcui/1244014/properties.json": {
+"properties": {
+"language": "ENG",
+"name": "vitamin D3",
+"rxcui": "1244014",
+"suppress": "N",
+"synonym": "",
+"tty": "IN",
+"umlscui": ""
+}
+},
+"/rxcui/1300792/properties.json": {
+"properties": {
+"language": "ENG",
+"name": "Myrbetriq",
+"rxcui": "1300792",
+"suppress": "N",
+"synonym": "",
+"tty": "BN",
+"umlscui": ""
+}
+},
+"/rxcui/1300792/related.json?tty=IN+MIN": {
+"relatedGroup": {
+"conceptGroup": [
+{
+"conceptProperties": [
+{
+"language": "ENG",
+"name": "mirabegron",
+"rxcui": "1300786",
+"suppress": "N",
+"synonym": "",
+"tty": "IN",
+"umlscui": ""
+}
+],
+"tty": "IN"
+},
+{
+"tty": "MIN"
+}
+],
+"rxcui": null
+}
+},
+"/rxcui/131725/properties.json": {
+"properties": {
+"language": "ENG",
+"name": "Ambien",
+"rxcui": "131725",
+"suppress": "N",
+"synonym": "",
+"tty": "BN",
+"umlscui": ""
+}
+},
+"/rxcui/131725/related.json?tty=IN+MIN": {
+"relatedGroup": {
+"conceptGroup": [
+{
+"conceptProperties": [
+{
+"language": "ENG",
+"name": "zolpidem",
+"rxcui": "39993",
+"suppress": "N",
+"synonym": "",
+"tty": "IN",
+"umlscui": ""
+}
+],
+"tty": "IN"
+},
+{
+"tty": "MIN"
+}
+],
+"rxcui": null
+}
+},
+"/rxcui/134774/properties.json": {
+"properties": {
+"language": "ENG",
+"name": "Remeron",
+"rxcui": "134774",
+"suppress": "N",
+"synonym": "",
+"tty": "BN",
+"umlscui": ""
+}
+},
+"/rxcui/134774/related.json?tty=IN+MIN": {
+"relatedGroup": {
+"conceptGroup": [
+{
+"conceptProperties": [
+{
+"language": "ENG",
+"name": "mirtazapine",
+"rxcui": "15996",
+"suppress": "N",
+"synonym": "",
+"tty": "IN",
+"umlscui": ""
+}
+],
+"tty": "IN"
+},
+{
+"tty": "MIN"
+}
+],
+"rxcui": null
+}
+},
+"/rxcui/135423/properties.json": {
+"properties": {
+"language": "ENG",
+"name": "Zyprexa",
+"rxcui": "135423",
+"suppress": "N",
+"synonym": "",
+"tty": "BN",
+"umlscui": ""
+}
+},
+"/rxcui/135423/related.json?tty=IN+MIN": {
+"relatedGroup": {
+"conceptGroup": [
+{
+"conceptProperties": [
+{
+"language": "ENG",
+"name": "olanzapine",
+"rxcui": "61381",
+"suppress": "N",
+"synonym": "",
+"tty": "IN",
+"umlscui": ""
+}
+],
+"tty": "IN"
+},
+{
+"tty": "MIN"
+}
+],
+"rxcui": null
+}
+},
+"/rxcui/135446/properties.json": {
+"properties": {
+"language": "ENG",
+"name": "Aricept",
+"rxcui": "135446",
+"suppress": "N",
+"synonym": "",
+"tty": "BN",
+"umlscui": ""
+}
+},
+"/rxcui/135446/related.json?tty=IN+MIN": {
+"relatedGroup": {
+"conceptGroup": [
+{
+"conceptProperties": [
+{
+"language": "ENG",
+"name": "donepezil",
+"rxcui": "135447",
+"suppress": "N",
+"synonym": "",
+"tty": "IN",
+"umlscui": ""
+}
+],
+"tty": "IN"
+},
+{
+"tty": "MIN"
+}
+],
+"rxcui": null
+}
+},
+"/rxcui/135447/properties.json": {
+"properties": {
+"language": "ENG",
+"name": "donepezil",
+"rxcui": "135447",
+"suppress": "N",
+"synonym": "",
+"tty": "IN",
+"umlscui": ""
+}
+},
+"/rxcui/1358848/properties.json": {
+"properties": {
+"language": "ENG",
+"name": "Exaprin",
+"rxcui": "1358848",
+"suppress": "N",
+"synonym": "",
+"tty": "BN",
+"umlscui": ""
+}
+},
+"/rxcui/1358848/related.json?tty=IN+MIN": {
+"relatedGroup": {
+"conceptGroup": [
+{
+"conceptProperties": [
+{
+"language": "ENG",
+"name": "aspirin",
+"rxcui": "1191",
+"suppress": "N",
+"synonym": "",
+"tty": "IN",
+"umlscui": ""
+},
+{
+"language": "ENG",
+"name": "acetaminophen",
+"rxcui": "161",
+"suppress": "N",
+"synonym": "",
+"tty": "IN",
+"umlscui": ""
+},
+{
+"language": "ENG",
+"name": "caffeine",
+"rxcui": "1886",
+"suppress": "N",
+"synonym": "",
+"tty": "IN",
+"umlscui": ""
+},
+{
+"language": "ENG",
+"name": "salicylamide",
+"rxcui": "9518",
+"suppress": "N",
+"synonym": "",
+"tty": "IN",
+"umlscui": ""
+}
+],
+"tty": "IN"
+},
+{
+"conceptProperties": [
+{
+"language": "ENG",
+"name": "acetaminophen / aspirin / caffeine / salicylamide",
+"rxcui": "689554",
+"suppress": "N",
+"synonym": "",
+"tty": "MIN",
+"umlscui": ""
+}
+],
+"tty": "MIN"
+}
+],
+"rxcui": null
+}
+},
+"/rxcui/1362/properties.json": {
+"properties": {
+"language": "ENG",
+"name": "diphenhydramine hydrochloride",
+"rxcui": "1362",
+"suppress": "N",
+"synonym": "",
+"tty": "PIN",
+"umlscui": ""
+}
+},
+"/rxcui/1362/related.json?tty=IN+MIN": {
+"relatedGroup": {
+"conceptGroup": [
+{
+"conceptProperties": [
+{
+"language": "ENG",
+"name": "diphenhydramine",
+"rxcui": "3498",
+"suppress": "N",
+"synonym": "",
+"tty": "IN",
+"umlscui": ""
+}
+],
+"tty": "IN"
+},
+{
+"conceptProperties": [
+{
+"language": "ENG",
+"name": "acetaminophen / dextromethorphan / diphenhydramine",
+"rxcui": "1008252",
+"suppress": "N",
+"synonym": "",
+"tty": "MIN",
+"umlscui": ""
+},
+{
+"language": "ENG",
+"name": "benzethonium / diphenhydramine / zinc acetate",
+"rxcui": "1008383",
+"suppress": "N",
+"synonym": "",
+"tty": "MIN",
+"umlscui": ""
+},
+{
+"language": "ENG",
+"name": "diphenhydramine / pramoxine",
+"rxcui": "1008705",
+"suppress": "N",
+"synonym": "",
+"tty": "MIN",
+"umlscui": ""
+},
+{
+"language": "ENG",
+"name": "acetaminophen / dextromethorphan / diphenhydramine / phenylephrine",
+"rxcui": "1008802",
+"suppress": "N",
+"synonym": "",
+"tty": "MIN",
+"umlscui": ""
+},
+{
+"language": "ENG",
+"name": "benzyl alcohol / calamine / diphenhydramine",
+"rxcui": "1298466",
+"suppress": "N",
+"synonym": "",
+"tty": "MIN",
+"umlscui": ""
+},
+{
+"language": "ENG",
+"name": "allantoin / diphenhydramine",
+"rxcui": "1420991",
+"suppress": "N",
+"synonym": "",
+"tty": "MIN",
+"umlscui": ""
+},
+{
+"language": "ENG",
+"name": "benzethonium / diphenhydramine / hydrocortisone",
+"rxcui": "1537193",
+"suppress": "N",
+"synonym": "",
+"tty": "MIN",
+"umlscui": ""
+},
+{
+"language": "ENG",
+"name": "diphenhydramine / naproxen",
+"rxcui": "1550956",
+"suppress": "N",
+"synonym": "",
+"tty": "MIN",
+"umlscui": ""
+},
+{
+"language": "ENG",
+"name": "acetaminophen / diphenhydramine",
+"rxcui": "214181",
+"suppress": "N",
+"synonym": "",
+"tty": "MIN",
+"umlscui": ""
+},
+{
+"language": "ENG",
+"name": "camphor / diphenhydramine / zinc acetate",
+"rxcui": "2263169",
+"suppress": "N",
+"synonym": "",
+"tty": "MIN",
+"umlscui": ""
+},
+{
+"language": "ENG",
+"name": "diphenhydramine / hydrocortisone / pramoxine",
+"rxcui": "2627295",
+"suppress": "N",
+"synonym": "",
+"tty": "MIN",
+"umlscui": ""
+},
+{
+"language": "ENG",
+"name": "diphenhydramine / zinc acetate",
+"rxcui": "466522",
+"suppress": "N",
+"synonym": "",
+"tty": "MIN",
+"umlscui": ""
+},
+{
+"language": "ENG",
+"name": "acetaminophen / dextromethorphan / diphenhydramine / pseudoephedrine",
+"rxcui": "466566",
+"suppress": "N",
+"synonym": "",
+"tty": "MIN",
+"umlscui": ""
+},
+{
+"language": "ENG",
+"name": "diphenhydramine / ibuprofen",
+"rxcui": "644895",
+"suppress": "N",
+"synonym": "",
+"tty": "MIN",
+"umlscui": ""
+},
+{
+"language": "ENG",
+"name": "diphenhydramine / levomenthol",
+"rxcui": "646063",
+"suppress": "N",
+"synonym": "",
+"tty": "MIN",
+"umlscui": ""
+},
+{
+"language": "ENG",
+"name": "diphenhydramine / magnesium salicylate",
+"rxcui": "668797",
+"suppress": "N",
+"synonym": "",
+"tty": "MIN",
+"umlscui": ""
+},
+{
+"language": "ENG",
+"name": "aspirin / diphenhydramine",
+"rxcui": "669119",
+"suppress": "N",
+"synonym": "",
+"tty": "MIN",
+"umlscui": ""
+},
+{
+"language": "ENG",
+"name": "acetaminophen / diphenhydramine / phenylephrine",
+"rxcui": "689785",
+"suppress": "N",
+"synonym": "",
+"tty": "MIN",
+"umlscui": ""
+},
+{
+"language": "ENG",
+"name": "acetaminophen / diphenhydramine / pseudoephedrine",
+"rxcui": "689786",
+"suppress": "N",
+"synonym": "",
+"tty": "MIN",
+"umlscui": ""
+},
+{
+"language": "ENG",
+"name": "diphenhydramine / phenylephrine",
+"rxcui": "690693",
+"suppress": "N",
+"synonym": "",
+"tty": "MIN",
+"umlscui": ""
+},
+{
+"language": "ENG",
+"name": "calamine / diphenhydramine",
+"rxcui": "690837",
+"suppress": "N",
+"synonym": "",
+"tty": "MIN",
+"umlscui": ""
+},
+{
+"language": "ENG",
+"name": "diphenhydramine / tripelennamine",
+"rxcui": "690847",
+"suppress": "N",
+"synonym": "",
+"tty": "MIN",
+"umlscui": ""
+},
+{
+"language": "ENG",
+"name": "diphenhydramine / menthol",
+"rxcui": "818281",
+"suppress": "N",
+"synonym": "",
+"tty": "MIN",
+"umlscui": ""
+}
+],
+"tty": "MIN"
+}
+],
+"rxcui": null
+}
+},
+"/rxcui/1364430/properties.json": {
+"properties": {
+"language": "ENG",
+"name": "apixaban",
+"rxcui": "1364430",
+"suppress": "N",
+"synonym": "",
+"tty": "IN",
+"umlscui": ""
+}
+},
+"/rxcui/1364436/properties.json": {
+"properties": {
+"language": "ENG",
+"name": "Eliquis",
+"rxcui": "1364436",
+"suppress": "N",
+"synonym": "",
+"tty": "BN",
+"umlscui": ""
+}
+},
+"/rxcui/1364436/related.json?tty=IN+MIN": {
+"relatedGroup": {
+"conceptGroup": [
+{
+"conceptProperties": [
+{
+"language": "ENG",
+"name": "apixaban",
+"rxcui": "1364430",
+"suppress": "N",
+"synonym": "",
+"tty": "IN",
+"umlscui": ""
+}
+],
+"tty": "IN"
+},
+{
+"tty": "MIN"
+}
+],
+"rxcui": null
+}
+},
+"/rxcui/1424/properties.json": {
+"properties": {
+"language": "ENG",
+"name": "benztropine",
+"rxcui": "1424",
+"suppress": "N",
+"synonym": "benzatropine",
+"tty": "IN",
+"umlscui": ""
+}
+},
+"/rxcui/151399/properties.json": {
+"properties": {
+"language": "ENG",
+"name": "Bactrim",
+"rxcui": "151399",
+"suppress": "N",
+"synonym": "",
+"tty": "BN",
+"umlscui": ""
+}
+},
+"/rxcui/151399/related.json?tty=IN+MIN": {
+"relatedGroup": {
+"conceptGroup": [
+{
+"conceptProperties": [
+{
+"language": "ENG",
+"name": "sulfamethoxazole",
+"rxcui": "10180",
+"suppress": "N",
+"synonym": "",
+"tty": "IN",
+"umlscui": ""
+},
+{
+"language": "ENG",
+"name": "trimethoprim",
+"rxcui": "10829",
+"suppress": "N",
+"synonym": "",
+"tty": "IN",
+"umlscui": ""
+}
+],
+"tty": "IN"
+},
+{
+"conceptProperties": [
+{
+"language": "ENG",
+"name": "sulfamethoxazole / trimethoprim",
+"rxcui": "10831",
+"suppress": "N",
+"synonym": "",
+"tty": "MIN",
+"umlscui": ""
+}
+],
+"tty": "MIN"
+}
+],
+"rxcui": null
+}
+},
+"/rxcui/151558/properties.json": {
+"properties": {
+"language": "ENG",
+"name": "Cozaar",
+"rxcui": "151558",
+"suppress": "N",
+"synonym": "",
+"tty": "BN",
+"umlscui": ""
+}
+},
+"/rxcui/151558/related.json?tty=IN+MIN": {
+"relatedGroup": {
+"conceptGroup": [
+{
+"conceptProperties": [
+{
+"language": "ENG",
+"name": "losartan",
+"rxcui": "52175",
+"suppress": "N",
+"synonym": "",
+"tty": "IN",
+"umlscui": ""
+}
+],
+"tty": "IN"
+},
+{
+"tty": "MIN"
+}
+],
+"rxcui": null
+}
+},
+"/rxcui/151666/properties.json": {
+"properties": {
+"language": "ENG",
+"name": "Dramamine",
+"rxcui": "151666",
+"suppress": "N",
+"synonym": "",
+"tty": "BN",
+"umlscui": ""
+}
+},
+"/rxcui/151666/related.json?tty=IN+MIN": {
+"relatedGroup": {
+"conceptGroup": [
+{
+"conceptProperties": [
+{
+"language": "ENG",
+"name": "dimenhydrinate",
+"rxcui": "3444",
+"suppress": "N",
+"synonym": "",
+"tty": "IN",
+"umlscui": ""
+}
+],
+"tty": "IN"
+},
+{
+"tty": "MIN"
+}
+],
+"rxcui": null
+}
+},
+"/rxcui/151692/properties.json": {
+"properties": {
+"language": "ENG",
+"name": "Effexor",
+"rxcui": "151692",
+"suppress": "N",
+"synonym": "",
+"tty": "BN",
+"umlscui": ""
+}
+},
+"/rxcui/151692/related.json?tty=IN+MIN": {
+"relatedGroup": {
+"conceptGroup": [
+{
+"conceptProperties": [
+{
+"language": "ENG",
+"name": "venlafaxine",
+"rxcui": "39786",
+"suppress": "N",
+"synonym": "",
+"tty": "IN",
+"umlscui": ""
+}
+],
+"tty": "IN"
+},
+{
+"tty": "MIN"
+}
+],
+"rxcui": null
+}
+},
+"/rxcui/151827/properties.json": {
+"properties": {
+"language": "ENG",
+"name": "Glucophage",
+"rxcui": "151827",
+"suppress": "N",
+"synonym": "",
+"tty": "BN",
+"umlscui": ""
+}
+},
+"/rxcui/151827/related.json?tty=IN+MIN": {
+"relatedGroup": {
+"conceptGroup": [
+{
+"conceptProperties": [
+{
+"language": "ENG",
+"name": "metformin",
+"rxcui": "6809",
+"suppress": "N",
+"synonym": "",
+"tty": "IN",
+"umlscui": ""
+}
+],
+"tty": "IN"
+},
+{
+"tty": "MIN"
+}
+],
+"rxcui": null
+}
+},
+"/rxcui/151839/properties.json": {
+"properties": {
+"language": "ENG",
+"name": "Haldol",
+"rxcui": "151839",
+"suppress": "N",
+"synonym": "",
+"tty": "BN",
+"umlscui": ""
+}
+},
+"/rxcui/151839/related.json?tty=IN+MIN": {
+"relatedGroup": {
+"conceptGroup": [
+{
+"conceptProperties": [
+{
+"language": "ENG",
+"name": "haloperidol",
+"rxcui": "5093",
+"suppress": "N",
+"synonym": "",
+"tty": "IN",
+"umlscui": ""
+}
+],
+"tty": "IN"
+},
+{
+"tty": "MIN"
+}
+],
+"rxcui": null
+}
+},
+"/rxcui/152001/properties.json": {
+"properties": {
+"language": "ENG",
+"name": "Macrobid",
+"rxcui": "152001",
+"suppress": "N",
+"synonym": "",
+"tty": "BN",
+"umlscui": ""
+}
+},
+"/rxcui/152001/related.json?tty=IN+MIN": {
+"relatedGroup": {
+"conceptGroup": [
+{
+"conceptProperties": [
+{
+"language": "ENG",
+"name": "nitrofurantoin",
+"rxcui": "7454",
+"suppress": "N",
+"synonym": "",
+"tty": "IN",
+"umlscui": ""
+}
+],
+"tty": "IN"
+},
+{
+"conceptProperties": [
+{
+"language": "ENG",
+"name": "nitrofurantoin, macrocrystals / nitrofurantoin, monohydrate",
+"rxcui": "466542",
+"suppress": "N",
+"synonym": "",
+"tty": "MIN",
+"umlscui": ""
+}
+],
+"tty": "MIN"
+}
+],
+"rxcui": null
+}
+},
+"/rxcui/152218/properties.json": {
+"properties": {
+"language": "ENG",
+"name": "Phenergan",
+"rxcui": "152218",
+"suppress": "N",
+"synonym": "",
+"tty": "BN",
+"umlscui": ""
+}
+},
+"/rxcui/152218/related.json?tty=IN+MIN": {
+"relatedGroup": {
+"conceptGroup": [
+{
+"conceptProperties": [
+{
+"language": "ENG",
+"name": "promethazine",
+"rxcui": "8745",
+"suppress": "N",
+"synonym": "",
+"tty": "IN",
+"umlscui": ""
+}
+],
+"tty": "IN"
+},
+{
+"tty": "MIN"
+}
+],
+"rxcui": null
+}
+},
+"/rxcui/152318/properties.json": {
+"properties": {
+"language": "ENG",
+"name": "Risperdal",
+"rxcui": "152318",
+"suppress": "N",
+"synonym": "",
+"tty": "BN",
+"umlscui": ""
+}
+},
+"/rxcui/152318/related.json?tty=IN+MIN": {
+"relatedGroup": {
+"conceptGroup": [
+{
+"conceptProperties": [
+{
+"language": "ENG",
+"name": "risperidone",
+"rxcui": "35636",
+"suppress": "N",
+"synonym": "3-(2-(4-(6-fluoro-1,2-benzisoxazol-3-yl)-1-piperidinyl)ethyl)-6,7,8,9-tetrahydro-2-methyl-4H-pyrido(1,2-A)pyrimidin-4-one",
+"tty": "IN",
+"umlscui": ""
+}
+],
+"tty": "IN"
+},
+{
+"tty": "MIN"
+}
+],
+"rxcui": null
+}
+},
+"/rxcui/152371/properties.json": {
+"properties": {
+"language": "ENG",
+"name": "Sominex",
+"rxcui": "152371",
+"suppress": "N",
+"synonym": "",
+"tty": "BN",
+"umlscui": ""
+}
+},
+"/rxcui/152371/related.json?tty=IN+MIN": {
+"relatedGroup": {
+"conceptGroup": [
+{
+"conceptProperties": [
+{
+"language": "ENG",
+"name": "diphenhydramine",
+"rxcui": "3498",
+"suppress": "N",
+"synonym": "",
+"tty": "IN",
+"umlscui": ""
+}
+],
+"tty": "IN"
+},
+{
+"tty": "MIN"
+}
+],
+"rxcui": null
+}
+},
+"/rxcui/152413/properties.json": {
+"properties": {
+"language": "ENG",
+"name": "Tenormin",
+"rxcui": "152413",
+"suppress": "N",
+"synonym": "",
+"tty": "BN",
+"umlscui": ""
+}
+},
+"/rxcui/152413/related.json?tty=IN+MIN": {
+"relatedGroup": {
+"conceptGroup": [
+{
+"conceptProperties": [
+{
+"language": "ENG",
+"name": "atenolol",
+"rxcui": "1202",
+"suppress": "N",
+"synonym": "",
+"tty": "IN",
+"umlscui": ""
+}
+],
+"tty": "IN"
+},
+{
+"tty": "MIN"
+}
+],
+"rxcui": null
+}
+},
+"/rxcui/152523/properties.json": {
+"properties": {
+"language": "ENG",
+"name": "Zantac",
+"rxcui": "152523",
+"suppress": "N",
+"synonym": "",
+"tty": "BN",
+"umlscui": ""
+}
+},
+"/rxcui/152523/related.json?tty=IN+MIN": {
+"relatedGroup": {
+"conceptGroup": [
+{
+"conceptProperties": [
+{
+"language": "ENG",
+"name": "ranitidine",
+"rxcui": "9143",
+"suppress": "N",
+"synonym": "",
+"tty": "IN",
+"umlscui": ""
+}
+],
+"tty": "IN"
+},
+{
+"tty": "MIN"
+}
+],
+"rxcui": null
+}
+},
+"/rxcui/152699/properties.json": {
+"properties": {
+"language": "ENG",
+"name": "Mobic",
+"rxcui": "152699",
+"suppress": "N",
+"synonym": "",
+"tty": "BN",
+"umlscui": ""
+}
+},
+"/rxcui/152699/related.json?tty=IN+MIN": {
+"relatedGroup": {
+"conceptGroup": [
+{
+"conceptProperties": [
+{
+"language": "ENG",
+"name": "meloxicam",
+"rxcui": "41493",
+"suppress": "N",
+"synonym": "",
+"tty": "IN",
+"umlscui": ""
+}
+],
+"tty": "IN"
+},
+{
+"tty": "MIN"
+}
+],
+"rxcui": null
+}
+},
+"/rxcui/153010/properties.json": {
+"properties": {
+"language": "ENG",
+"name": "Advil",
+"rxcui": "153010",
+"suppress": "N",
+"synonym": "",
+"tty": "BN",
+"umlscui": ""
+}
+},
+"/rxcui/153010/related.json?tty=IN+MIN": {
+"relatedGroup": {
+"conceptGroup": [
+{
+"conceptProperties": [
+{
+"language": "ENG",
+"name": "ibuprofen",
+"rxcui": "5640",
+"suppress": "N",
+"synonym": "",
+"tty": "IN",
+"umlscui": ""
+}
+],
+"tty": "IN"
+},
+{
+"tty": "MIN"
+}
+],
+"rxcui": null
+}
+},
+"/rxcui/153165/properties.json": {
+"properties": {
+"language": "ENG",
+"name": "Lipitor",
+"rxcui": "153165",
+"suppress": "N",
+"synonym": "",
+"tty": "BN",
+"umlscui": ""
+}
+},
+"/rxcui/153165/related.json?tty=IN+MIN": {
+"relatedGroup": {
+"conceptGroup": [
+{
+"conceptProperties": [
+{
+"language": "ENG",
+"name": "atorvastatin",
+"rxcui": "83367",
+"suppress": "N",
+"synonym": "",
+"tty": "IN",
+"umlscui": ""
+}
+],
+"tty": "IN"
+},
+{
+"tty": "MIN"
+}
+],
+"rxcui": null
+}
+},
+"/rxcui/153889/properties.json": {
+"properties": {
+"language": "ENG",
+"name": "Singulair",
+"rxcui": "153889",
+"suppress": "N",
+"synonym": "",
+"tty": "BN",
+"umlscui": ""
+}
+},
+"/rxcui/153889/related.json?tty=IN+MIN": {
+"relatedGroup": {
+"conceptGroup": [
+{
+"conceptProperties": [
+{
+"language": "ENG",
+"name": "montelukast",
+"rxcui": "88249",
+"suppress": "N",
+"synonym": "",
+"tty": "IN",
+"umlscui": ""
+}
+],
+"tty": "IN"
+},
+{
+"tty": "MIN"
+}
+],
+"rxcui": null
+}
+},
+"/rxcui/154987/properties.json": {
+"properties": {
+"language": "ENG",
+"name": "hydroxyzine hydrochloride",
+"rxcui": "154987",
+"suppress": "N",
+"synonym": "hydroxyzine dihydrochloride",
+"tty": "PIN",
+"umlscui": ""
+}
+},
+"/rxcui/154987/related.json?tty=IN+MIN": {
+"relatedGroup": {
+"conceptGroup": [
+{
+"conceptProperties": [
+{
+"language": "ENG",
+"name": "hydroxyzine",
+"rxcui": "5553",
+"suppress": "N",
+"synonym": "",
+"tty": "IN",
+"umlscui": ""
+}
+],
+"tty": "IN"
+},
+{
+"tty": "MIN"
+}
+],
+"rxcui": null
+}
+},
+"/rxcui/154990/properties.json": {
+"properties": {
+"language": "ENG",
+"name": "Buspar",
+"rxcui": "154990",
+"suppress": "N",
+"synonym": "",
+"tty": "BN",
+"umlscui": ""
+}
+},
+"/rxcui/154990/related.json?tty=IN+MIN": {
+"relatedGroup": {
+"conceptGroup": [
+{
+"conceptProperties": [
+{
+"language": "ENG",
+"name": "buspirone",
+"rxcui": "1827",
+"suppress": "N",
+"synonym": "",
+"tty": "IN",
+"umlscui": ""
+}
+],
+"tty": "IN"
+},
+{
+"tty": "MIN"
+}
+],
+"rxcui": null
+}
+},
+"/rxcui/1550958/properties.json": {
+"properties": {
+"language": "ENG",
+"name": "Aleve PM",
+"rxcui": "1550958",
+"suppress": "N",
+"synonym": "",
+"tty": "BN",
+"umlscui": ""
+}
+},
+"/rxcui/1550958/related.json?tty=IN+MIN": {
+"relatedGroup": {
+"conceptGroup": [
+{
+"conceptProperties": [
+{
+"language": "ENG",
+"name": "diphenhydramine",
+"rxcui": "3498",
+"suppress": "N",
+"synonym": "",
+"tty": "IN",
+"umlscui": ""
+},
+{
+"language": "ENG",
+"name": "naproxen",
+"rxcui": "7258",
+"suppress": "N",
+"synonym": "",
+"tty": "IN",
+"umlscui": ""
+}
+],
+"tty": "IN"
+},
+{
+"conceptProperties": [
+{
+"language": "ENG",
+"name": "diphenhydramine / naproxen",
+"rxcui": "1550956",
+"suppress": "N",
+"synonym": "",
+"tty": "MIN",
+"umlscui": ""
+}
+],
+"tty": "MIN"
+}
+],
+"rxcui": null
+}
+},
+"/rxcui/1595302/properties.json": {
+"properties": {
+"language": "ENG",
+"name": "Jet-Alert",
+"rxcui": "1595302",
+"suppress": "N",
+"synonym": "",
+"tty": "BN",
+"umlscui": ""
+}
+},
+"/rxcui/1595302/related.json?tty=IN+MIN": {
+"relatedGroup": {
+"conceptGroup": [
+{
+"conceptProperties": [
+{
+"language": "ENG",
+"name": "caffeine",
+"rxcui": "1886",
+"suppress": "N",
+"synonym": "",
+"tty": "IN",
+"umlscui": ""
+}
+],
+"tty": "IN"
+},
+{
+"tty": "MIN"
+}
+],
+"rxcui": null
+}
+},
+"/rxcui/15996/properties.json": {
+"properties": {
+"language": "ENG",
+"name": "mirtazapine",
+"rxcui": "15996",
+"suppress": "N",
+"synonym": "",
+"tty": "IN",
+"umlscui": ""
+}
+},
+"/rxcui/1666105/properties.json": {
+"properties": {
+"language": "ENG",
+"name": "Iris tenax extract",
+"rxcui": "1666105",
+"suppress": "N",
+"synonym": "",
+"tty": "IN",
+"umlscui": ""
+}
+},
+"/rxcui/1694/properties.json": {
+"properties": {
+"language": "ENG",
+"name": "Bonine",
+"rxcui": "1694",
+"suppress": "N",
+"synonym": "",
+"tty": "BN",
+"umlscui": ""
+}
+},
+"/rxcui/1694/related.json?tty=IN+MIN": {
+"relatedGroup": {
+"conceptGroup": [
+{
+"conceptProperties": [
+{
+"language": "ENG",
+"name": "meclizine",
+"rxcui": "6676",
+"suppress": "N",
+"synonym": "",
+"tty": "IN",
+"umlscui": ""
+}
+],
+"tty": "IN"
+},
+{
+"tty": "MIN"
+}
+],
+"rxcui": null
+}
+},
+"/rxcui/174742/properties.json": {
+"properties": {
+"language": "ENG",
+"name": "Plavix",
+"rxcui": "174742",
+"suppress": "N",
+"synonym": "",
+"tty": "BN",
+"umlscui": ""
+}
+},
+"/rxcui/174742/related.json?tty=IN+MIN": {
+"relatedGroup": {
+"conceptGroup": [
+{
+"conceptProperties": [
+{
+"language": "ENG",
+"name": "clopidogrel",
+"rxcui": "32968",
+"suppress": "N",
+"synonym": "",
+"tty": "IN",
+"umlscui": ""
+}
+],
+"tty": "IN"
+},
+{
+"tty": "MIN"
+}
+],
+"rxcui": null
+}
+},
+"/rxcui/175184/properties.json": {
+"properties": {
+"language": "ENG",
+"name": "Fioricet",
+"rxcui": "175184",
+"suppress": "N",
+"synonym": "",
+"tty": "BN",
+"umlscui": ""
+}
+},
+"/rxcui/175184/related.json?tty=IN+MIN": {
+"relatedGroup": {
+"conceptGroup": [
+{
+"conceptProperties": [
+{
+"language": "ENG",
+"name": "acetaminophen",
+"rxcui": "161",
+"suppress": "N",
+"synonym": "",
+"tty": "IN",
+"umlscui": ""
+},
+{
+"language": "ENG",
+"name": "caffeine",
+"rxcui": "1886",
+"suppress": "N",
+"synonym": "",
+"tty": "IN",
+"umlscui": ""
+},
+{
+"language": "ENG",
+"name": "butalbital",
+"rxcui": "19860",
+"suppress": "N",
+"synonym": "",
+"tty": "IN",
+"umlscui": ""
+}
+],
+"tty": "IN"
+},
+{
+"conceptProperties": [
+{
+"language": "ENG",
+"name": "acetaminophen / butalbital / caffeine",
+"rxcui": "214130",
+"suppress": "N",
+"synonym": "",
+"tty": "MIN",
+"umlscui": ""
+}
+],
+"tty": "MIN"
+}
+],
+"rxcui": null
+}
+},
+"/rxcui/17767/properties.json": {
+"properties": {
+"language": "ENG",
+"name": "amlodipine",
+"rxcui": "17767",
+"suppress": "N",
+"synonym": "",
+"tty": "IN",
+"umlscui": ""
+}
+},
+"/rxcui/1897/properties.json": {
+"properties": {
+"language": "ENG",
+"name": "calcium carbonate",
+"rxcui": "1897",
+"suppress": "N",
+"synonym": "calcite",
+"tty": "IN",
+"umlscui": ""
+}
+},
+"/rxcui/190283/properties.json": {
+"properties": {
+"language": "ENG",
+"name": "Flomax",
+"rxcui": "190283",
+"suppress": "N",
+"synonym": "",
+"tty": "BN",
+"umlscui": ""
+}
+},
+"/rxcui/190283/related.json?tty=IN+MIN": {
+"relatedGroup": {
+"conceptGroup": [
+{
+"conceptProperties": [
+{
+"language": "ENG",
+"name": "tamsulosin",
+"rxcui": "77492",
+"suppress": "N",
+"synonym": "",
+"tty": "IN",
+"umlscui": ""
+}
+],
+"tty": "IN"
+},
+{
+"tty": "MIN"
+}
+],
+"rxcui": null
+}
+},
+"/rxcui/196458/properties.json": {
+"properties": {
+"language": "ENG",
+"name": "Pepcid",
+"rxcui": "196458",
+"suppress": "N",
+"synonym": "",
+"tty": "BN",
+"umlscui": ""
+}
+},
+"/rxcui/196458/related.json?tty=IN+MIN": {
+"relatedGroup": {
+"conceptGroup": [
+{
+"conceptProperties": [
+{
+"language": "ENG",
+"name": "famotidine",
+"rxcui": "4278",
+"suppress": "N",
+"synonym": "",
+"tty": "IN",
+"umlscui": ""
+}
+],
+"tty": "IN"
+},
+{
+"tty": "MIN"
+}
+],
+"rxcui": null
+}
+},
+"/rxcui/196468/properties.json": {
+"properties": {
+"language": "ENG",
+"name": "Cardura",
+"rxcui": "196468",
+"suppress": "N",
+"synonym": "",
+"tty": "BN",
+"umlscui": ""
+}
+},
+"/rxcui/196468/related.json?tty=IN+MIN": {
+"relatedGroup": {
+"conceptGroup": [
+{
+"conceptProperties": [
+{
+"language": "ENG",
+"name": "doxazosin",
+"rxcui": "49276",
+"suppress": "N",
+"synonym": "",
+"tty": "IN",
+"umlscui": ""
+}
+],
+"tty": "IN"
+},
+{
+"tty": "MIN"
+}
+],
+"rxcui": null
+}
+},
+"/rxcui/196472/properties.json": {
+"properties": {
+"language": "ENG",
+"name": "Zestril",
+"rxcui": "196472",
+"suppress": "N",
+"synonym": "",
+"tty": "BN",
+"umlscui": ""
+}
+},
+"/rxcui/196472/related.json?tty=IN+MIN": {
+"relatedGroup": {
+"conceptGroup": [
+{
+"conceptProperties": [
+{
+"language": "ENG",
+"name": "lisinopril",
+"rxcui": "29046",
+"suppress": "N",
+"synonym": "",
+"tty": "IN",
+"umlscui": ""
+}
+],
+"tty": "IN"
+},
+{
+"tty": "MIN"
+}
+],
+"rxcui": null
+}
+},
+"/rxcui/196476/properties.json": {
+"properties": {
+"language": "ENG",
+"name": "Proscar",
+"rxcui": "196476",
+"suppress": "N",
+"synonym": "",
+"tty": "BN",
+"umlscui": ""
+}
+},
+"/rxcui/196476/related.json?tty=IN+MIN": {
+"relatedGroup": {
+"conceptGroup": [
+{
+"conceptProperties": [
+{
+"language": "ENG",
+"name": "finasteride",
+"rxcui": "25025",
+"suppress": "N",
+"synonym": "",
+"tty": "IN",
+"umlscui": ""
+}
+],
+"tty": "IN"
+},
+{
+"tty": "MIN"
+}
+],
+"rxcui": null
+}
+},
+"/rxcui/196498/properties.json": {
+"properties": {
+"language": "ENG",
+"name": "Neurontin",
+"rxcui": "196498",
+"suppress": "N",
+"synonym": "",
+"tty": "BN",
+"umlscui": ""
+}
+},
+"/rxcui/196498/related.json?tty=IN+MIN": {
+"relatedGroup": {
+"conceptGroup": [
+{
+"conceptProperties": [
+{
+"language": "ENG",
+"name": "gabapentin",
+"rxcui": "25480",
+"suppress": "N",
+"synonym": "",
+"tty": "IN",
+"umlscui": ""
+}
+],
+"tty": "IN"
+},
+{
+"tty": "MIN"
+}
+],
+"rxcui": null
+}
+},
+"/rxcui/196502/properties.json": {
+"properties": {
+"language": "ENG",
+"name": "Lamictal",
+"rxcui": "196502",
+"suppress": "N",
+"synonym": "",
+"tty": "BN",
+"umlscui": ""
+}
+},
+"/rxcui/196502/related.json?tty=IN+MIN": {
+"relatedGroup": {
+"conceptGroup": [
+{
+"conceptProperties": [
+{
+"language": "ENG",
+"name": "lamotrigine",
+"rxcui": "28439",
+"suppress": "N",
+"synonym": "",
+"tty": "IN",
+"umlscui": ""
+}
+],
+"tty": "IN"
+},
+{
+"tty": "MIN"
+}
+],
+"rxcui": null
+}
+},
+"/rxcui/196503/properties.json": {
+"properties": {
+"language": "ENG",
+"name": "Zocor",
+"rxcui": "196503",
+"suppress": "N",
+"synonym": "",
+"tty": "BN",
+"umlscui": ""
+}
+},
+"/rxcui/196503/related.json?tty=IN+MIN": {
+"relatedGroup": {
+"conceptGroup": [
+{
+"conceptProperties": [
+{
+"language": "ENG",
+"name": "simvastatin",
+"rxcui": "36567",
+"suppress": "N",
+"synonym": "",
+"tty": "IN",
+"umlscui": ""
+}
+],
+"tty": "IN"
+},
+{
+"tty": "MIN"
+}
+],
+"rxcui": null
+}
+},
+"/rxcui/197288/properties.json": {
+"properties": {
+"language": "ENG",
+"name": "Feldene",
+"rxcui": "197288",
+"suppress": "N",
+"synonym": "",
+"tty": "BN",
+"umlscui": ""
+}
+},
+"/rxcui/197288/related.json?tty=IN+MIN": {
+"relatedGroup": {
+"conceptGroup": [
+{
+"conceptProperties": [
+{
+"language": "ENG",
+"name": "piroxicam",
+"rxcui": "8356",
+"suppress": "N",
+"synonym": "",
+"tty": "IN",
+"umlscui": ""
+}
+],
+"tty": "IN"
+},
+{
+"tty": "MIN"
+}
+],
+"rxcui": null
+}
+},
+"/rxcui/202363/properties.json": {
+"properties": {
+"language": "ENG",
+"name": "Xanax",
+"rxcui": "202363",
+"suppress": "N",
+"synonym": "",
+"tty": "BN",
+"umlscui": ""
+}
+},
+"/rxcui/202363/related.json?tty=IN+MIN": {
+"relatedGroup": {
+"conceptGroup": [
+{
+"conceptProperties": [
+{
+"language": "ENG",
+"name": "alprazolam",
+"rxcui": "596",
+"suppress": "N",
+"synonym": "",
+"tty": "IN",
+"umlscui": ""
+}
+],
+"tty": "IN"
+},
+{
+"tty": "MIN"
+}
+],
+"rxcui": null
+}
+},
+"/rxcui/202384/properties.json": {
+"properties": {
+"language": "ENG",
+"name": "Chlor-Trimeton",
+"rxcui": "202384",
+"suppress": "N",
+"synonym": "",
+"tty": "BN",
+"umlscui": ""
+}
+},
+"/rxcui/202384/related.json?tty=IN+MIN": {
+"relatedGroup": {
+"conceptGroup": [
+{
+"conceptProperties": [
+{
+"language": "ENG",
+"name": "chlorpheniramine",
+"rxcui": "2400",
+"suppress": "N",
+"synonym": "",
+"tty": "IN",
+"umlscui": ""
+}
+],
+"tty": "IN"
+},
+{
+"tty": "MIN"
+}
+],
+"rxcui": null
+}
+},
+"/rxcui/202421/properties.json": {
+"properties": {
+"language": "ENG",
+"name": "Coumadin",
+"rxcui": "202421",
+"suppress": "N",
+"synonym": "",
+"tty": "BN",
+"umlscui": ""
+}
+},
+"/rxcui/202421/related.json?tty=IN+MIN": {
+"relatedGroup": {
+"conceptGroup": [
+{
+"conceptProperties": [
+{
+"language": "ENG",
+"name": "warfarin",
+"rxcui": "11289",
+"suppress": "N",
+"synonym": "",
+"tty": "IN",
+"umlscui": ""
+}
+],
+"tty": "IN"
+},
+{
+"tty": "MIN"
+}
+],
+"rxcui": null
+}
+},
+"/rxcui/202433/properties.json": {
+"properties": {
+"language": "ENG",
+"name": "Tylenol",
+"rxcui": "202433",
+"suppress": "N",
+"synonym": "",
+"tty": "BN",
+"umlscui": ""
+}
+},
+"/rxcui/202433/related.json?tty=IN+MIN": {
+"relatedGroup": {
+"conceptGroup": [
+{
+"conceptProperties": [
+{
+"language": "ENG",
+"name": "acetaminophen",
+"rxcui": "161",
+"suppress": "N",
+"synonym": "",
+"tty": "IN",
+"umlscui": ""
+}
+],
+"tty": "IN"
+},
+{
+"tty": "MIN"
+}
+],
+"rxcui": null
+}
+},
+"/rxcui/202472/properties.json": {
+"properties": {
+"language": "ENG",
+"name": "Valium",
+"rxcui": "202472",
+"suppress": "N",
+"synonym": "",
+"tty": "BN",
+"umlscui": ""
+}
+},
+"/rxcui/202472/related.json?tty=IN+MIN": {
+"relatedGroup": {
+"conceptGroup": [
+{
+"conceptProperties": [
+{
+"language": "ENG",
+"name": "diazepam",
+"rxcui": "3322",
+"suppress": "N",
+"synonym": "",
+"tty": "IN",
+"umlscui": ""
+}
+],
+"tty": "IN"
+},
+{
+"tty": "MIN"
+}
+],
+"rxcui": null
+}
+},
+"/rxcui/202479/properties.json": {
+"properties": {
+"language": "ENG",
+"name": "Ativan",
+"rxcui": "202479",
+"suppress": "N",
+"synonym": "",
+"tty": "BN",
+"umlscui": ""
+}
+},
+"/rxcui/202479/related.json?tty=IN+MIN": {
+"relatedGroup": {
+"conceptGroup": [
+{
+"conceptProperties": [
+{
+"language": "ENG",
+"name": "lorazepam",
+"rxcui": "6470",
+"suppress": "N",
+"synonym": "",
+"tty": "IN",
+"umlscui": ""
+}
+],
+"tty": "IN"
+},
+{
+"tty": "MIN"
+}
+],
+"rxcui": null
+}
+},
+"/rxcui/202488/properties.json": {
+"properties": {
+"language": "ENG",
+"name": "Motrin",
+"rxcui": "202488",
+"suppress": "N",
+"synonym": "",
+"tty": "BN",
+"umlscui": ""
+}
+},
+"/rxcui/202488/related.json?tty=IN+MIN": {
+"relatedGroup": {
+"conceptGroup": [
+{
+"conceptProperties": [
+{
+"language": "ENG",
+"name": "ibuprofen",
+"rxcui": "5640",
+"suppress": "N",
+"synonym": "",
+"tty": "IN",
+"umlscui": ""
+}
+],
+"tty": "IN"
+},
+{
+"tty": "MIN"
+}
+],
+"rxcui": null
+}
+},
+"/rxcui/202554/properties.json": {
+"properties": {
+"language": "ENG",
+"name": "Ecotrin",
+"rxcui": "202554",
+"suppress": "N",
+"synonym": "",
+"tty": "BN",
+"umlscui": ""
+}
+},
+"/rxcui/202554/related.json?tty=IN+MIN": {
+"relatedGroup": {
+"conceptGroup": [
+{
+"conceptProperties": [
+{
+"language": "ENG",
+"name": "aspirin",
+"rxcui": "1191",
+"suppress": "N",
+"synonym": "",
+"tty": "IN",
+"umlscui": ""
+}
+],
+"tty": "IN"
+},
+{
+"tty": "MIN"
+}
+],
+"rxcui": null
+}
+},
+"/rxcui/202585/properties.json": {
+"properties": {
+"language": "ENG",
+"name": "Klonopin",
+"rxcui": "202585",
+"suppress": "N",
+"synonym": "",
+"tty": "BN",
+"umlscui": ""
+}
+},
+"/rxcui/202585/related.json?tty=IN+MIN": {
+"relatedGroup": {
+"conceptGroup": [
+{
+"conceptProperties": [
+{
+"language": "ENG",
+"name": "clonazepam",
+"rxcui": "2598",
+"suppress": "N",
+"synonym": "",
+"tty": "IN",
+"umlscui": ""
+}
+],
+"tty": "IN"
+},
+{
+"tty": "MIN"
+}
+],
+"rxcui": null
+}
+},
+"/rxcui/202619/properties.json": {
+"properties": {
+"language": "ENG",
+"name": "Estrace",
+"rxcui": "202619",
+"suppress": "N",
+"synonym": "",
+"tty": "BN",
+"umlscui": ""
+}
+},
+"/rxcui/202619/related.json?tty=IN+MIN": {
+"relatedGroup": {
+"conceptGroup": [
+{
+"conceptProperties": [
+{
+"language": "ENG",
+"name": "estradiol",
+"rxcui": "4083",
+"suppress": "N",
+"synonym": "",
+"tty": "IN",
+"umlscui": ""
+}
+],
+"tty": "IN"
+},
+{
+"tty": "MIN"
+}
+],
+"rxcui": null
+}
+},
+"/rxcui/202740/properties.json": {
+"properties": {
+"language": "ENG",
+"name": "Dilantin",
+"rxcui": "202740",
+"suppress": "N",
+"synonym": "",
+"tty": "BN",
+"umlscui": ""
+}
+},
+"/rxcui/202740/related.json?tty=IN+MIN": {
+"relatedGroup": {
+"conceptGroup": [
+{
+"conceptProperties": [
+{
+"language": "ENG",
+"name": "phenytoin",
+"rxcui": "8183",
+"suppress": "N",
+"synonym": "",
+"tty": "IN",
+"umlscui": ""
+}
+],
+"tty": "IN"
+},
+{
+"tty": "MIN"
+}
+],
+"rxcui": null
+}
+},
+"/rxcui/202844/properties.json": {
+"properties": {
+"language": "ENG",
+"name": "Pred Forte",
+"rxcui": "202844",
+"suppress": "N",
+"synonym": "",
+"tty": "BN",
+"umlscui": ""
+}
+},
+"/rxcui/202844/related.json?tty=IN+MIN": {
+"relatedGroup": {
+"conceptGroup": [
+{
+"conceptProperties": [
+{
+"language": "ENG",
+"name": "prednisolone",
+"rxcui": "8638",
+"suppress": "N",
+"synonym": "",
+"tty": "IN",
+"umlscui": ""
+}
+],
+"tty": "IN"
+},
+{
+"tty": "MIN"
+}
+],
+"rxcui": null
+}
+},
+"/rxcui/202896/properties.json": {
+"properties": {
+"language": "ENG",
+"name": "Premarin",
+"rxcui": "202896",
+"suppress": "N",
+"synonym": "",
+"tty": "BN",
+"umlscui": ""
+}
+},
+"/rxcui/202896/related.json?tty=IN+MIN": {
+"relatedGroup": {
+"conceptGroup": [
+{
+"conceptProperties": [
+{
+"language": "ENG",
+"name": "estrogens, conjugated (USP)",
+"rxcui": "4099",
+"suppress": "N",
+"synonym": "conjugated estrogens",
+"tty": "IN",
+"umlscui": ""
+}
+],
+"tty": "IN"
+},
+{
+"tty": "MIN"
+}
+],
+"rxcui": null
+}
+},
+"/rxcui/202941/properties.json": {
+"properties": {
+"language": "ENG",
+"name": "Catapres",
+"rxcui": "202941",
+"suppress": "N",
+"synonym": "",
+"tty": "BN",
+"umlscui": ""
+}
+},
+"/rxcui/202941/related.json?tty=IN+MIN": {
+"relatedGroup": {
+"conceptGroup": [
+{
+"conceptProperties": [
+{
+"language": "ENG",
+"name": "clonidine",
+"rxcui": "2599",
+"suppress": "N",
+"synonym": "",
+"tty": "IN",
+"umlscui": ""
+}
+],
+"tty": "IN"
+},
+{
+"tty": "MIN"
+}
+],
+"rxcui": null
+}
+},
+"/rxcui/202955/properties.json": {
+"properties": {
+"language": "ENG",
+"name": "Robaxin",
+"rxcui": "202955",
+"suppress": "N",
+"synonym": "",
+"tty": "BN",
+"umlscui": ""
+}
+},
+"/rxcui/202955/related.json?tty=IN+MIN": {
+"relatedGroup": {
+"conceptGroup": [
+{
+"conceptProperties": [
+{
+"language": "ENG",
+"name": "methocarbamol",
+"rxcui": "6845",
+"suppress": "N",
+"synonym": "guaiphenesin carbamate",
+"tty": "IN",
+"umlscui": ""
+}
+],
+"tty": "IN"
+},
+{
+"tty": "MIN"
+}
+],
+"rxcui": null
+}
+},
+"/rxcui/202966/properties.json": {
+"properties": {
+"language": "ENG",
+"name": "Tranxene",
+"rxcui": "202966",
+"suppress": "N",
+"synonym": "",
+"tty": "BN",
+"umlscui": ""
+}
+},
+"/rxcui/202966/related.json?tty=IN+MIN": {
+"relatedGroup": {
+"conceptGroup": [
+{
+"conceptProperties": [
+{
+"language": "ENG",
+"name": "clorazepate",
+"rxcui": "2353",
+"suppress": "N",
+"synonym": "",
+"tty": "IN",
+"umlscui": ""
+}
+],
+"tty": "IN"
+},
+{
+"tty": "MIN"
+}
+],
+"rxcui": null
+}
+},
+"/rxcui/202976/properties.json": {
+"properties": {
+"language": "ENG",
+"name": "Voltaren",
+"rxcui": "202976",
+"suppress": "N",
+"synonym": "",
+"tty": "BN",
+"umlscui": ""
+}
+},
+"/rxcui/202976/related.json?tty=IN+MIN": {
+"relatedGroup": {
+"conceptGroup": [
+{
+"conceptProperties": [
+{
+"language": "ENG",
+"name": "diclofenac",
+"rxcui": "3355",
+"suppress": "N",
+"synonym": "",
+"tty": "IN",
+"umlscui": ""
+}
+],
+"tty": "IN"
+},
+{
+"tty": "MIN"
+}
+],
+"rxcui": null
+}
+},
+"/rxcui/202988/properties.json": {
+"properties": {
+"language": "ENG",
+"name": "Lanoxin",
+"rxcui": "202988",
+"suppress": "N",
+"synonym": "",
+"tty": "BN",
+"umlscui": ""
+}
+},
+"/rxcui/202988/related.json?tty=IN+MIN": {
+"relatedGroup": {
+"conceptGroup": [
+{
+"conceptProperties": [
+{
+"language": "ENG",
+"name": "digoxin",
+"rxcui": "3407",
+"suppress": "N",
+"synonym": "",
+"tty": "IN",
+"umlscui": ""
+}
+],
+"tty": "IN"
+},
+{
+"tty": "MIN"
+}
+],
+"rxcui": null
+}
+},
+"/rxcui/202991/properties.json": {
+"properties": {
+"language": "ENG",
+"name": "Lasix",
+"rxcui": "202991",
+"suppress": "N",
+"synonym": "",
+"tty": "BN",
+"umlscui": ""
+}
+},
+"/rxcui/202991/related.json?tty=IN+MIN": {
+"relatedGroup": {
+"conceptGroup": [
+{
+"conceptProperties": [
+{
+"language": "ENG",
+"name": "furosemide",
+"rxcui": "4603",
+"suppress": "N",
+"synonym": "",
+"tty": "IN",
+"umlscui": ""
+}
+],
+"tty": "IN"
+},
+{
+"tty": "MIN"
+}
+],
+"rxcui": null
+}
+},
+"/rxcui/202996/properties.json": {
+"properties": {
+"language": "ENG",
+"name": "Lioresal",
+"rxcui": "202996",
+"suppress": "N",
+"synonym": "",
+"tty": "BN",
+"umlscui": ""
+}
+},
+"/rxcui/202996/related.json?tty=IN+MIN": {
+"relatedGroup": {
+"conceptGroup": [
+{
+"conceptProperties": [
+{
+"language": "ENG",
+"name": "baclofen",
+"rxcui": "1292",
+"suppress": "N",
+"synonym": "",
+"tty": "IN",
+"umlscui": ""
+}
+],
+"tty": "IN"
+},
+{
+"tty": "MIN"
+}
+],
+"rxcui": null
+}
+},
+"/rxcui/202999/properties.json": {
+"properties": {
+"language": "ENG",
+"name": "Lopid",
+"rxcui": "202999",
+"suppress": "N",
+"synonym": "",
+"tty": "BN",
+"umlscui": ""
+}
+},
+"/rxcui/202999/related.json?tty=IN+MIN": {
+"relatedGroup": {
+"conceptGroup": [
+{
+"conceptProperties": [
+{
+"language": "ENG",
+"name": "gemfibrozil",
+"rxcui": "4719",
+"suppress": "N",
+"synonym": "",
+"tty": "IN",
+"umlscui": ""
+}
+],
+"tty": "IN"
+},
+{
+"tty": "MIN"
+}
+],
+"rxcui": null
+}
+},
+"/rxcui/203012/properties.json": {
+"properties": {
+"language": "ENG",
+"name": "Naprosyn",
+"rxcui": "203012",
+"suppress": "N",
+"synonym": "",
+"tty": "BN",
+"umlscui": ""
+}
+},
+"/rxcui/203012/related.json?tty=IN+MIN": {
+"relatedGroup": {
+"conceptGroup": [
+{
+"conceptProperties": [
+{
+"language": "ENG",
+"name": "naproxen",
+"rxcui": "7258",
+"suppress": "N",
+"synonym": "",
+"tty": "IN",
+"umlscui": ""
+}
+],
+"tty": "IN"
+},
+{
+"tty": "MIN"
+}
+],
+"rxcui": null
+}
+},
+"/rxcui/203018/properties.json": {
+"properties": {
+"language": "ENG",
+"name": "Bentyl",
+"rxcui": "203018",
+"suppress": "N",
+"synonym": "",
+"tty": "BN",
+"umlscui": ""
+}
+},
+"/rxcui/203018/related.json?tty=IN+MIN": {
+"relatedGroup": {
+"conceptGroup": [
+{
+"conceptProperties": [
+{
+"language": "ENG",
+"name": "dicyclomine",
+"rxcui": "3361",
+"suppress": "N",
+"synonym": "dicycloverine",
+"tty": "IN",
+"umlscui": ""
+}
+],
+"tty": "IN"
+},
+{
+"tty": "MIN"
+}
+],
+"rxcui": null
+}
+},
+"/rxcui/203029/properties.json": {
+"properties": {
+"language": "ENG",
+"name": "Tegretol",
+"rxcui": "203029",
+"suppress": "N",
+"synonym": "",
+"tty": "BN",
+"umlscui": ""
+}
+},
+"/rxcui/203029/related.json?tty=IN+MIN": {
+"relatedGroup": {
+"conceptGroup": [
+{
+"conceptProperties": [
+{
+"language": "ENG",
+"name": "carbamazepine",
+"rxcui": "2002",
+"suppress": "N",
+"synonym": "",
+"tty": "IN",
+"umlscui": ""
+}
+],
+"tty": "IN"
+},
+{
+"tty": "MIN"
+}
+],
+"rxcui": null
+}
+},
+"/rxcui/203054/properties.json": {
+"properties": {
+"language": "ENG",
+"name": "Macrodantin",
+"rxcui": "203054",
+"suppress": "N",
+"synonym": "",
+"tty": "BN",
+"umlscui": ""
+}
+},
+"/rxcui/203054/related.json?tty=IN+MIN": {
+"relatedGroup": {
+"conceptGroup": [
+{
+"conceptProperties": [
+{
+"language": "ENG",
+"name": "nitrofurantoin",
+"rxcui": "7454",
+"suppress": "N",
+"synonym": "",
+"tty": "IN",
+"umlscui": ""
+}
+],
+"tty": "IN"
+},
+{
+"tty": "MIN"
+}
+],
+"rxcui": null
+}
+},
+"/rxcui/203191/properties.json": {
+"properties": {
+"language": "ENG",
+"name": "metoprolol tartrate",
+"rxcui": "203191",
+"suppress": "N",
+"synonym": "",
+"tty": "PIN",
+"umlscui": ""
+}
+},
+"/rxcui/203191/related.json?tty=IN+MIN": {
+"relatedGroup": {
+"conceptGroup": [
+{
+"conceptProperties": [
+{
+"language": "ENG",
+"name": "metoprolol",
+"rxcui": "6918",
+"suppress": "N",
+"synonym": "",
+"tty": "IN",
+"umlscui": ""
+}
+],
+"tty": "IN"
+},
+{
+"conceptProperties": [
+{
+"language": "ENG",
+"name": "hydrochlorothiazide / metoprolol",
+"rxcui": "214621",
+"suppress": "N",
+"synonym": "",
+"tty": "MIN",
+"umlscui": ""
+}
+],
+"tty": "MIN"
+}
+],
+"rxcui": null
+}
+},
+"/rxcui/203321/properties.json": {
+"properties": {
+"language": "ENG",
+"name": "Lithobid",
+"rxcui": "203321",
+"suppress": "N",
+"synonym": "",
+"tty": "BN",
+"umlscui": ""
+}
+},
+"/rxcui/203321/related.json?tty=IN+MIN": {
+"relatedGroup": {
+"conceptGroup": [
+{
+"conceptProperties": [
+{
+"language": "ENG",
+"name": "lithium carbonate",
+"rxcui": "42351",
+"suppress": "N",
+"synonym": "",
+"tty": "IN",
+"umlscui": ""
+}
+],
+"tty": "IN"
+},
+{
+"tty": "MIN"
+}
+],
+"rxcui": null
+}
+},
+"/rxcui/203333/properties.json": {
+"properties": {
+"language": "ENG",
+"name": "Pravachol",
+"rxcui": "203333",
+"suppress": "N",
+"synonym": "",
+"tty": "BN",
+"umlscui": ""
+}
+},
+"/rxcui/203333/related.json?tty=IN+MIN": {
+"relatedGroup": {
+"conceptGroup": [
+{
+"conceptProperties": [
+{
+"language": "ENG",
+"name": "pravastatin",
+"rxcui": "42463",
+"suppress": "N",
+"synonym": "",
+"tty": "IN",
+"umlscui": ""
+}
+],
+"tty": "IN"
+},
+{
+"tty": "MIN"
+}
+],
+"rxcui": null
+}
+},
+"/rxcui/203344/properties.json": {
+"properties": {
+"language": "ENG",
+"name": "Lopressor",
+"rxcui": "203344",
+"suppress": "N",
+"synonym": "",
+"tty": "BN",
+"umlscui": ""
+}
+},
+"/rxcui/203344/related.json?tty=IN+MIN": {
+"relatedGroup": {
+"conceptGroup": [
+{
+"conceptProperties": [
+{
+"language": "ENG",
+"name": "metoprolol",
+"rxcui": "6918",
+"suppress": "N",
+"synonym": "",
+"tty": "IN",
+"umlscui": ""
+}
+],
+"tty": "IN"
+},
+{
+"tty": "MIN"
+}
+],
+"rxcui": null
+}
+},
+"/rxcui/203345/properties.json": {
+"properties": {
+"language": "ENG",
+"name": "Prilosec",
+"rxcui": "203345",
+"suppress": "N",
+"synonym": "",
+"tty": "BN",
+"umlscui": ""
+}
+},
+"/rxcui/203345/related.json?tty=IN+MIN": {
+"relatedGroup": {
+"conceptGroup": [
+{
+"conceptProperties": [
+{
+"language": "ENG",
+"name": "omeprazole",
+"rxcui": "7646",
+"suppress": "N",
+"synonym": "",
+"tty": "IN",
+"umlscui": ""
+}
+],
+"tty": "IN"
+},
+{
+"tty": "MIN"
+}
+],
+"rxcui": null
+}
+},
+"/rxcui/203365/properties.json": {
+"properties": {
+"language": "ENG",
+"name": "Indocin",
+"rxcui": "203365",
+"suppress": "N",
+"synonym": "",
+"tty": "BN",
+"umlscui": ""
+}
+},
+"/rxcui/203365/related.json?tty=IN+MIN": {
+"relatedGroup": {
+"conceptGroup": [
+{
+"conceptProperties": [
+{
+"language": "ENG",
+"name": "indomethacin",
+"rxcui": "5781",
+"suppress": "N",
+"synonym": "indometacin",
+"tty": "IN",
+"umlscui": ""
+}
+],
+"tty": "IN"
+},
+{
+"tty": "MIN"
+}
+],
+"rxcui": null
+}
+},
+"/rxcui/203423/properties.json": {
+"properties": {
+"language": "ENG",
+"name": "Procardia",
+"rxcui": "203423",
+"suppress": "N",
+"synonym": "",
+"tty": "BN",
+"umlscui": ""
+}
+},
+"/rxcui/203423/related.json?tty=IN+MIN": {
+"relatedGroup": {
+"conceptGroup": [
+{
+"conceptProperties": [
+{
+"language": "ENG",
+"name": "nifedipine",
+"rxcui": "7417",
+"suppress": "N",
+"synonym": "",
+"tty": "IN",
+"umlscui": ""
+}
+],
+"tty": "IN"
+},
+{
+"tty": "MIN"
+}
+],
+"rxcui": null
+}
+},
+"/rxcui/203457/properties.json": {
+"properties": {
+"language": "ENG",
+"name": "Benadryl",
+"rxcui": "203457",
+"suppress": "N",
+"synonym": "",
+"tty": "BN",
+"umlscui": ""
+}
+},
+"/rxcui/203457/related.json?tty=IN+MIN": {
+"relatedGroup": {
+"conceptGroup": [
+{
+"conceptProperties": [
+{
+"language": "ENG",
+"name": "diphenhydramine",
+"rxcui": "3498",
+"suppress": "N",
+"synonym": "",
+"tty": "IN",
+"umlscui": ""
+}
+],
+"tty": "IN"
+},
+{
+"tty": "MIN"
+}
+],
+"rxcui": null
+}
+},
+"/rxcui/20352/properties.json": {
+"properties": {
+"language": "ENG",
+"name": "carvedilol",
+"rxcui": "20352",
+"suppress": "N",
+"synonym": "",
+"tty": "IN",
+"umlscui": ""
+}
+},
+"/rxcui/203546/properties.json": {
+"properties": {
+"language": "ENG",
+"name": "Compazine",
+"rxcui": "203546",
+"suppress": "N",
+"synonym": "",
+"tty": "BN",
+"umlscui": ""
+}
+},
+"/rxcui/203546/related.json?tty=IN+MIN": {
+"relatedGroup": {
+"conceptGroup": [
+{
+"conceptProperties": [
+{
+"language": "ENG",
+"name": "prochlorperazine",
+"rxcui": "8704",
+"suppress": "N",
+"synonym": "",
+"tty": "IN",
+"umlscui": ""
+}
+],
+"tty": "IN"
+},
+{
+"tty": "MIN"
+}
+],
+"rxcui": null
+}
+},
+"/rxcui/203563/properties.json": {
+"properties": {
+"language": "ENG",
+"name": "Cipro",
+"rxcui": "203563",
+"suppress": "N",
+"synonym": "",
+"tty": "BN",
+"umlscui": ""
+}
+},
+"/rxcui/203563/related.json?tty=IN+MIN": {
+"relatedGroup": {
+"conceptGroup": [
+{
+"conceptProperties": [
+{
+"language": "ENG",
+"name": "ciprofloxacin",
+"rxcui": "2551",
+"suppress": "N",
+"synonym": "",
+"tty": "IN",
+"umlscui": ""
+}
+],
+"tty": "IN"
+},
+{
+"tty": "MIN"
+}
+],
+"rxcui": null
+}
+},
+"/rxcui/203576/properties.json": {
+"properties": {
+"language": "ENG",
+"name": "Claritin",
+"rxcui": "203576",
+"suppress": "N",
+"synonym": "",
+"tty": "BN",
+"umlscui": ""
+}
+},
+"/rxcui/203576/related.json?tty=IN+MIN": {
+"relatedGroup": {
+"conceptGroup": [
+{
+"conceptProperties": [
+{
+"language": "ENG",
+"name": "loratadine",
+"rxcui": "28889",
+"suppress": "N",
+"synonym": "",
+"tty": "IN",
+"umlscui": ""
+}
+],
+"tty": "IN"
+},
+{
+"tty": "MIN"
+}
+],
+"rxcui": null
+}
+},
+"/rxcui/203600/properties.json": {
+"properties": {
+"language": "ENG",
+"name": "Zyloprim",
+"rxcui": "203600",
+"suppress": "N",
+"synonym": "",
+"tty": "BN",
+"umlscui": ""
+}
+},
+"/rxcui/203600/related.json?tty=IN+MIN": {
+"relatedGroup": {
+"conceptGroup": [
+{
+"conceptProperties": [
+{
+"language": "ENG",
+"name": "allopurinol",
+"rxcui": "519",
+"suppress": "N",
+"synonym": "",
+"tty": "IN",
+"umlscui": ""
+}
+],
+"tty": "IN"
+},
+{
+"tty": "MIN"
+}
+],
+"rxcui": null
+}
+},
+"/rxcui/203644/properties.json": {
+"properties": {
+"language": "ENG",
+"name": "Prinivil",
+"rxcui": "203644",
+"suppress": "N",
+"synonym": "",
+"tty": "BN",
+"umlscui": ""
+}
+},
+"/rxcui/203644/related.json?tty=IN+MIN": {
+"relatedGroup": {
+"conceptGroup": [
+{
+"conceptProperties": [
+{
+"language": "ENG",
+"name": "lisinopril",
+"rxcui": "29046",
+"suppress": "N",
+"synonym": "",
+"tty": "IN",
+"umlscui": ""
+}
+],
+"tty": "IN"
+},
+{
+"tty": "MIN"
+}
+],
+"rxcui": null
+}
+},
+"/rxcui/203658/properties.json": {
+"properties": {
+"language": "ENG",
+"name": "DDAVP",
+"rxcui": "203658",
+"suppress": "N",
+"synonym": "",
+"tty": "BN",
+"umlscui": ""
+}
+},
+"/rxcui/203658/related.json?tty=IN+MIN": {
+"relatedGroup": {
+"conceptGroup": [
+{
+"conceptProperties": [
+{
+"language": "ENG",
+"name": "desmopressin",
+"rxcui": "3251",
+"suppress": "N",
+"synonym": "",
+"tty": "IN",
+"umlscui": ""
+}
+],
+"tty": "IN"
+},
+{
+"tty": "MIN"
+}
+],
+"rxcui": null
+}
+},
+"/rxcui/203680/properties.json": {
+"properties": {
+"language": "ENG",
+"name": "Glucotrol",
+"rxcui": "203680",
+"suppress": "N",
+"synonym": "",
+"tty": "BN",
+"umlscui": ""
+}
+},
+"/rxcui/203680/related.json?tty=IN+MIN": {
+"relatedGroup": {
+"conceptGroup": [
+{
+"conceptProperties": [
+{
+"language": "ENG",
+"name": "glipizide",
+"rxcui": "4821",
+"suppress": "N",
+"synonym": "",
+"tty": "IN",
+"umlscui": ""
+}
+],
+"tty": "IN"
+},
+{
+"tty": "MIN"
+}
+],
+"rxcui": null
+}
+},
+"/rxcui/203771/properties.json": {
+"properties": {
+"language": "ENG",
+"name": "Norpramin",
+"rxcui": "203771",
+"suppress": "N",
+"synonym": "",
+"tty": "BN",
+"umlscui": ""
+}
+},
+"/rxcui/203771/related.json?tty=IN+MIN": {
+"relatedGroup": {
+"conceptGroup": [
+{
+"conceptProperties": [
+{
+"language": "ENG",
+"name": "desipramine",
+"rxcui": "3247",
+"suppress": "N",
+"synonym": "",
+"tty": "IN",
+"umlscui": ""
+}
+],
+"tty": "IN"
+},
+{
+"tty": "MIN"
+}
+],
+"rxcui": null
+}
+},
+"/rxcui/204315/properties.json": {
+"properties": {
+"language": "ENG",
+"name": "Skelaxin",
+"rxcui": "204315",
+"suppress": "N",
+"synonym": "",
+"tty": "BN",
+"umlscui": ""
+}
+},
+"/rxcui/204315/related.json?tty=IN+MIN": {
+"relatedGroup": {
+"conceptGroup": [
+{
+"conceptProperties": [
+{
+"language": "ENG",
+"name": "metaxalone",
+"rxcui": "59078",
+"suppress": "N",
+"synonym": "",
+"tty": "IN",
+"umlscui": ""
+}
+],
+"tty": "IN"
+},
+{
+"tty": "MIN"
+}
+],
+"rxcui": null
+}
+},
+"/rxcui/204362/properties.json": {
+"properties": {
+"language": "ENG",
+"name": "Soma",
+"rxcui": "204362",
+"suppress": "N",
+"synonym": "",
+"tty": "BN",
+"umlscui": ""
+}
+},
+"/rxcui/204362/related.json?tty=IN+MIN": {
+"relatedGroup": {
+"conceptGroup": [
+{
+"conceptProperties": [
+{
+"language": "ENG",
+"name": "carisoprodol",
+"rxcui": "2101",
+"suppress": "N",
+"synonym": "",
+"tty": "IN",
+"umlscui": ""
+}
+],
+"tty": "IN"
+},
+{
+"tty": "MIN"
+}
+],
+"rxcui": null
+}
+},
+"/rxcui/2058475/properties.json": {
+"properties": {
+"language": "ENG",
+"name": "milbemycin oxime 2.3 MG / praziquantel 22.8 MG Chewable Tablet",
+"rxcui": "2058475",
+"suppress": "N",
+"synonym": "",
+"tty": "SCD",
+"umlscui": ""
+}
+},
+"/rxcui/2058475/related.json?tty=IN+MIN": {
+"relatedGroup": {
+"conceptGroup": [
+{
+"conceptProperties": [
+{
+"language": "ENG",
+"name": "milbemycin oxime",
+"rxcui": "68730",
+"suppress": "N",
+"synonym": "",
+"tty": "IN",
+"umlscui": ""
+},
+{
+"language": "ENG",
+"name": "praziquantel",
+"rxcui": "8628",
+"suppress": "N",
+"synonym": "",
+"tty": "IN",
+"umlscui": ""
+}
+],
+"tty": "IN"
+},
+{
+"conceptProperties": [
+{
+"language": "ENG",
+"name": "milbemycin oxime / praziquantel",
+"rxcui": "2058474",
+"suppress": "N",
+"synonym": "",
+"tty": "MIN",
+"umlscui": ""
+}
+],
+"tty": "MIN"
+}
+],
+"rxcui": null
+}
+},
+"/rxcui/20610/properties.json": {
+"properties": {
+"language": "ENG",
+"name": "cetirizine",
+"rxcui": "20610",
+"suppress": "N",
+"synonym": "",
+"tty": "IN",
+"umlscui": ""
+}
+},
+"/rxcui/214182/properties.json": {
+"properties": {
+"language": "ENG",
+"name": "acetaminophen / hydrocodone",
+"rxcui": "214182",
+"suppress": "N",
+"synonym": "",
+"tty": "MIN",
+"umlscui": ""
+}
+},
+"/rxcui/214182/related.json?tty=IN+MIN": {
+"relatedGroup": {
+"conceptGroup": [
+{
+"conceptProperties": [
+{
+"language": "ENG",
+"name": "acetaminophen",
+"rxcui": "161",
+"suppress": "N",
+"synonym": "",
+"tty": "IN",
+"umlscui": ""
+},
+{
+"language": "ENG",
+"name": "hydrocodone",
+"rxcui": "5489",
+"suppress": "N",
+"synonym": "",
+"tty": "IN",
+"umlscui": ""
+}
+],
+"tty": "IN"
+},
+{
+"conceptProperties": [
+{
+"language": "ENG",
+"name": "acetaminophen / hydrocodone",
+"rxcui": "214182",
+"suppress": "N",
+"synonym": "",
+"tty": "MIN",
+"umlscui": ""
+}
+],
+"tty": "MIN"
+}
+],
+"rxcui": null
+}
+},
+"/rxcui/215101/properties.json": {
+"properties": {
+"language": "ENG",
+"name": "Aleve",
+"rxcui": "215101",
+"suppress": "N",
+"synonym": "",
+"tty": "BN",
+"umlscui": ""
+}
+},
+"/rxcui/215101/related.json?tty=IN+MIN": {
+"relatedGroup": {
+"conceptGroup": [
+{
+"conceptProperties": [
+{
+"language": "ENG",
+"name": "naproxen",
+"rxcui": "7258",
+"suppress": "N",
+"synonym": "",
+"tty": "IN",
+"umlscui": ""
+}
+],
+"tty": "IN"
+},
+{
+"tty": "MIN"
+}
+],
+"rxcui": null
+}
+},
+"/rxcui/215407/properties.json": {
+"properties": {
+"language": "ENG",
+"name": "Armour Thyroid",
+"rxcui": "215407",
+"suppress": "N",
+"synonym": "",
+"tty": "BN",
+"umlscui": ""
+}
+},
+"/rxcui/215407/related.json?tty=IN+MIN": {
+"relatedGroup": {
+"conceptGroup": [
+{
+"conceptProperties": [
+{
+"language": "ENG",
+"name": "thyroid (USP)",
+"rxcui": "10572",
+"suppress": "N",
+"synonym": "",
+"tty": "IN",
+"umlscui": ""
+}
+],
+"tty": "IN"
+},
+{
+"tty": "MIN"
+}
+],
+"rxcui": null
+}
+},
+"/rxcui/215568/properties.json": {
+"properties": {
+"language": "ENG",
+"name": "Bayer Aspirin",
+"rxcui": "215568",
+"suppress": "N",
+"synonym": "",
+"tty": "BN",
+"umlscui": ""
+}
+},
+"/rxcui/215568/related.json?tty=IN+MIN": {
+"relatedGroup": {
+"conceptGroup": [
+{
+"conceptProperties": [
+{
+"language": "ENG",
+"name": "aspirin",
+"rxcui": "1191",
+"suppress": "N",
+"synonym": "",
+"tty": "IN",
+"umlscui": ""
+}
+],
+"tty": "IN"
+},
+{
+"tty": "MIN"
+}
+],
+"rxcui": null
+}
+},
+"/rxcui/215927/properties.json": {
+"properties": {
+"language": "ENG",
+"name": "Celebrex",
+"rxcui": "215927",
+"suppress": "N",
+"synonym": "",
+"tty": "BN",
+"umlscui": ""
+}
+},
+"/rxcui/215927/related.json?tty=IN+MIN": {
+"relatedGroup": {
+"conceptGroup": [
+{
+"conceptProperties": [
+{
+"language": "ENG",
+"name": "celecoxib",
+"rxcui": "140587",
+"suppress": "N",
+"synonym": "",
+"tty": "IN",
+"umlscui": ""
+}
+],
+"tty": "IN"
+},
+{
+"tty": "MIN"
+}
+],
+"rxcui": null
+}
+},
+"/rxcui/215928/properties.json": {
+"properties": {
+"language": "ENG",
+"name": "Celexa",
+"rxcui": "215928",
+"suppress": "N",
+"synonym": "",
+"tty": "BN",
+"umlscui": ""
+}
+},
+"/rxcui/215928/related.json?tty=IN+MIN": {
+"relatedGroup": {
+"conceptGroup": [
+{
+"conceptProperties": [
+{
+"language": "ENG",
+"name": "citalopram",
+"rxcui": "2556",
+"suppress": "N",
+"synonym": "",
+"tty": "IN",
+"umlscui": ""
+}
+],
+"tty": "IN"
+},
+{
+"tty": "MIN"
+}
+],
+"rxcui": null
+}
+},
+"/rxcui/216102/properties.json": {
+"properties": {
+"language": "ENG",
+"name": "Clozaril",
+"rxcui": "216102",
+"suppress": "N",
+"synonym": "",
+"tty": "BN",
+"umlscui": ""
+}
+},
+"/rxcui/216102/related.json?tty=IN+MIN": {
+"relatedGroup": {
+"conceptGroup": [
+{
+"conceptProperties": [
+{
+"language": "ENG",
+"name": "clozapine",
+"rxcui": "2626",
+"suppress": "N",
+"synonym": "",
+"tty": "IN",
+"umlscui": ""
+}
+],
+"tty": "IN"
+},
+{
+"tty": "MIN"
+}
+],
+"rxcui": null
+}
+},
+"/rxcui/216221/properties.json": {
+"properties": {
+"language": "ENG",
+"name": "Coreg",
+"rxcui": "216221",
+"suppress": "N",
+"synonym": "",
+"tty": "BN",
+"umlscui": ""
+}
+},
+"/rxcui/216221/related.json?tty=IN+MIN": {
+"relatedGroup": {
+"conceptGroup": [
+{
+"conceptProperties": [
+{
+"language": "ENG",
+"name": "carvedilol",
+"rxcui": "20352",
+"suppress": "N",
+"synonym": "",
+"tty": "IN",
+"umlscui": ""
+}
+],
+"tty": "IN"
+},
+{
+"tty": "MIN"
+}
+],
+"rxcui": null
+}
+},
+"/rxcui/216459/properties.json": {
+"properties": {
+"language": "ENG",
+"name": "Depakote",
+"rxcui": "216459",
+"suppress": "N",
+"synonym": "",
+"tty": "BN",
+"umlscui": ""
+}
+},
+"/rxcui/216459/related.json?tty=IN+MIN": {
+"relatedGroup": {
+"conceptGroup": [
+{
+"conceptProperties": [
+{
+"language": "ENG",
+"name": "valproate",
+"rxcui": "40254",
+"suppress": "N",
+"synonym": "",
+"tty": "IN",
+"umlscui": ""
+}
+],
+"tty": "IN"
+},
+{
+"tty": "MIN"
+}
+],
+"rxcui": null
+}
+},
+"/rxcui/216511/properties.json": {
+"properties": {
+"language": "ENG",
+"name": "Detrol",
+"rxcui": "216511",
+"suppress": "N",
+"synonym": "",
+"tty": "BN",
+"umlscui": ""
+}
+},
+"/rxcui/216511/related.json?tty=IN+MIN": {
+"relatedGroup": {
+"conceptGroup": [
+{
+"conceptProperties": [
+{
+"language": "ENG",
+"name": "tolterodine",
+"rxcui": "119565",
+"suppress": "N",
+"synonym": "",
+"tty": "IN",
+"umlscui": ""
+}
+],
+"tty": "IN"
+},
+{
+"tty": "MIN"
+}
+],
+"rxcui": null
+}
+},
+"/rxcui/216652/properties.json": {
+"properties": {
+"language": "ENG",
+"name": "Diovan",
+"rxcui": "216652",
+"suppress": "N",
+"synonym": "",
+"tty": "BN",
+"umlscui": ""
+}
+},
+"/rxcui/216652/related.json?tty=IN+MIN": {
+"relatedGroup": {
+"conceptGroup": [
+{
+"conceptProperties": [
+{
+"language": "ENG",
+"name": "valsartan",
+"rxcui": "69749",
+"suppress": "N",
+"synonym": "",
+"tty": "IN",
+"umlscui": ""
+}
+],
+"tty": "IN"
+},
+{
+"tty": "MIN"
+}
+],
+"rxcui": null
+}
+},
+"/rxcui/217025/properties.json": {
+"properties": {
+"language": "ENG",
+"name": "Excedrin PM",
+"rxcui": "217025",
+"suppress": "N",
+"synonym": "",
+"tty": "BN",
+"umlscui": ""
+}
+},
+"/rxcui/217025/related.json?tty=IN+MIN": {
+"relatedGroup": {
+"conceptGroup": [
+{
+"conceptProperties": [
+{
+"language": "ENG",
+"name": "acetaminophen",
+"rxcui": "161",
+"suppress": "N",
+"synonym": "",
+"tty": "IN",
+"umlscui": ""
+},
+{
+"language": "ENG",
+"name": "diphenhydramine",
+"rxcui": "3498",
+"suppress": "N",
+"synonym": "",
+"tty": "IN",
+"umlscui": ""
+}
+],
+"tty": "IN"
+},
+{
+"conceptProperties": [
+{
+"language": "ENG",
+"name": "acetaminophen / diphenhydramine",
+"rxcui": "214181",
+"suppress": "N",
+"synonym": "",
+"tty": "MIN",
+"umlscui": ""
+}
+],
+"tty": "MIN"
+}
+],
+"rxcui": null
+}
+},
+"/rxcui/217681/properties.json": {
+"properties": {
+"language": "ENG",
+"name": "Hyzaar",
+"rxcui": "217681",
+"suppress": "N",
+"synonym": "",
+"tty": "BN",
+"umlscui": ""
+}
+},
+"/rxcui/217681/related.json?tty=IN+MIN": {
+"relatedGroup": {
+"conceptGroup": [
+{
+"conceptProperties": [
+{
+"language": "ENG",
+"name": "losartan",
+"rxcui": "52175",
+"suppress": "N",
+"synonym": "",
+"tty": "IN",
+"umlscui": ""
+},
+{
+"language": "ENG",
+"name": "hydrochlorothiazide",
+"rxcui": "5487",
+"suppress": "N",
+"synonym": "",
+"tty": "IN",
+"umlscui": ""
+}
+],
+"tty": "IN"
+},
+{
+"conceptProperties": [
+{
+"language": "ENG",
+"name": "hydrochlorothiazide / losartan",
+"rxcui": "214619",
+"suppress": "N",
+"synonym": "",
+"tty": "MIN",
+"umlscui": ""
+}
+],
+"tty": "MIN"
+}
+],
+"rxcui": null
+}
+},
+"/rxcui/217713/properties.json": {
+"properties": {
+"language": "ENG",
+"name": "Imitrex",
+"rxcui": "217713",
+"suppress": "N",
+"synonym": "",
+"tty": "BN",
+"umlscui": ""
+}
+},
+"/rxcui/217713/related.json?tty=IN+MIN": {
+"relatedGroup": {
+"conceptGroup": [
+{
+"conceptProperties": [
+{
+"language": "ENG",
+"name": "sumatriptan",
+"rxcui": "37418",
+"suppress": "N",
+"synonym": "",
+"tty": "IN",
+"umlscui": ""
+}
+],
+"tty": "IN"
+},
+{
+"tty": "MIN"
+}
+],
+"rxcui": null
+}
+},
+"/rxcui/217905/properties.json": {
+"properties": {
+"language": "ENG",
+"name": "Klor-Con",
+"rxcui": "217905",
+"suppress": "N",
+"synonym": "",
+"tty": "BN",
+"umlscui": ""
+}
+},
+"/rxcui/217905/related.json?tty=IN+MIN": {
+"relatedGroup": {
+"conceptGroup": [
+{
+"conceptProperties": [
+{
+"language": "ENG",
+"name": "potassium chloride",
+"rxcui": "8591",
+"suppress": "N",
+"synonym": "",
+"tty": "IN",
+"umlscui": ""
+}
+],
+"tty": "IN"
+},
+{
+"tty": "MIN"
+}
+],
+"rxcui": null
+}
+},
+"/rxcui/218002/properties.json": {
+"properties": {
+"language": "ENG",
+"name": "Levoxyl",
+"rxcui": "218002",
+"suppress": "N",
+"synonym": "",
+"tty": "BN",
+"umlscui": ""
+}
+},
+"/rxcui/218002/related.json?tty=IN+MIN": {
+"relatedGroup": {
+"conceptGroup": [
+{
+"conceptProperties": [
+{
+"language": "ENG",
+"name": "levothyroxine",
+"rxcui": "10582",
+"suppress": "N",
+"synonym": "",
+"tty": "IN",
+"umlscui": ""
+}
+],
+"tty": "IN"
+},
+{
+"tty": "MIN"
+}
+],
+"rxcui": null
+}
+},
+"/rxcui/218003/properties.json": {
+"properties": {
+"language": "ENG",
+"name": "Levsin",
+"rxcui": "218003",
+"suppress": "N",
+"synonym": "",
+"tty": "BN",
+"umlscui": ""
+}
+},
+"/rxcui/218003/related.json?tty=IN+MIN": {
+"relatedGroup": {
+"conceptGroup": [
+{
+"conceptProperties": [
+{
+"language": "ENG",
+"name": "hyoscyamine",
+"rxcui": "153970",
+"suppress": "N",
+"synonym": "",
+"tty": "IN",
+"umlscui": ""
+}
+],
+"tty": "IN"
+},
+{
+"tty": "MIN"
+}
+],
+"rxcui": null
+}
+},
+"/rxcui/218402/properties.json": {
+"properties": {
+"language": "ENG",
+"name": "Mirapex",
+"rxcui": "218402",
+"suppress": "N",
+"synonym": "",
+"tty": "BN",
+"umlscui": ""
+}
+},
+"/rxcui/218402/related.json?tty=IN+MIN": {
+"relatedGroup": {
+"conceptGroup": [
+{
+"conceptProperties": [
+{
+"language": "ENG",
+"name": "pramipexole",
+"rxcui": "746741",
+"suppress": "N",
+"synonym": "",
+"tty": "IN",
+"umlscui": ""
+}
+],
+"tty": "IN"
+},
+{
+"tty": "MIN"
+}
+],
+"rxcui": null
+}
+},
+"/rxcui/218772/properties.json": {
+"properties": {
+"language": "ENG",
+"name": "Norco",
+"rxcui": "218772",
+"suppress": "N",
+"synonym": "",
+"tty": "BN",
+"umlscui": ""
+}
+},
+"/rxcui/218772/related.json?tty=IN+MIN": {
+"relatedGroup": {
+"conceptGroup": [
+{
+"conceptProperties": [
+{
+"language": "ENG",
+"name": "acetaminophen",
+"rxcui": "161",
+"suppress": "N",
+"synonym": "",
+"tty": "IN",
+"umlscui": ""
+},
+{
+"language": "ENG",
+"name": "hydrocodone",
+"rxcui": "5489",
+"suppress": "N",
+"synonym": "",
+"tty": "IN",
+"umlscui": ""
+}
+],
+"tty": "IN"
+},
+{
+"conceptProperties": [
+{
+"language": "ENG",
+"name": "acetaminophen / hydrocodone",
+"rxcui": "214182",
+"suppress": "N",
+"synonym": "",
+"tty": "MIN",
+"umlscui": ""
+}
+],
+"tty": "MIN"
+}
+],
+"rxcui": null
+}
+},
+"/rxcui/218986/properties.json": {
+"properties": {
+"language": "ENG",
+"name": "Oxycontin",
+"rxcui": "218986",
+"suppress": "N",
+"synonym": "",
+"tty": "BN",
+"umlscui": ""
+}
+},
+"/rxcui/218986/related.json?tty=IN+MIN": {
+"relatedGroup": {
+"conceptGroup": [
+{
+"conceptProperties": [
+{
+"language": "ENG",
+"name": "oxycodone",
+"rxcui": "7804",
+"suppress": "N",
+"synonym": "",
+"tty": "IN",
+"umlscui": ""
+}
+],
+"tty": "IN"
+},
+{
+"tty": "MIN"
+}
+],
+"rxcui": null
+}
+},
+"/rxcui/21949/properties.json": {
+"properties": {
+"language": "ENG",
+"name": "cyclobenzaprine",
+"rxcui": "21949",
+"suppress": "N",
+"synonym": "",
+"tty": "IN",
+"umlscui": ""
+}
+},
+"/rxcui/219641/properties.json": {
+"properties": {
+"language": "ENG",
+"name": "Restoril",
+"rxcui": "219641",
+"suppress": "N",
+"synonym": "",
+"tty": "BN",
+"umlscui": ""
+}
+},
+"/rxcui/219641/related.json?tty=IN+MIN": {
+"relatedGroup": {
+"conceptGroup": [
+{
+"conceptProperties": [
+{
+"language": "ENG",
+"name": "temazepam",
+"rxcui": "10355",
+"suppress": "N",
+"synonym": "",
+"tty": "IN",
+"umlscui": ""
+}
+],
+"tty": "IN"
+},
+{
+"tty": "MIN"
+}
+],
+"rxcui": null
+}
+},
+"/rxcui/220343/properties.json": {
+"properties": {
+"language": "ENG",
+"name": "Topamax",
+"rxcui": "220343",
+"suppress": "N",
+"synonym": "",
+"tty": "BN",
+"umlscui": ""
+}
+},
+"/rxcui/220343/related.json?tty=IN+MIN": {
+"relatedGroup": {
+"conceptGroup": [
+{
+"conceptProperties": [
+{
+"language": "ENG",
+"name": "topiramate",
+"rxcui": "38404",
+"suppress": "N",
+"synonym": "",
+"tty": "IN",
+"umlscui": ""
+}
+],
+"tty": "IN"
+},
+{
+"tty": "MIN"
+}
+],
+"rxcui": null
+}
+},
+"/rxcui/220581/properties.json": {
+"properties": {
+"language": "ENG",
+"name": "Tylenol PM",
+"rxcui": "220581",
+"suppress": "N",
+"synonym": "",
+"tty": "BN",
+"umlscui": ""
+}
+},
+"/rxcui/220581/related.json?tty=IN+MIN": {
+"relatedGroup": {
+"conceptGroup": [
+{
+"conceptProperties": [
+{
+"language": "ENG",
+"name": "acetaminophen",
+"rxcui": "161",
+"suppress": "N",
+"synonym": "",
+"tty": "IN",
+"umlscui": ""
+},
+{
+"language": "ENG",
+"name": "diphenhydramine",
+"rxcui": "3498",
+"suppress": "N",
+"synonym": "",
+"tty": "IN",
+"umlscui": ""
+}
+],
+"tty": "IN"
+},
+{
+"conceptProperties": [
+{
+"language": "ENG",
+"name": "acetaminophen / diphenhydramine",
+"rxcui": "214181",
+"suppress": "N",
+"synonym": "",
+"tty": "MIN",
+"umlscui": ""
+}
+],
+"tty": "MIN"
+}
+],
+"rxcui": null
+}
+},
+"/rxcui/220606/properties.json": {
+"properties": {
+"language": "ENG",
+"name": "Ultram",
+"rxcui": "220606",
+"suppress": "N",
+"synonym": "",
+"tty": "BN",
+"umlscui": ""
+}
+},
+"/rxcui/220606/related.json?tty=IN+MIN": {
+"relatedGroup": {
+"conceptGroup": [
+{
+"conceptProperties": [
+{
+"language": "ENG",
+"name": "tramadol",
+"rxcui": "10689",
+"suppress": "N",
+"synonym": "",
+"tty": "IN",
+"umlscui": ""
+}
+],
+"tty": "IN"
+},
+{
+"tty": "MIN"
+}
+],
+"rxcui": null
+}
+},
+"/rxcui/220672/properties.json": {
+"properties": {
+"language": "ENG",
+"name": "Unisom",
+"rxcui": "220672",
+"suppress": "N",
+"synonym": "",
+"tty": "BN",
+"umlscui": ""
+}
+},
+"/rxcui/220672/related.json?tty=IN+MIN": {
+"relatedGroup": {
+"conceptGroup": [
+{
+"conceptProperties": [
+{
+"language": "ENG",
+"name": "doxylamine",
+"rxcui": "3642",
+"suppress": "N",
+"synonym": "",
+"tty": "IN",
+"umlscui": ""
+}
+],
+"tty": "IN"
+},
+{
+"tty": "MIN"
+}
+],
+"rxcui": null
+}
+},
+"/rxcui/221124/properties.json": {
+"properties": {
+"language": "ENG",
+"name": "metoprolol succinate",
+"rxcui": "221124",
+"suppress": "N",
+"synonym": "",
+"tty": "PIN",
+"umlscui": ""
+}
+},
+"/rxcui/221124/related.json?tty=IN+MIN": {
+"relatedGroup": {
+"conceptGroup": [
+{
+"conceptProperties": [
+{
+"language": "ENG",
+"name": "metoprolol",
+"rxcui": "6918",
+"suppress": "N",
+"synonym": "",
+"tty": "IN",
+"umlscui": ""
+}
+],
+"tty": "IN"
+},
+{
+"conceptProperties": [
+{
+"language": "ENG",
+"name": "hydrochlorothiazide / metoprolol",
+"rxcui": "214621",
+"suppress": "N",
+"synonym": "",
+"tty": "MIN",
+"umlscui": ""
+}
+],
+"tty": "MIN"
+}
+],
+"rxcui": null
+}
+},
+"/rxcui/224913/properties.json": {
+"properties": {
+"language": "ENG",
+"name": "Dilaudid",
+"rxcui": "224913",
+"suppress": "N",
+"synonym": "",
+"tty": "BN",
+"umlscui": ""
+}
+},
+"/rxcui/224913/related.json?tty=IN+MIN": {
+"relatedGroup": {
+"conceptGroup": [
+{
+"conceptProperties": [
+{
+"language": "ENG",
+"name": "hydromorphone",
+"rxcui": "3423",
+"suppress": "N",
+"synonym": "",
+"tty": "IN",
+"umlscui": ""
+}
+],
+"tty": "IN"
+},
+{
+"tty": "MIN"
+}
+],
+"rxcui": null
+}
+},
+"/rxcui/224920/properties.json": {
+"properties": {
+"language": "ENG",
+"name": "Synthroid",
+"rxcui": "224920",
+"suppress": "N",
+"synonym": "",
+"tty": "BN",
+"umlscui": ""
+}
+},
+"/rxcui/224920/related.json?tty=IN+MIN": {
+"relatedGroup": {
+"conceptGroup": [
+{
+"conceptProperties": [
+{
+"language": "ENG",
+"name": "levothyroxine",
+"rxcui": "10582",
+"suppress": "N",
+"synonym": "",
+"tty": "IN",
+"umlscui": ""
+}
+],
+"tty": "IN"
+},
+{
+"tty": "MIN"
+}
+],
+"rxcui": null
+}
+},
+"/rxcui/225807/properties.json": {
+"properties": {
+"language": "ENG",
+"name": "Exelon",
+"rxcui": "225807",
+"suppress": "N",
+"synonym": "",
+"tty": "BN",
+"umlscui": ""
+}
+},
+"/rxcui/225807/related.json?tty=IN+MIN": {
+"relatedGroup": {
+"conceptGroup": [
+{
+"conceptProperties": [
+{
+"language": "ENG",
+"name": "rivastigmine",
+"rxcui": "183379",
+"suppress": "N",
+"synonym": "",
+"tty": "IN",
+"umlscui": ""
+}
+],
+"tty": "IN"
+},
+{
+"tty": "MIN"
+}
+],
+"rxcui": null
+}
+},
+"/rxcui/227423/properties.json": {
+"properties": {
+"language": "ENG",
+"name": "Halcion",
+"rxcui": "227423",
+"suppress": "N",
+"synonym": "",
+"tty": "BN",
+"umlscui": ""
+}
+},
+"/rxcui/227423/related.json?tty=IN+MIN": {
+"relatedGroup": {
+"conceptGroup": [
+{
+"conceptProperties": [
+{
+"language": "ENG",
+"name": "triazolam",
+"rxcui": "10767",
+"suppress": "N",
+"synonym": "",
+"tty": "IN",
+"umlscui": ""
+}
+],
+"tty": "IN"
+},
+{
+"tty": "MIN"
+}
+],
+"rxcui": null
+}
+},
+"/rxcui/227730/properties.json": {
+"properties": {
+"language": "ENG",
+"name": "Deltasone",
+"rxcui": "227730",
+"suppress": "N",
+"synonym": "",
+"tty": "BN",
+"umlscui": ""
+}
+},
+"/rxcui/227730/related.json?tty=IN+MIN": {
+"relatedGroup": {
+"conceptGroup": [
+{
+"conceptProperties": [
+{
+"language": "ENG",
+"name": "prednisone",
+"rxcui": "8640",
+"suppress": "N",
+"synonym": "",
+"tty": "IN",
+"umlscui": ""
+}
+],
+"tty": "IN"
+},
+{
+"tty": "MIN"
+}
+],
+"rxcui": null
+}
+},
+"/rxcui/227743/properties.json": {
+"properties": {
+"language": "ENG",
+"name": "Carafate",
+"rxcui": "227743",
+"suppress": "N",
+"synonym": "",
+"tty": "BN",
+"umlscui": ""
+}
+},
+"/rxcui/227743/related.json?tty=IN+MIN": {
+"relatedGroup": {
+"conceptGroup": [
+{
+"conceptProperties": [
+{
+"language": "ENG",
+"name": "sucralfate",
+"rxcui": "10156",
+"suppress": "N",
+"synonym": "",
+"tty": "IN",
+"umlscui": ""
+}
+],
+"tty": "IN"
+},
+{
+"tty": "MIN"
+}
+],
+"rxcui": null
+}
+},
+"/rxcui/25025/properties.json": {
+"properties": {
+"language": "ENG",
+"name": "finasteride",
+"rxcui": "25025",
+"suppress": "N",
+"synonym": "",
+"tty": "IN",
+"umlscui": ""
+}
+},
+"/rxcui/25480/properties.json": {
+"properties": {
+"language": "ENG",
+"name": "gabapentin",
+"rxcui": "25480",
+"suppress": "N",
+"synonym": "",
+"tty": "IN",
+"umlscui": ""
+}
+},
+"/rxcui/261440/properties.json": {
+"properties": {
+"language": "ENG",
+"name": "Aciphex",
+"rxcui": "261440",
+"suppress": "N",
+"synonym": "",
+"tty": "BN",
+"umlscui": ""
+}
+},
+"/rxcui/261440/related.json?tty=IN+MIN": {
+"relatedGroup": {
+"conceptGroup": [
+{
+"conceptProperties": [
+{
+"language": "ENG",
+"name": "rabeprazole",
+"rxcui": "114979",
+"suppress": "N",
+"synonym": "",
+"tty": "IN",
+"umlscui": ""
+}
+],
+"tty": "IN"
+},
+{
+"tty": "MIN"
+}
+],
+"rxcui": null
+}
+},
+"/rxcui/261442/properties.json": {
+"properties": {
+"language": "ENG",
+"name": "Actos",
+"rxcui": "261442",
+"suppress": "N",
+"synonym": "",
+"tty": "BN",
+"umlscui": ""
+}
+},
+"/rxcui/261442/related.json?tty=IN+MIN": {
+"relatedGroup": {
+"conceptGroup": [
+{
+"conceptProperties": [
+{
+"language": "ENG",
+"name": "pioglitazone",
+"rxcui": "33738",
+"suppress": "N",
+"synonym": "",
+"tty": "IN",
+"umlscui": ""
+}
+],
+"tty": "IN"
+},
+{
+"tty": "MIN"
+}
+],
+"rxcui": null
+}
+},
+"/rxcui/261547/properties.json": {
+"properties": {
+"language": "ENG",
+"name": "Keppra",
+"rxcui": "261547",
+"suppress": "N",
+"synonym": "",
+"tty": "BN",
+"umlscui": ""
+}
+},
+"/rxcui/261547/related.json?tty=IN+MIN": {
+"relatedGroup": {
+"conceptGroup": [
+{
+"conceptProperties": [
+{
+"language": "ENG",
+"name": "levetiracetam",
+"rxcui": "114477",
+"suppress": "N",
+"synonym": "",
+"tty": "IN",
+"umlscui": ""
+}
+],
+"tty": "IN"
+},
+{
+"tty": "MIN"
+}
+],
+"rxcui": null
+}
+},
+"/rxcui/261624/properties.json": {
+"properties": {
+"language": "ENG",
+"name": "Protonix",
+"rxcui": "261624",
+"suppress": "N",
+"synonym": "",
+"tty": "BN",
+"umlscui": ""
+}
+},
+"/rxcui/261624/related.json?tty=IN+MIN": {
+"relatedGroup": {
+"conceptGroup": [
+{
+"conceptProperties": [
+{
+"language": "ENG",
+"name": "pantoprazole",
+"rxcui": "40790",
+"suppress": "N",
+"synonym": "",
+"tty": "IN",
+"umlscui": ""
+}
+],
+"tty": "IN"
+},
+{
+"tty": "MIN"
+}
+],
+"rxcui": null
+}
+},
+"/rxcui/26225/properties.json": {
+"properties": {
+"language": "ENG",
+"name": "ondansetron",
+"rxcui": "26225",
+"suppress": "N",
+"synonym": "",
+"tty": "IN",
+"umlscui": ""
+}
+},
+"/rxcui/262418/properties.json": {
+"properties": {
+"language": "ENG",
+"name": "Altace",
+"rxcui": "262418",
+"suppress": "N",
+"synonym": "",
+"tty": "BN",
+"umlscui": ""
+}
+},
+"/rxcui/262418/related.json?tty=IN+MIN": {
+"relatedGroup": {
+"conceptGroup": [
+{
+"conceptProperties": [
+{
+"language": "ENG",
+"name": "ramipril",
+"rxcui": "35296",
+"suppress": "N",
+"synonym": "",
+"tty": "IN",
+"umlscui": ""
+}
+],
+"tty": "IN"
+},
+{
+"tty": "MIN"
+}
+],
+"rxcui": null
+}
+},
+"/rxcui/2654581/properties.json": {
+"properties": {
+"language": "ENG",
+"name": "amiodarone hydrochloride Oral Tablet [Cordarone]",
+"rxcui": "2654581",
+"suppress": "N",
+"synonym": "",
+"tty": "SBDFP",
+"umlscui": ""
+}
+},
+"/rxcui/2654581/related.json?tty=IN+MIN": {
+"relatedGroup": {
+"conceptGroup": [
+{
+"tty": "IN"
+},
+{
+"tty": "MIN"
+}
+],
+"rxcui": null
+}
+},
+"/rxcui/2654849/properties.json": {
+"properties": {
+"language": "ENG",
+"name": "megestrol acetate Oral Tablet [Megace]",
+"rxcui": "2654849",
+"suppress": "N",
+"synonym": "",
+"tty": "SBDFP",
+"umlscui": ""
+}
+},
+"/rxcui/2654849/related.json?tty=IN+MIN": {
+"relatedGroup": {
+"conceptGroup": [
+{
+"tty": "IN"
+},
+{
+"tty": "MIN"
+}
+],
+"rxcui": null
+}
+},
+"/rxcui/2654880/properties.json": {
+"properties": {
+"language": "ENG",
+"name": "chlordiazepoxide hydrochloride Oral Capsule [Librium]",
+"rxcui": "2654880",
+"suppress": "N",
+"synonym": "",
+"tty": "SBDFP",
+"umlscui": ""
+}
+},
+"/rxcui/2654880/related.json?tty=IN+MIN": {
+"relatedGroup": {
+"conceptGroup": [
+{
+"tty": "IN"
+},
+{
+"tty": "MIN"
+}
+],
+"rxcui": null
+}
+},
+"/rxcui/2656202/properties.json": {
+"properties": {
+"language": "ENG",
+"name": "ketorolac tromethamine Injectable Solution [Toradol]",
+"rxcui": "2656202",
+"suppress": "N",
+"synonym": "",
+"tty": "SBDFP",
+"umlscui": ""
+}
+},
+"/rxcui/2656202/related.json?tty=IN+MIN": {
+"relatedGroup": {
+"conceptGroup": [
+{
+"tty": "IN"
+},
+{
+"tty": "MIN"
+}
+],
+"rxcui": null
+}
+},
+"/rxcui/2658215/properties.json": {
+"properties": {
+"language": "ENG",
+"name": "paroxetine mesylate Oral Tablet [Pexeva]",
+"rxcui": "2658215",
+"suppress": "N",
+"synonym": "",
+"tty": "SBDFP",
+"umlscui": ""
+}
+},
+"/rxcui/2658215/related.json?tty=IN+MIN": {
+"relatedGroup": {
+"conceptGroup": [
+{
+"tty": "IN"
+},
+{
+"tty": "MIN"
+}
+],
+"rxcui": null
+}
+},
+"/rxcui/274535/properties.json": {
+"properties": {
+"language": "ENG",
+"name": "Spiriva",
+"rxcui": "274535",
+"suppress": "N",
+"synonym": "",
+"tty": "BN",
+"umlscui": ""
+}
+},
+"/rxcui/274535/related.json?tty=IN+MIN": {
+"relatedGroup": {
+"conceptGroup": [
+{
+"conceptProperties": [
+{
+"language": "ENG",
+"name": "tiotropium",
+"rxcui": "69120",
+"suppress": "N",
+"synonym": "",
+"tty": "IN",
+"umlscui": ""
+}
+],
+"tty": "IN"
+},
+{
+"tty": "MIN"
+}
+],
+"rxcui": null
+}
+},
+"/rxcui/282381/properties.json": {
+"properties": {
+"language": "ENG",
+"name": "Demerol",
+"rxcui": "282381",
+"suppress": "N",
+"synonym": "",
+"tty": "BN",
+"umlscui": ""
+}
+},
+"/rxcui/282381/related.json?tty=IN+MIN": {
+"relatedGroup": {
+"conceptGroup": [
+{
+"conceptProperties": [
+{
+"language": "ENG",
+"name": "meperidine",
+"rxcui": "6754",
+"suppress": "N",
+"synonym": "",
+"tty": "IN",
+"umlscui": ""
+}
+],
+"tty": "IN"
+},
+{
+"tty": "MIN"
+}
+],
+"rxcui": null
+}
+},
+"/rxcui/282519/properties.json": {
+"properties": {
+"language": "ENG",
+"name": "Vistaril",
+"rxcui": "282519",
+"suppress": "N",
+"synonym": "",
+"tty": "BN",
+"umlscui": ""
+}
+},
+"/rxcui/282519/related.json?tty=IN+MIN": {
+"relatedGroup": {
+"conceptGroup": [
+{
+"conceptProperties": [
+{
+"language": "ENG",
+"name": "hydroxyzine",
+"rxcui": "5553",
+"suppress": "N",
+"synonym": "",
+"tty": "IN",
+"umlscui": ""
+}
+],
+"tty": "IN"
+},
+{
+"tty": "MIN"
+}
+],
+"rxcui": null
+}
+},
+"/rxcui/284799/properties.json": {
+"properties": {
+"language": "ENG",
+"name": "Nexium",
+"rxcui": "284799",
+"suppress": "N",
+"synonym": "",
+"tty": "BN",
+"umlscui": ""
+}
+},
+"/rxcui/284799/related.json?tty=IN+MIN": {
+"relatedGroup": {
+"conceptGroup": [
+{
+"conceptProperties": [
+{
+"language": "ENG",
+"name": "esomeprazole",
+"rxcui": "283742",
+"suppress": "N",
+"synonym": "",
+"tty": "IN",
+"umlscui": ""
+}
+],
+"tty": "IN"
+},
+{
+"tty": "MIN"
+}
+],
+"rxcui": null
+}
+},
+"/rxcui/285064/properties.json": {
+"properties": {
+"language": "ENG",
+"name": "Geodon",
+"rxcui": "285064",
+"suppress": "N",
+"synonym": "",
+"tty": "BN",
+"umlscui": ""
+}
+},
+"/rxcui/285064/related.json?tty=IN+MIN": {
+"relatedGroup": {
+"conceptGroup": [
+{
+"conceptProperties": [
+{
+"language": "ENG",
+"name": "ziprasidone",
+"rxcui": "115698",
+"suppress": "N",
+"synonym": "",
+"tty": "IN",
+"umlscui": ""
+}
+],
+"tty": "IN"
+},
+{
+"tty": "MIN"
+}
+],
+"rxcui": null
+}
+},
+"/rxcui/28889/properties.json": {
+"properties": {
+"language": "ENG",
+"name": "loratadine",
+"rxcui": "28889",
+"suppress": "N",
+"synonym": "",
+"tty": "IN",
+"umlscui": ""
+}
+},
+"/rxcui/29046/properties.json": {
+"properties": {
+"language": "ENG",
+"name": "lisinopril",
+"rxcui": "29046",
+"suppress": "N",
+"synonym": "",
+"tty": "IN",
+"umlscui": ""
+}
+},
+"/rxcui/320864/properties.json": {
+"properties": {
+"language": "ENG",
+"name": "Crestor",
+"rxcui": "320864",
+"suppress": "N",
+"synonym": "",
+"tty": "BN",
+"umlscui": ""
+}
+},
+"/rxcui/320864/related.json?tty=IN+MIN": {
+"relatedGroup": {
+"conceptGroup": [
+{
+"conceptProperties": [
+{
+"language": "ENG",
+"name": "rosuvastatin",
+"rxcui": "301542",
+"suppress": "N",
+"synonym": "",
+"tty": "IN",
+"umlscui": ""
+}
+],
+"tty": "IN"
+},
+{
+"tty": "MIN"
+}
+],
+"rxcui": null
+}
+},
+"/rxcui/324026/properties.json": {
+"properties": {
+"language": "ENG",
+"name": "Allegra",
+"rxcui": "324026",
+"suppress": "N",
+"synonym": "",
+"tty": "BN",
+"umlscui": ""
+}
+},
+"/rxcui/324026/related.json?tty=IN+MIN": {
+"relatedGroup": {
+"conceptGroup": [
+{
+"conceptProperties": [
+{
+"language": "ENG",
+"name": "fexofenadine",
+"rxcui": "87636",
+"suppress": "N",
+"synonym": "",
+"tty": "IN",
+"umlscui": ""
+}
+],
+"tty": "IN"
+},
+{
+"tty": "MIN"
+}
+],
+"rxcui": null
+}
+},
+"/rxcui/32675/properties.json": {
+"properties": {
+"language": "ENG",
+"name": "oxybutynin",
+"rxcui": "32675",
+"suppress": "N",
+"synonym": "",
+"tty": "IN",
+"umlscui": ""
+}
+},
+"/rxcui/32937/properties.json": {
+"properties": {
+"language": "ENG",
+"name": "paroxetine",
+"rxcui": "32937",
+"suppress": "N",
+"synonym": "",
+"tty": "IN",
+"umlscui": ""
+}
+},
+"/rxcui/3407/properties.json": {
+"properties": {
+"language": "ENG",
+"name": "digoxin",
+"rxcui": "3407",
+"suppress": "N",
+"synonym": "",
+"tty": "IN",
+"umlscui": ""
+}
+},
+"/rxcui/3498/properties.json": {
+"properties": {
+"language": "ENG",
+"name": "diphenhydramine",
+"rxcui": "3498",
+"suppress": "N",
+"synonym": "",
+"tty": "IN",
+"umlscui": ""
+}
+},
+"/rxcui/352393/properties.json": {
+"properties": {
+"language": "ENG",
+"name": "Abilify",
+"rxcui": "352393",
+"suppress": "N",
+"synonym": "",
+"tty": "BN",
+"umlscui": ""
+}
+},
+"/rxcui/352393/related.json?tty=IN+MIN": {
+"relatedGroup": {
+"conceptGroup": [
+{
+"conceptProperties": [
+{
+"language": "ENG",
+"name": "aripiprazole",
+"rxcui": "89013",
+"suppress": "N",
+"synonym": "",
+"tty": "IN",
+"umlscui": ""
+}
+],
+"tty": "IN"
+},
+{
+"tty": "MIN"
+}
+],
+"rxcui": null
+}
+},
+"/rxcui/352741/properties.json": {
+"properties": {
+"language": "ENG",
+"name": "Lexapro",
+"rxcui": "352741",
+"suppress": "N",
+"synonym": "",
+"tty": "BN",
+"umlscui": ""
+}
+},
+"/rxcui/352741/related.json?tty=IN+MIN": {
+"relatedGroup": {
+"conceptGroup": [
+{
+"conceptProperties": [
+{
+"language": "ENG",
+"name": "escitalopram",
+"rxcui": "321988",
+"suppress": "N",
+"synonym": "",
+"tty": "IN",
+"umlscui": ""
+}
+],
+"tty": "IN"
+},
+{
+"tty": "MIN"
+}
+],
+"rxcui": null
+}
+},
+"/rxcui/353062/properties.json": {
+"properties": {
+"language": "ENG",
+"name": "Ultracet",
+"rxcui": "353062",
+"suppress": "N",
+"synonym": "",
+"tty": "BN",
+"umlscui": ""
+}
+},
+"/rxcui/353062/related.json?tty=IN+MIN": {
+"relatedGroup": {
+"conceptGroup": [
+{
+"conceptProperties": [
+{
+"language": "ENG",
+"name": "tramadol",
+"rxcui": "10689",
+"suppress": "N",
+"synonym": "",
+"tty": "IN",
+"umlscui": ""
+},
+{
+"language": "ENG",
+"name": "acetaminophen",
+"rxcui": "161",
+"suppress": "N",
+"synonym": "",
+"tty": "IN",
+"umlscui": ""
+}
+],
+"tty": "IN"
+},
+{
+"conceptProperties": [
+{
+"language": "ENG",
+"name": "acetaminophen / tramadol",
+"rxcui": "352362",
+"suppress": "N",
+"synonym": "",
+"tty": "MIN",
+"umlscui": ""
+}
+],
+"tty": "MIN"
+}
+],
+"rxcui": null
+}
+},
+"/rxcui/353099/properties.json": {
+"properties": {
+"language": "ENG",
+"name": "Zetia",
+"rxcui": "353099",
+"suppress": "N",
+"synonym": "",
+"tty": "BN",
+"umlscui": ""
+}
+},
+"/rxcui/353099/related.json?tty=IN+MIN": {
+"relatedGroup": {
+"conceptGroup": [
+{
+"conceptProperties": [
+{
+"language": "ENG",
+"name": "ezetimibe",
+"rxcui": "341248",
+"suppress": "N",
+"synonym": "",
+"tty": "IN",
+"umlscui": ""
+}
+],
+"tty": "IN"
+},
+{
+"tty": "MIN"
+}
+],
+"rxcui": null
+}
+},
+"/rxcui/35636/properties.json": {
+"properties": {
+"language": "ENG",
+"name": "risperidone",
+"rxcui": "35636",
+"suppress": "N",
+"synonym": "3-(2-(4-(6-fluoro-1,2-benzisoxazol-3-yl)-1-piperidinyl)ethyl)-6,7,8,9-tetrahydro-2-methyl-4H-pyrido(1,2-A)pyrimidin-4-one",
+"tty": "IN",
+"umlscui": ""
+}
+},
+"/rxcui/3638/properties.json": {
+"properties": {
+"language": "ENG",
+"name": "doxepin",
+"rxcui": "3638",
+"suppress": "N",
+"synonym": "",
+"tty": "IN",
+"umlscui": ""
+}
+},
+"/rxcui/36437/properties.json": {
+"properties": {
+"language": "ENG",
+"name": "sertraline",
+"rxcui": "36437",
+"suppress": "N",
+"synonym": "",
+"tty": "IN",
+"umlscui": ""
+}
+},
+"/rxcui/36572/properties.json": {
+"properties": {
+"language": "ENG",
+"name": "Sinemet",
+"rxcui": "36572",
+"suppress": "N",
+"synonym": "",
+"tty": "BN",
+"umlscui": ""
+}
+},
+"/rxcui/36572/related.json?tty=IN+MIN": {
+"relatedGroup": {
+"conceptGroup": [
+{
+"conceptProperties": [
+{
+"language": "ENG",
+"name": "carbidopa",
+"rxcui": "2019",
+"suppress": "N",
+"synonym": "",
+"tty": "IN",
+"umlscui": ""
+},
+{
+"language": "ENG",
+"name": "levodopa",
+"rxcui": "6375",
+"suppress": "N",
+"synonym": "",
+"tty": "IN",
+"umlscui": ""
+}
+],
+"tty": "IN"
+},
+{
+"conceptProperties": [
+{
+"language": "ENG",
+"name": "carbidopa / levodopa",
+"rxcui": "103990",
+"suppress": "N",
+"synonym": "",
+"tty": "MIN",
+"umlscui": ""
+}
+],
+"tty": "MIN"
+}
+],
+"rxcui": null
+}
+},
+"/rxcui/397392/properties.json": {
+"properties": {
+"language": "ENG",
+"name": "Enablex",
+"rxcui": "397392",
+"suppress": "N",
+"synonym": "",
+"tty": "BN",
+"umlscui": ""
+}
+},
+"/rxcui/397392/related.json?tty=IN+MIN": {
+"relatedGroup": {
+"conceptGroup": [
+{
+"conceptProperties": [
+{
+"language": "ENG",
+"name": "darifenacin",
+"rxcui": "136198",
+"suppress": "N",
+"synonym": "",
+"tty": "IN",
+"umlscui": ""
+}
+],
+"tty": "IN"
+},
+{
+"tty": "MIN"
+}
+],
+"rxcui": null
+}
+},
+"/rxcui/398335/properties.json": {
+"properties": {
+"language": "ENG",
+"name": "Xyzal",
+"rxcui": "398335",
+"suppress": "N",
+"synonym": "",
+"tty": "BN",
+"umlscui": ""
+}
+},
+"/rxcui/398335/related.json?tty=IN+MIN": {
+"relatedGroup": {
+"conceptGroup": [
+{
+"conceptProperties": [
+{
+"language": "ENG",
+"name": "levocetirizine",
+"rxcui": "356887",
+"suppress": "N",
+"synonym": "",
+"tty": "IN",
+"umlscui": ""
+}
+],
+"tty": "IN"
+},
+{
+"tty": "MIN"
+}
+],
+"rxcui": null
+}
+},
+"/rxcui/39993/properties.json": {
+"properties": {
+"language": "ENG",
+"name": "zolpidem",
+"rxcui": "39993",
+"suppress": "N",
+"synonym": "",
+"tty": "IN",
+"umlscui": ""
+}
+},
+"/rxcui/405155/properties.json": {
+"properties": {
+"language": "ENG",
+"name": "Jantoven",
+"rxcui": "405155",
+"suppress": "N",
+"synonym": "",
+"tty": "BN",
+"umlscui": ""
+}
+},
+"/rxcui/405155/related.json?tty=IN+MIN": {
+"relatedGroup": {
+"conceptGroup": [
+{
+"conceptProperties": [
+{
+"language": "ENG",
+"name": "warfarin",
+"rxcui": "11289",
+"suppress": "N",
+"synonym": "",
+"tty": "IN",
+"umlscui": ""
+}
+],
+"tty": "IN"
+},
+{
+"tty": "MIN"
+}
+],
+"rxcui": null
+}
+},
+"/rxcui/405206/properties.json": {
+"properties": {
+"language": "ENG",
+"name": "Namenda",
+"rxcui": "405206",
+"suppress": "N",
+"synonym": "",
+"tty": "BN",
+"umlscui": ""
+}
+},
+"/rxcui/405206/related.json?tty=IN+MIN": {
+"relatedGroup": {
+"conceptGroup": [
+{
+"conceptProperties": [
+{
+"language": "ENG",
+"name": "memantine",
+"rxcui": "6719",
+"suppress": "N",
+"synonym": "",
+"tty": "IN",
+"umlscui": ""
+}
+],
+"tty": "IN"
+},
+{
+"tty": "MIN"
+}
+],
+"rxcui": null
+}
+},
+"/rxcui/40790/properties.json": {
+"properties": {
+"language": "ENG",
+"name": "pantoprazole",
+"rxcui": "40790",
+"suppress": "N",
+"synonym": "",
+"tty": "IN",
+"umlscui": ""
+}
+},
+"/rxcui/41493/properties.json": {
+"properties": {
+"language": "ENG",
+"name": "meloxicam",
+"rxcui": "41493",
+"suppress": "N",
+"synonym": "",
+"tty": "IN",
+"umlscui": ""
+}
+},
+"/rxcui/42568/properties.json": {
+"properties": {
+"language": "ENG",
+"name": "Wellbutrin",
+"rxcui": "42568",
+"suppress": "N",
+"synonym": "",
+"tty": "BN",
+"umlscui": ""
+}
+},
+"/rxcui/42568/related.json?tty=IN+MIN": {
+"relatedGroup": {
+"conceptGroup": [
+{
+"conceptProperties": [
+{
+"language": "ENG",
+"name": "bupropion",
+"rxcui": "42347",
+"suppress": "N",
+"synonym": "",
+"tty": "IN",
+"umlscui": ""
+}
+],
+"tty": "IN"
+},
+{
+"tty": "MIN"
+}
+],
+"rxcui": null
+}
+},
+"/rxcui/4278/properties.json": {
+"properties": {
+"language": "ENG",
+"name": "famotidine",
+"rxcui": "4278",
+"suppress": "N",
+"synonym": "",
+"tty": "IN",
+"umlscui": ""
+}
+},
+"/rxcui/42844/properties.json": {
+"properties": {
+"language": "ENG",
+"name": "Percocet",
+"rxcui": "42844",
+"suppress": "N",
+"synonym": "",
+"tty": "BN",
+"umlscui": ""
+}
+},
+"/rxcui/42844/related.json?tty=IN+MIN": {
+"relatedGroup": {
+"conceptGroup": [
+{
+"conceptProperties": [
+{
+"language": "ENG",
+"name": "acetaminophen",
+"rxcui": "161",
+"suppress": "N",
+"synonym": "",
+"tty": "IN",
+"umlscui": ""
+},
+{
+"language": "ENG",
+"name": "oxycodone",
+"rxcui": "7804",
+"suppress": "N",
+"synonym": "",
+"tty": "IN",
+"umlscui": ""
+}
+],
+"tty": "IN"
+},
+{
+"conceptProperties": [
+{
+"language": "ENG",
+"name": "acetaminophen / oxycodone",
+"rxcui": "214183",
+"suppress": "N",
+"synonym": "",
+"tty": "MIN",
+"umlscui": ""
+}
+],
+"tty": "MIN"
+}
+],
+"rxcui": null
+}
+},
+"/rxcui/42940/properties.json": {
+"properties": {
+"language": "ENG",
+"name": "Elavil",
+"rxcui": "42940",
+"suppress": "N",
+"synonym": "",
+"tty": "BN",
+"umlscui": ""
+}
+},
+"/rxcui/42940/related.json?tty=IN+MIN": {
+"relatedGroup": {
+"conceptGroup": [
+{
+"conceptProperties": [
+{
+"language": "ENG",
+"name": "amitriptyline",
+"rxcui": "704",
+"suppress": "N",
+"synonym": "",
+"tty": "IN",
+"umlscui": ""
+}
+],
+"tty": "IN"
+},
+{
+"tty": "MIN"
+}
+],
+"rxcui": null
+}
+},
+"/rxcui/4603/properties.json": {
+"properties": {
+"language": "ENG",
+"name": "furosemide",
+"rxcui": "4603",
+"suppress": "N",
+"synonym": "",
+"tty": "IN",
+"umlscui": ""
+}
+},
+"/rxcui/4821/properties.json": {
+"properties": {
+"language": "ENG",
+"name": "glipizide",
+"rxcui": "4821",
+"suppress": "N",
+"synonym": "",
+"tty": "IN",
+"umlscui": ""
+}
+},
+"/rxcui/482574/properties.json": {
+"properties": {
+"language": "ENG",
+"name": "Cymbalta",
+"rxcui": "482574",
+"suppress": "N",
+"synonym": "",
+"tty": "BN",
+"umlscui": ""
+}
+},
+"/rxcui/482574/related.json?tty=IN+MIN": {
+"relatedGroup": {
+"conceptGroup": [
+{
+"conceptProperties": [
+{
+"language": "ENG",
+"name": "duloxetine",
+"rxcui": "72625",
+"suppress": "N",
+"synonym": "",
+"tty": "IN",
+"umlscui": ""
+}
+],
+"tty": "IN"
+},
+{
+"tty": "MIN"
+}
+],
+"rxcui": null
+}
+},
+"/rxcui/49276/properties.json": {
+"properties": {
+"language": "ENG",
+"name": "doxazosin",
+"rxcui": "49276",
+"suppress": "N",
+"synonym": "",
+"tty": "IN",
+"umlscui": ""
+}
+},
+"/rxcui/5093/properties.json": {
+"properties": {
+"language": "ENG",
+"name": "haloperidol",
+"rxcui": "5093",
+"suppress": "N",
+"synonym": "",
+"tty": "IN",
+"umlscui": ""
+}
+},
+"/rxcui/52175/properties.json": {
+"properties": {
+"language": "ENG",
+"name": "losartan",
+"rxcui": "52175",
+"suppress": "N",
+"synonym": "",
+"tty": "IN",
+"umlscui": ""
+}
+},
+"/rxcui/539812/properties.json": {
+"properties": {
+"language": "ENG",
+"name": "Vesicare",
+"rxcui": "539812",
+"suppress": "N",
+"synonym": "",
+"tty": "BN",
+"umlscui": ""
+}
+},
+"/rxcui/539812/related.json?tty=IN+MIN": {
+"relatedGroup": {
+"conceptGroup": [
+{
+"conceptProperties": [
+{
+"language": "ENG",
+"name": "solifenacin",
+"rxcui": "322167",
+"suppress": "N",
+"synonym": "",
+"tty": "IN",
+"umlscui": ""
+}
+],
+"tty": "IN"
+},
+{
+"tty": "MIN"
+}
+],
+"rxcui": null
+}
+},
+"/rxcui/540404/properties.json": {
+"properties": {
+"language": "ENG",
+"name": "Lunesta",
+"rxcui": "540404",
+"suppress": "N",
+"synonym": "",
+"tty": "BN",
+"umlscui": ""
+}
+},
+"/rxcui/540404/related.json?tty=IN+MIN": {
+"relatedGroup": {
+"conceptGroup": [
+{
+"conceptProperties": [
+{
+"language": "ENG",
+"name": "eszopiclone",
+"rxcui": "461016",
+"suppress": "N",
+"synonym": "",
+"tty": "IN",
+"umlscui": ""
+}
+],
+"tty": "IN"
+},
+{
+"tty": "MIN"
+}
+],
+"rxcui": null
+}
+},
+"/rxcui/5487/properties.json": {
+"properties": {
+"language": "ENG",
+"name": "hydrochlorothiazide",
+"rxcui": "5487",
+"suppress": "N",
+"synonym": "",
+"tty": "IN",
+"umlscui": ""
+}
+},
+"/rxcui/5553/properties.json": {
+"properties": {
+"language": "ENG",
+"name": "hydroxyzine",
+"rxcui": "5553",
+"suppress": "N",
+"synonym": "",
+"tty": "IN",
+"umlscui": ""
+}
+},
+"/rxcui/57258/properties.json": {
+"properties": {
+"language": "ENG",
+"name": "tizanidine",
+"rxcui": "57258",
+"suppress": "N",
+"synonym": "",
+"tty": "IN",
+"umlscui": ""
+}
+},
+"/rxcui/58328/properties.json": {
+"properties": {
+"language": "ENG",
+"name": "Zoladex",
+"rxcui": "58328",
+"suppress": "N",
+"synonym": "",
+"tty": "BN",
+"umlscui": ""
+}
+},
+"/rxcui/58328/related.json?tty=IN+MIN": {
+"relatedGroup": {
+"conceptGroup": [
+{
+"conceptProperties": [
+{
+"language": "ENG",
+"name": "goserelin",
+"rxcui": "50610",
+"suppress": "N",
+"synonym": "",
+"tty": "IN",
+"umlscui": ""
+}
+],
+"tty": "IN"
+},
+{
+"tty": "MIN"
+}
+],
+"rxcui": null
+}
+},
+"/rxcui/58827/properties.json": {
+"properties": {
+"language": "ENG",
+"name": "Prozac",
+"rxcui": "58827",
+"suppress": "N",
+"synonym": "",
+"tty": "BN",
+"umlscui": ""
+}
+},
+"/rxcui/58827/related.json?tty=IN+MIN": {
+"relatedGroup": {
+"conceptGroup": [
+{
+"conceptProperties": [
+{
+"language": "ENG",
+"name": "fluoxetine",
+"rxcui": "4493",
+"suppress": "N",
+"synonym": "",
+"tty": "IN",
+"umlscui": ""
+}
+],
+"tty": "IN"
+},
+{
+"tty": "MIN"
+}
+],
+"rxcui": null
+}
+},
+"/rxcui/58927/properties.json": {
+"properties": {
+"language": "ENG",
+"name": "Norvasc",
+"rxcui": "58927",
+"suppress": "N",
+"synonym": "",
+"tty": "BN",
+"umlscui": ""
+}
+},
+"/rxcui/58927/related.json?tty=IN+MIN": {
+"relatedGroup": {
+"conceptGroup": [
+{
+"conceptProperties": [
+{
+"language": "ENG",
+"name": "amlodipine",
+"rxcui": "17767",
+"suppress": "N",
+"synonym": "",
+"tty": "IN",
+"umlscui": ""
+}
+],
+"tty": "IN"
+},
+{
+"tty": "MIN"
+}
+],
+"rxcui": null
+}
+},
+"/rxcui/58930/properties.json": {
+"properties": {
+"language": "ENG",
+"name": "Zyrtec",
+"rxcui": "58930",
+"suppress": "N",
+"synonym": "",
+"tty": "BN",
+"umlscui": ""
+}
+},
+"/rxcui/58930/related.json?tty=IN+MIN": {
+"relatedGroup": {
+"conceptGroup": [
+{
+"conceptProperties": [
+{
+"language": "ENG",
+"name": "cetirizine",
+"rxcui": "20610",
+"suppress": "N",
+"synonym": "",
+"tty": "IN",
+"umlscui": ""
+}
+],
+"tty": "IN"
+},
+{
+"tty": "MIN"
+}
+],
+"rxcui": null
+}
+},
+"/rxcui/593441/properties.json": {
+"properties": {
+"language": "ENG",
+"name": "Lyrica",
+"rxcui": "593441",
+"suppress": "N",
+"synonym": "",
+"tty": "BN",
+"umlscui": ""
+}
+},
+"/rxcui/593441/related.json?tty=IN+MIN": {
+"relatedGroup": {
+"conceptGroup": [
+{
+"conceptProperties": [
+{
+"language": "ENG",
+"name": "pregabalin",
+"rxcui": "187832",
+"suppress": "N",
+"synonym": "",
+"tty": "IN",
+"umlscui": ""
+}
+],
+"tty": "IN"
+},
+{
+"tty": "MIN"
+}
+],
+"rxcui": null
+}
+},
+"/rxcui/620/properties.json": {
+"properties": {
+"language": "ENG",
+"name": "amantadine",
+"rxcui": "620",
+"suppress": "N",
+"synonym": "",
+"tty": "IN",
+"umlscui": ""
+}
+},
+"/rxcui/638596/properties.json": {
+"properties": {
+"language": "ENG",
+"name": "Januvia",
+"rxcui": "638596",
+"suppress": "N",
+"synonym": "",
+"tty": "BN",
+"umlscui": ""
+}
+},
+"/rxcui/638596/related.json?tty=IN+MIN": {
+"relatedGroup": {
+"conceptGroup": [
+{
+"conceptProperties": [
+{
+"language": "ENG",
+"name": "sitagliptin",
+"rxcui": "593411",
+"suppress": "N",
+"synonym": "",
+"tty": "IN",
+"umlscui": ""
+}
+],
+"tty": "IN"
+},
+{
+"tty": "MIN"
+}
+],
+"rxcui": null
+}
+},
+"/rxcui/6470/properties.json": {
+"properties": {
+"language": "ENG",
+"name": "lorazepam",
+"rxcui": "6470",
+"suppress": "N",
+"synonym": "",
+"tty": "IN",
+"umlscui": ""
+}
+},
+"/rxcui/6676/properties.json": {
+"properties": {
+"language": "ENG",
+"name": "meclizine",
+"rxcui": "6676",
+"suppress": "N",
+"synonym": "",
+"tty": "IN",
+"umlscui": ""
+}
+},
+"/rxcui/6809/properties.json": {
+"properties": {
+"language": "ENG",
+"name": "metformin",
+"rxcui": "6809",
+"suppress": "N",
+"synonym": "",
+"tty": "IN",
+"umlscui": ""
+}
+},
+"/rxcui/686438/properties.json": {
+"properties": {
+"language": "ENG",
+"name": "Invega",
+"rxcui": "686438",
+"suppress": "N",
+"synonym": "",
+"tty": "BN",
+"umlscui": ""
+}
+},
+"/rxcui/686438/related.json?tty=IN+MIN": {
+"relatedGroup": {
+"conceptGroup": [
+{
+"conceptProperties": [
+{
+"language": "ENG",
+"name": "paliperidone",
+"rxcui": "679314",
+"suppress": "N",
+"synonym": "",
+"tty": "IN",
+"umlscui": ""
+}
+],
+"tty": "IN"
+},
+{
+"tty": "MIN"
+}
+],
+"rxcui": null
+}
+},
+"/rxcui/6915/properties.json": {
+"properties": {
+"language": "ENG",
+"name": "metoclopramide",
+"rxcui": "6915",
+"suppress": "N",
+"synonym": "",
+"tty": "IN",
+"umlscui": ""
+}
+},
+"/rxcui/704/properties.json": {
+"properties": {
+"language": "ENG",
+"name": "amitriptyline",
+"rxcui": "704",
+"suppress": "N",
+"synonym": "",
+"tty": "IN",
+"umlscui": ""
+}
+},
+"/rxcui/71515/properties.json": {
+"properties": {
+"language": "ENG",
+"name": "Minipress",
+"rxcui": "71515",
+"suppress": "N",
+"synonym": "",
+"tty": "BN",
+"umlscui": ""
+}
+},
+"/rxcui/71515/related.json?tty=IN+MIN": {
+"relatedGroup": {
+"conceptGroup": [
+{
+"conceptProperties": [
+{
+"language": "ENG",
+"name": "prazosin",
+"rxcui": "8629",
+"suppress": "N",
+"synonym": "",
+"tty": "IN",
+"umlscui": ""
+}
+],
+"tty": "IN"
+},
+{
+"tty": "MIN"
+}
+],
+"rxcui": null
+}
+},
+"/rxcui/7258/properties.json": {
+"properties": {
+"language": "ENG",
+"name": "naproxen",
+"rxcui": "7258",
+"suppress": "N",
+"synonym": "",
+"tty": "IN",
+"umlscui": ""
+}
+},
+"/rxcui/7646/properties.json": {
+"properties": {
+"language": "ENG",
+"name": "omeprazole",
+"rxcui": "7646",
+"suppress": "N",
+"synonym": "",
+"tty": "IN",
+"umlscui": ""
+}
+},
+"/rxcui/77492/properties.json": {
+"properties": {
+"language": "ENG",
+"name": "tamsulosin",
+"rxcui": "77492",
+"suppress": "N",
+"synonym": "",
+"tty": "IN",
+"umlscui": ""
+}
+},
+"/rxcui/7804/properties.json": {
+"properties": {
+"language": "ENG",
+"name": "oxycodone",
+"rxcui": "7804",
+"suppress": "N",
+"synonym": "",
+"tty": "IN",
+"umlscui": ""
+}
+},
+"/rxcui/7866/properties.json": {
+"properties": {
+"language": "ENG",
+"name": "Pamelor",
+"rxcui": "7866",
+"suppress": "N",
+"synonym": "",
+"tty": "BN",
+"umlscui": ""
+}
+},
+"/rxcui/7866/related.json?tty=IN+MIN": {
+"relatedGroup": {
+"conceptGroup": [
+{
+"conceptProperties": [
+{
+"language": "ENG",
+"name": "nortriptyline",
+"rxcui": "7531",
+"suppress": "N",
+"synonym": "",
+"tty": "IN",
+"umlscui": ""
+}
+],
+"tty": "IN"
+},
+{
+"tty": "MIN"
+}
+],
+"rxcui": null
+}
+},
+"/rxcui/810072/properties.json": {
+"properties": {
+"language": "ENG",
+"name": "Toviaz",
+"rxcui": "810072",
+"suppress": "N",
+"synonym": "",
+"tty": "BN",
+"umlscui": ""
+}
+},
+"/rxcui/810072/related.json?tty=IN+MIN": {
+"relatedGroup": {
+"conceptGroup": [
+{
+"conceptProperties": [
+{
+"language": "ENG",
+"name": "fesoterodine",
+"rxcui": "797195",
+"suppress": "N",
+"synonym": "",
+"tty": "IN",
+"umlscui": ""
+}
+],
+"tty": "IN"
+},
+{
+"tty": "MIN"
+}
+],
+"rxcui": null
+}
+},
+"/rxcui/82728/properties.json": {
+"properties": {
+"language": "ENG",
+"name": "Zoloft",
+"rxcui": "82728",
+"suppress": "N",
+"synonym": "",
+"tty": "BN",
+"umlscui": ""
+}
+},
+"/rxcui/82728/related.json?tty=IN+MIN": {
+"relatedGroup": {
+"conceptGroup": [
+{
+"conceptProperties": [
+{
+"language": "ENG",
+"name": "sertraline",
+"rxcui": "36437",
+"suppress": "N",
+"synonym": "",
+"tty": "IN",
+"umlscui": ""
+}
+],
+"tty": "IN"
+},
+{
+"tty": "MIN"
+}
+],
+"rxcui": null
+}
+},
+"/rxcui/83156/properties.json": {
+"properties": {
+"language": "ENG",
+"name": "Prevacid",
+"rxcui": "83156",
+"suppress": "N",
+"synonym": "",
+"tty": "BN",
+"umlscui": ""
+}
+},
+"/rxcui/83156/related.json?tty=IN+MIN": {
+"relatedGroup": {
+"conceptGroup": [
+{
+"conceptProperties": [
+{
+"language": "ENG",
+"name": "lansoprazole",
+"rxcui": "17128",
+"suppress": "N",
+"synonym": "",
+"tty": "IN",
+"umlscui": ""
+}
+],
+"tty": "IN"
+},
+{
+"tty": "MIN"
+}
+],
+"rxcui": null
+}
+},
+"/rxcui/833136/properties.json": {
+"properties": {
+"language": "ENG",
+"name": "Savella",
+"rxcui": "833136",
+"suppress": "N",
+"synonym": "",
+"tty": "BN",
+"umlscui": ""
+}
+},
+"/rxcui/833136/related.json?tty=IN+MIN": {
+"relatedGroup": {
+"conceptGroup": [
+{
+"conceptProperties": [
+{
+"language": "ENG",
+"name": "milnacipran",
+"rxcui": "588250",
+"suppress": "N",
+"synonym": "",
+"tty": "IN",
+"umlscui": ""
+}
+],
+"tty": "IN"
+},
+{
+"tty": "MIN"
+}
+],
+"rxcui": null
+}
+},
+"/rxcui/83367/properties.json": {
+"properties": {
+"language": "ENG",
+"name": "atorvastatin",
+"rxcui": "83367",
+"suppress": "N",
+"synonym": "",
+"tty": "IN",
+"umlscui": ""
+}
+},
+"/rxcui/83373/properties.json": {
+"properties": {
+"language": "ENG",
+"name": "Flonase",
+"rxcui": "83373",
+"suppress": "N",
+"synonym": "",
+"tty": "BN",
+"umlscui": ""
+}
+},
+"/rxcui/83373/related.json?tty=IN+MIN": {
+"relatedGroup": {
+"conceptGroup": [
+{
+"conceptProperties": [
+{
+"language": "ENG",
+"name": "fluticasone",
+"rxcui": "41126",
+"suppress": "N",
+"synonym": "",
+"tty": "IN",
+"umlscui": ""
+}
+],
+"tty": "IN"
+},
+{
+"tty": "MIN"
+}
+],
+"rxcui": null
+}
+},
+"/rxcui/83553/properties.json": {
+"properties": {
+"language": "ENG",
+"name": "Seroquel",
+"rxcui": "83553",
+"suppress": "N",
+"synonym": "",
+"tty": "BN",
+"umlscui": ""
+}
+},
+"/rxcui/83553/related.json?tty=IN+MIN": {
+"relatedGroup": {
+"conceptGroup": [
+{
+"conceptProperties": [
+{
+"language": "ENG",
+"name": "quetiapine",
+"rxcui": "51272",
+"suppress": "N",
+"synonym": "",
+"tty": "IN",
+"umlscui": ""
+}
+],
+"tty": "IN"
+},
+{
+"tty": "MIN"
+}
+],
+"rxcui": null
+}
+},
+"/rxcui/85783/properties.json": {
+"properties": {
+"language": "ENG",
+"name": "Zestoretic",
+"rxcui": "85783",
+"suppress": "N",
+"synonym": "",
+"tty": "BN",
+"umlscui": ""
+}
+},
+"/rxcui/85783/related.json?tty=IN+MIN": {
+"relatedGroup": {
+"conceptGroup": [
+{
+"conceptProperties": [
+{
+"language": "ENG",
+"name": "lisinopril",
+"rxcui": "29046",
+"suppress": "N",
+"synonym": "",
+"tty": "IN",
+"umlscui": ""
+},
+{
+"language": "ENG",
+"name": "hydrochlorothiazide",
+"rxcui": "5487",
+"suppress": "N",
+"synonym": "",
+"tty": "IN",
+"umlscui": ""
+}
+],
+"tty": "IN"
+},
+{
+"conceptProperties": [
+{
+"language": "ENG",
+"name": "hydrochlorothiazide / lisinopril",
+"rxcui": "214618",
+"suppress": "N",
+"synonym": "",
+"tty": "MIN",
+"umlscui": ""
+}
+],
+"tty": "MIN"
+}
+],
+"rxcui": null
+}
+},
+"/rxcui/858068/properties.json": {
+"properties": {
+"language": "ENG",
+"name": "Colcrys",
+"rxcui": "858068",
+"suppress": "N",
+"synonym": "",
+"tty": "BN",
+"umlscui": ""
+}
+},
+"/rxcui/858068/related.json?tty=IN+MIN": {
+"relatedGroup": {
+"conceptGroup": [
+{
+"conceptProperties": [
+{
+"language": "ENG",
+"name": "colchicine",
+"rxcui": "2683",
+"suppress": "N",
+"synonym": "",
+"tty": "IN",
+"umlscui": ""
+}
+],
+"tty": "IN"
+},
+{
+"tty": "MIN"
+}
+],
+"rxcui": null
+}
+},
+"/rxcui/8591/properties.json": {
+"properties": {
+"language": "ENG",
+"name": "potassium chloride",
+"rxcui": "8591",
+"suppress": "N",
+"synonym": "",
+"tty": "IN",
+"umlscui": ""
+}
+},
+"/rxcui/863583/properties.json": {
+"properties": {
+"language": "ENG",
+"name": "Metozolv",
+"rxcui": "863583",
+"suppress": "N",
+"synonym": "",
+"tty": "BN",
+"umlscui": ""
+}
+},
+"/rxcui/863583/related.json?tty=IN+MIN": {
+"relatedGroup": {
+"conceptGroup": [
+{
+"conceptProperties": [
+{
+"language": "ENG",
+"name": "metoclopramide",
+"rxcui": "6915",
+"suppress": "N",
+"synonym": "",
+"tty": "IN",
+"umlscui": ""
+}
+],
+"tty": "IN"
+},
+{
+"tty": "MIN"
+}
+],
+"rxcui": null
+}
+},
+"/rxcui/8640/properties.json": {
+"properties": {
+"language": "ENG",
+"name": "prednisone",
+"rxcui": "8640",
+"suppress": "N",
+"synonym": "",
+"tty": "IN",
+"umlscui": ""
+}
+},
+"/rxcui/8745/properties.json": {
+"properties": {
+"language": "ENG",
+"name": "promethazine",
+"rxcui": "8745",
+"suppress": "N",
+"synonym": "",
+"tty": "IN",
+"umlscui": ""
+}
+},
+"/rxcui/881404/properties.json": {
+"properties": {
+"language": "ENG",
+"name": "Glynase",
+"rxcui": "881404",
+"suppress": "N",
+"synonym": "",
+"tty": "BN",
+"umlscui": ""
+}
+},
+"/rxcui/881404/related.json?tty=IN+MIN": {
+"relatedGroup": {
+"conceptGroup": [
+{
+"conceptProperties": [
+{
+"language": "ENG",
+"name": "glyburide",
+"rxcui": "4815",
+"suppress": "N",
+"synonym": "glibenclamide",
+"tty": "IN",
+"umlscui": ""
+}
+],
+"tty": "IN"
+},
+{
+"tty": "MIN"
+}
+],
+"rxcui": null
+}
+},
+"/rxcui/891775/properties.json": {
+"properties": {
+"language": "ENG",
+"name": "sodium fluoride 0.00243 MG/MG Toothpaste",
+"rxcui": "891775",
+"suppress": "N",
+"synonym": "sodium fluoride 0.243 % (fluoride ion 0.13 % ) Toothpaste",
+"tty": "SCD",
+"umlscui": ""
+}
+},
+"/rxcui/891775/related.json?tty=IN+MIN": {
+"relatedGroup": {
+"conceptGroup": [
+{
+"conceptProperties": [
+{
+"language": "ENG",
+"name": "sodium fluoride",
+"rxcui": "9873",
+"suppress": "N",
+"synonym": "",
+"tty": "IN",
+"umlscui": ""
+}
+],
+"tty": "IN"
+},
+{
+"tty": "MIN"
+}
+],
+"rxcui": null
+}
+},
+"/rxcui/9143/properties.json": {
+"properties": {
+"language": "ENG",
+"name": "ranitidine",
+"rxcui": "9143",
+"suppress": "N",
+"synonym": "",
+"tty": "IN",
+"umlscui": ""
+}
+},
+"/rxcui/91818/properties.json": {
+"properties": {
+"language": "ENG",
+"name": "Antivert",
+"rxcui": "91818",
+"suppress": "N",
+"synonym": "",
+"tty": "BN",
+"umlscui": ""
+}
+},
+"/rxcui/91818/related.json?tty=IN+MIN": {
+"relatedGroup": {
+"conceptGroup": [
+{
+"conceptProperties": [
+{
+"language": "ENG",
+"name": "meclizine",
+"rxcui": "6676",
+"suppress": "N",
+"synonym": "",
+"tty": "IN",
+"umlscui": ""
+}
+],
+"tty": "IN"
+},
+{
+"tty": "MIN"
+}
+],
+"rxcui": null
+}
+},
+"/rxcui/9230/properties.json": {
+"properties": {
+"language": "ENG",
+"name": "Reglan",
+"rxcui": "9230",
+"suppress": "N",
+"synonym": "",
+"tty": "BN",
+"umlscui": ""
+}
+},
+"/rxcui/9230/related.json?tty=IN+MIN": {
+"relatedGroup": {
+"conceptGroup": [
+{
+"conceptProperties": [
+{
+"language": "ENG",
+"name": "metoclopramide",
+"rxcui": "6915",
+"suppress": "N",
+"synonym": "",
+"tty": "IN",
+"umlscui": ""
+}
+],
+"tty": "IN"
+},
+{
+"tty": "MIN"
+}
+],
+"rxcui": null
+}
+}
+}

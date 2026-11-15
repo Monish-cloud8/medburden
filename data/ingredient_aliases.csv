@@ -1,0 +1,14 @@
+alias,ingredient,source,notes
+estrogens conjugated,conjugated estrogens,RxNorm naming convention,RxNorm lists 'estrogens; conjugated (USP)'
+"estrogens, conjugated",conjugated estrogens,RxNorm naming convention,
+"estrogens, esterified",esterified estrogens,RxNorm naming convention,
+levomepromazine,methotrimeprazine,INN vs USAN name,same drug (ACB lists methotrimeprazine)
+trimeprazine,alimemazine,USAN vs INN name,same drug (ACB lists alimemazine)
+glibenclamide,glyburide,INN vs USAN name,Beers lists glyburide (glibenclamide)
+pethidine,meperidine,INN vs USAN name,
+hyoscine,scopolamine,INN vs USAN name,
+paracetamol,acetaminophen,INN vs USAN name,
+belladonna,belladonna alkaloids,ACB scale name,
+valproate,valproic acid,RxNorm naming convention,
+divalproex,valproic acid,RxNorm naming convention,divalproex sodium is a valproic acid salt form
+thyroid (usp),thyroid,RxNorm naming convention,desiccated thyroid

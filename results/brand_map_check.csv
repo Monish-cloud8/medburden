@@ -1,0 +1,139 @@
+name,ingredients,kind,source,notes,rxnav,agrees
+benadryl,diphenhydramine,brand,US OTC Drug Facts label (DailyMed),,diphenhydramine,yes
+tylenol pm,acetaminophen;diphenhydramine,brand,US OTC Drug Facts label (DailyMed),,acetaminophen;diphenhydramine,yes
+tylenol,acetaminophen,brand,US OTC Drug Facts label (DailyMed),plain Tylenol / Extra Strength / Arthritis,acetaminophen,yes
+tylenol extra strength,acetaminophen,brand,US OTC Drug Facts label (DailyMed),,(no exact RxNorm match),unknown
+tylenol arthritis,acetaminophen,brand,US OTC Drug Facts label (DailyMed),,(no exact RxNorm match),unknown
+advil,ibuprofen,brand,US OTC Drug Facts label (DailyMed),,ibuprofen,yes
+motrin,ibuprofen,brand,US OTC Drug Facts label (DailyMed),,ibuprofen,yes
+advil pm,ibuprofen;diphenhydramine,brand,US OTC Drug Facts label (DailyMed),,(no exact RxNorm match),unknown
+aleve,naproxen,brand,US OTC Drug Facts label (DailyMed),,naproxen,yes
+aleve pm,naproxen;diphenhydramine,brand,US OTC Drug Facts label (DailyMed),,diphenhydramine;naproxen,yes
+zzzquil,diphenhydramine,brand,US OTC Drug Facts label (DailyMed),,diphenhydramine,yes
+sominex,diphenhydramine,brand,US OTC Drug Facts label (DailyMed),,diphenhydramine,yes
+unisom,doxylamine,brand,US OTC Drug Facts label (DailyMed),Unisom SleepTabs contain doxylamine; Unisom SleepGels contain diphenhydramine. Check the box.,doxylamine,yes
+unisom sleeptabs,doxylamine,brand,US OTC Drug Facts label (DailyMed),,(no exact RxNorm match),unknown
+unisom sleepgels,diphenhydramine,brand,US OTC Drug Facts label (DailyMed),,(no exact RxNorm match),unknown
+nyquil,acetaminophen;dextromethorphan;doxylamine,brand,US OTC Drug Facts label (DailyMed),NyQuil Cold & Flu. Some NyQuil versions also contain phenylephrine. Check the box.,(no exact RxNorm match),unknown
+dayquil,acetaminophen;dextromethorphan;phenylephrine,brand,US OTC Drug Facts label (DailyMed),DayQuil Cold & Flu,(no exact RxNorm match),unknown
+coricidin hbp cold & flu,acetaminophen;chlorpheniramine,brand,US OTC Drug Facts label (DailyMed),,(no exact RxNorm match),unknown
+chlor-trimeton,chlorpheniramine,brand,US OTC Drug Facts label (DailyMed),,chlorpheniramine,yes
+dramamine,dimenhydrinate,brand,US OTC Drug Facts label (DailyMed),Dramamine Original; Dramamine Less Drowsy contains meclizine,dimenhydrinate,yes
+claritin,loratadine,brand,US OTC Drug Facts label (DailyMed),,loratadine,yes
+zyrtec,cetirizine,brand,US OTC Drug Facts label (DailyMed),,cetirizine,yes
+allegra,fexofenadine,brand,US OTC Drug Facts label (DailyMed),,fexofenadine,yes
+xyzal,levocetirizine,brand,US OTC Drug Facts label (DailyMed),,levocetirizine,yes
+flonase,fluticasone,brand,US OTC Drug Facts label (DailyMed),,fluticasone,yes
+ditropan,oxybutynin,brand,US prescribing information (DailyMed),,(no exact RxNorm match),unknown
+ditropan xl,oxybutynin,brand,US prescribing information (DailyMed),,(no exact RxNorm match),unknown
+detrol,tolterodine,brand,US prescribing information (DailyMed),,tolterodine,yes
+detrol la,tolterodine,brand,US prescribing information (DailyMed),,(no exact RxNorm match),unknown
+vesicare,solifenacin,brand,US prescribing information (DailyMed),,solifenacin,yes
+toviaz,fesoterodine,brand,US prescribing information (DailyMed),,fesoterodine,yes
+enablex,darifenacin,brand,US prescribing information (DailyMed),,darifenacin,yes
+myrbetriq,mirabegron,brand,US prescribing information (DailyMed),,mirabegron,yes
+flexeril,cyclobenzaprine,brand,US prescribing information (DailyMed),,(no exact RxNorm match),unknown
+robaxin,methocarbamol,brand,US prescribing information (DailyMed),,methocarbamol,yes
+soma,carisoprodol,brand,US prescribing information (DailyMed),,carisoprodol,yes
+skelaxin,metaxalone,brand,US prescribing information (DailyMed),,metaxalone,yes
+ambien,zolpidem,brand,US prescribing information (DailyMed),,zolpidem,yes
+ambien cr,zolpidem,brand,US prescribing information (DailyMed),,(no exact RxNorm match),unknown
+lunesta,eszopiclone,brand,US prescribing information (DailyMed),,eszopiclone,yes
+sonata,zaleplon,brand,US prescribing information (DailyMed),,(no exact RxNorm match),unknown
+xanax,alprazolam,brand,US prescribing information (DailyMed),,alprazolam,yes
+ativan,lorazepam,brand,US prescribing information (DailyMed),,lorazepam,yes
+valium,diazepam,brand,US prescribing information (DailyMed),,diazepam,yes
+klonopin,clonazepam,brand,US prescribing information (DailyMed),,clonazepam,yes
+restoril,temazepam,brand,US prescribing information (DailyMed),,temazepam,yes
+halcion,triazolam,brand,US prescribing information (DailyMed),,triazolam,yes
+paxil,paroxetine,brand,US prescribing information (DailyMed),,paroxetine,yes
+elavil,amitriptyline,brand,US prescribing information (DailyMed),brand discontinued in the US; name still used,amitriptyline,yes
+pamelor,nortriptyline,brand,US prescribing information (DailyMed),,nortriptyline,yes
+zoloft,sertraline,brand,US prescribing information (DailyMed),,sertraline,yes
+lexapro,escitalopram,brand,US prescribing information (DailyMed),,escitalopram,yes
+celexa,citalopram,brand,US prescribing information (DailyMed),,citalopram,yes
+prozac,fluoxetine,brand,US prescribing information (DailyMed),,fluoxetine,yes
+cymbalta,duloxetine,brand,US prescribing information (DailyMed),,duloxetine,yes
+effexor,venlafaxine,brand,US prescribing information (DailyMed),,venlafaxine,yes
+effexor xr,venlafaxine,brand,US prescribing information (DailyMed),,(no exact RxNorm match),unknown
+desyrel,trazodone,brand,US prescribing information (DailyMed),,(no exact RxNorm match),unknown
+remeron,mirtazapine,brand,US prescribing information (DailyMed),,mirtazapine,yes
+wellbutrin,bupropion,brand,US prescribing information (DailyMed),,bupropion,yes
+seroquel,quetiapine,brand,US prescribing information (DailyMed),,quetiapine,yes
+risperdal,risperidone,brand,US prescribing information (DailyMed),,risperidone,yes
+haldol,haloperidol,brand,US prescribing information (DailyMed),,haloperidol,yes
+zyprexa,olanzapine,brand,US prescribing information (DailyMed),,olanzapine,yes
+abilify,aripiprazole,brand,US prescribing information (DailyMed),,aripiprazole,yes
+neurontin,gabapentin,brand,US prescribing information (DailyMed),,gabapentin,yes
+lyrica,pregabalin,brand,US prescribing information (DailyMed),,pregabalin,yes
+coumadin,warfarin,brand,US prescribing information (DailyMed),,warfarin,yes
+jantoven,warfarin,brand,US prescribing information (DailyMed),,warfarin,yes
+eliquis,apixaban,brand,US prescribing information (DailyMed),,apixaban,yes
+xarelto,rivaroxaban,brand,US prescribing information (DailyMed),,rivaroxaban,yes
+plavix,clopidogrel,brand,US prescribing information (DailyMed),,clopidogrel,yes
+glucotrol,glipizide,brand,US prescribing information (DailyMed),,glipizide,yes
+glucotrol xl,glipizide,brand,US prescribing information (DailyMed),,(no exact RxNorm match),unknown
+glynase,glyburide,brand,US prescribing information (DailyMed),,glyburide,yes
+diabeta,glyburide,brand,US prescribing information (DailyMed),,(no exact RxNorm match),unknown
+micronase,glyburide,brand,US prescribing information (DailyMed),,(no exact RxNorm match),unknown
+amaryl,glimepiride,brand,US prescribing information (DailyMed),,(no exact RxNorm match),unknown
+glucophage,metformin,brand,US prescribing information (DailyMed),,metformin,yes
+phenergan,promethazine,brand,US prescribing information (DailyMed),,promethazine,yes
+antivert,meclizine,brand,US prescribing information (DailyMed),,meclizine,yes
+bonine,meclizine,brand,US OTC Drug Facts label (DailyMed),,meclizine,yes
+vistaril,hydroxyzine,brand,US prescribing information (DailyMed),,hydroxyzine,yes
+atarax,hydroxyzine,brand,US prescribing information (DailyMed),,(no exact RxNorm match),unknown
+aricept,donepezil,brand,US prescribing information (DailyMed),,donepezil,yes
+namenda,memantine,brand,US prescribing information (DailyMed),,memantine,yes
+exelon,rivastigmine,brand,US prescribing information (DailyMed),,rivastigmine,yes
+razadyne,galantamine,brand,US prescribing information (DailyMed),,(no exact RxNorm match),unknown
+sinemet,carbidopa;levodopa,brand,US prescribing information (DailyMed),,carbidopa;levodopa,yes
+cogentin,benztropine,brand,US prescribing information (DailyMed),,(no exact RxNorm match),unknown
+symmetrel,amantadine,brand,US prescribing information (DailyMed),,(no exact RxNorm match),unknown
+norco,hydrocodone;acetaminophen,brand,US prescribing information (DailyMed),,acetaminophen;hydrocodone,yes
+vicodin,hydrocodone;acetaminophen,brand,US prescribing information (DailyMed),,(no exact RxNorm match),unknown
+lortab,hydrocodone;acetaminophen,brand,US prescribing information (DailyMed),,(no exact RxNorm match),unknown
+percocet,oxycodone;acetaminophen,brand,US prescribing information (DailyMed),,acetaminophen;oxycodone,yes
+oxycontin,oxycodone,brand,US prescribing information (DailyMed),,oxycodone,yes
+ultram,tramadol,brand,US prescribing information (DailyMed),,tramadol,yes
+lanoxin,digoxin,brand,US prescribing information (DailyMed),,digoxin,yes
+lasix,furosemide,brand,US prescribing information (DailyMed),,furosemide,yes
+k-dur,potassium chloride,brand,US prescribing information (DailyMed),,(no exact RxNorm match),unknown
+klor-con,potassium chloride,brand,US prescribing information (DailyMed),,potassium chloride,yes
+lipitor,atorvastatin,brand,US prescribing information (DailyMed),,atorvastatin,yes
+zocor,simvastatin,brand,US prescribing information (DailyMed),,simvastatin,yes
+crestor,rosuvastatin,brand,US prescribing information (DailyMed),,rosuvastatin,yes
+norvasc,amlodipine,brand,US prescribing information (DailyMed),,amlodipine,yes
+zestril,lisinopril,brand,US prescribing information (DailyMed),,lisinopril,yes
+prinivil,lisinopril,brand,US prescribing information (DailyMed),,lisinopril,yes
+cozaar,losartan,brand,US prescribing information (DailyMed),,losartan,yes
+hyzaar,losartan;hydrochlorothiazide,brand,US prescribing information (DailyMed),,hydrochlorothiazide;losartan,yes
+toprol xl,metoprolol,brand,US prescribing information (DailyMed),,(no exact RxNorm match),unknown
+lopressor,metoprolol,brand,US prescribing information (DailyMed),,metoprolol,yes
+tenormin,atenolol,brand,US prescribing information (DailyMed),,atenolol,yes
+coreg,carvedilol,brand,US prescribing information (DailyMed),,carvedilol,yes
+synthroid,levothyroxine,brand,US prescribing information (DailyMed),,levothyroxine,yes
+levoxyl,levothyroxine,brand,US prescribing information (DailyMed),,levothyroxine,yes
+armour thyroid,thyroid,brand,US product labeling (DailyMed),desiccated thyroid,thyroid,yes
+prilosec,omeprazole,brand,US prescribing information (DailyMed),,omeprazole,yes
+nexium,esomeprazole,brand,US prescribing information (DailyMed),,esomeprazole,yes
+protonix,pantoprazole,brand,US prescribing information (DailyMed),,pantoprazole,yes
+pepcid,famotidine,brand,US OTC Drug Facts label (DailyMed),,famotidine,yes
+zantac 360,famotidine,brand,US OTC Drug Facts label (DailyMed),reformulated in 2021,(no exact RxNorm match),unknown
+zantac,ranitidine,brand,US prescribing information (historical),Ranitidine was withdrawn in 2020; current 'Zantac 360' contains famotidine. Check the box.,ranitidine,yes
+reglan,metoclopramide,brand,US prescribing information (DailyMed),,metoclopramide,yes
+zofran,ondansetron,brand,US prescribing information (DailyMed),,(no exact RxNorm match),unknown
+flomax,tamsulosin,brand,US prescribing information (DailyMed),,tamsulosin,yes
+proscar,finasteride,brand,US prescribing information (DailyMed),,finasteride,yes
+cardura,doxazosin,brand,US prescribing information (DailyMed),,doxazosin,yes
+hytrin,terazosin,brand,US prescribing information (historical),,(no exact RxNorm match),unknown
+mobic,meloxicam,brand,US prescribing information (DailyMed),,meloxicam,yes
+celebrex,celecoxib,brand,US prescribing information (DailyMed),,celecoxib,yes
+macrobid,nitrofurantoin,brand,US prescribing information (DailyMed),,nitrofurantoin,yes
+macrodantin,nitrofurantoin,brand,US prescribing information (DailyMed),,nitrofurantoin,yes
+deltasone,prednisone,brand,US prescribing information (historical),,prednisone,yes
+ecotrin,aspirin,brand,US OTC Drug Facts label (DailyMed),,aspirin,yes
+bayer aspirin,aspirin,brand,US OTC Drug Facts label (DailyMed),,aspirin,yes
+bactrim,sulfamethoxazole;trimethoprim,brand,US prescribing information (DailyMed),,sulfamethoxazole;trimethoprim,yes
+cipro,ciprofloxacin,brand,US prescribing information (DailyMed),,ciprofloxacin,yes
+lithobid,lithium,brand,US prescribing information (DailyMed),,lithium carbonate,NO

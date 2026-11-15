@@ -1,0 +1,1065 @@
+{
+ "setup": {
+  "cases": 31,
+  "image_cases": 0,
+  "extraction_methods": {
+   "llm:openai": 31
+  },
+  "llm": {
+   "ok": true,
+   "provider": "openai",
+   "model": "gpt-6-luna",
+   "message": "openai \u00b7 gpt-6-luna"
+  },
+  "ocr": {
+   "ok": false,
+   "message": "Tesseract not installed. Photo reading without an AI key needs the free Tesseract OCR program. Install it with `brew install tesseract` (Mac) or `sudo apt install tesseract-ocr` (Linux). On Streamlit Cloud it is installed from packages.txt. You can also type or paste the list instead."
+  },
+  "rxnav": "NOT reachable (cache + local brand map only)",
+  "rxnav_stats": {
+   "cache_hits": 301,
+   "requests": 0,
+   "errors": 0
+  },
+  "runtime_s": 252.7
+ },
+ "medburden": {
+  "extraction_precision": 0.989247311827957,
+  "extraction_recall": 0.989247311827957,
+  "extraction_items": "92/93 gold items found; 93 extracted",
+  "rxnav_match_rate": 0.8681318681318682,
+  "rxnav_any_match_rate": 0.8791208791208791,
+  "rxnav_items": "79/91 real drugs matched with exactly the right ingredients",
+  "acb_exact_match_rate": 0.967741935483871,
+  "beers_precision": 1.0,
+  "beers_recall": 0.8631578947368421,
+  "beers_counts": {
+   "tp": 82,
+   "fp": 0,
+   "fn": 13
+  },
+  "unmatched_correctly_flagged": "2/2",
+  "fictional_drugs_wrongly_matched": 0
+ },
+ "llm_only_baseline": {
+  "provider": "openai",
+  "model": "gpt-6-luna",
+  "cases": 31,
+  "errors": 0,
+  "ingredient_match_rate": 0.967032967032967,
+  "acb_exact_match_rate": 0.3870967741935484,
+  "beers_precision": 0.9090909090909091,
+  "beers_recall": 0.7368421052631579,
+  "beers_counts": {
+   "tp": 70,
+   "fp": 7,
+   "fn": 25
+  },
+  "unmatched_correctly_flagged": "2/2"
+ },
+ "llm_only_baseline_skipped": null,
+ "per_case": [
+  {
+   "id": "h01",
+   "input": "text",
+   "method": "llm:openai",
+   "extracted": [
+    "Bentyl",
+    "Actos",
+    "Januvia"
+   ],
+   "statuses": [
+    "matched",
+    "matched",
+    "matched"
+   ],
+   "match_methods": [
+    "rxnav exact",
+    "rxnav exact",
+    "rxnav exact"
+   ],
+   "acb": 3,
+   "acb_gold": 3,
+   "beers_fp": [],
+   "beers_fn": [],
+   "warnings": [],
+   "baseline": {
+    "acb": 3,
+    "fp": [],
+    "fn": [
+     "dicyclomine|dementia"
+    ]
+   }
+  },
+  {
+   "id": "h02",
+   "input": "text",
+   "method": "llm:openai",
+   "extracted": [
+    "Depakote ER",
+    "Keppra",
+    "Requip"
+   ],
+   "statuses": [
+    "matched",
+    "matched",
+    "unmatched"
+   ],
+   "match_methods": [
+    "rxnav exact",
+    "rxnav exact",
+    ""
+   ],
+   "acb": 0,
+   "acb_gold": 0,
+   "beers_fp": [],
+   "beers_fn": [],
+   "warnings": [],
+   "baseline": {
+    "acb": 0,
+    "fp": [
+     "divalproex sodium|falls"
+    ],
+    "fn": [
+     "valproic acid|falls"
+    ]
+   }
+  },
+  {
+   "id": "h03",
+   "input": "text",
+   "method": "llm:openai",
+   "extracted": [
+    "Catapres",
+    "MINIPRESS",
+    "Procardia"
+   ],
+   "statuses": [
+    "matched",
+    "matched",
+    "matched"
+   ],
+   "match_methods": [
+    "rxnav exact",
+    "rxnav exact",
+    "rxnav exact"
+   ],
+   "acb": 1,
+   "acb_gold": 1,
+   "beers_fp": [],
+   "beers_fn": [],
+   "warnings": [],
+   "baseline": {
+    "acb": 1,
+    "fp": [],
+    "fn": []
+   }
+  },
+  {
+   "id": "h04",
+   "input": "text",
+   "method": "llm:openai",
+   "extracted": [
+    "Tegretol XR",
+    "Levsin",
+    "Urispas"
+   ],
+   "statuses": [
+    "matched",
+    "matched",
+    "matched"
+   ],
+   "match_methods": [
+    "rxnav exact",
+    "rxnav exact",
+    "local table name"
+   ],
+   "acb": 8,
+   "acb_gold": 8,
+   "beers_fp": [],
+   "beers_fn": [],
+   "warnings": [],
+   "baseline": {
+    "acb": 6,
+    "fp": [],
+    "fn": [
+     "flavoxate|dementia",
+     "hyoscyamine|dementia"
+    ]
+   }
+  },
+  {
+   "id": "h05",
+   "input": "text",
+   "method": "llm:openai",
+   "extracted": [
+    "Megace",
+    "Premarin",
+    "DDAVP"
+   ],
+   "statuses": [
+    "needs_review",
+    "matched",
+    "matched"
+   ],
+   "match_methods": [
+    "rxnav approximate",
+    "rxnav exact",
+    "rxnav exact"
+   ],
+   "acb": 0,
+   "acb_gold": 0,
+   "beers_fp": [],
+   "beers_fn": [
+    "megestrol|all"
+   ],
+   "warnings": [],
+   "baseline": {
+    "acb": 0,
+    "fp": [
+     "megestrol acetate|all"
+    ],
+    "fn": [
+     "megestrol|all"
+    ]
+   }
+  },
+  {
+   "id": "h06",
+   "input": "text",
+   "method": "llm:openai",
+   "extracted": [
+    "Demerol",
+    "Toradol",
+    "Singulair"
+   ],
+   "statuses": [
+    "matched",
+    "needs_review",
+    "matched"
+   ],
+   "match_methods": [
+    "rxnav exact",
+    "rxnav approximate",
+    "rxnav exact"
+   ],
+   "acb": 2,
+   "acb_gold": 2,
+   "beers_fp": [],
+   "beers_fn": [
+    "ketorolac|all"
+   ],
+   "warnings": [],
+   "baseline": {
+    "acb": 1,
+    "fp": [],
+    "fn": []
+   }
+  },
+  {
+   "id": "h07",
+   "input": "text",
+   "method": "llm:openai",
+   "extracted": [
+    "Fosamax",
+    "Spiriva",
+    "Zetia"
+   ],
+   "statuses": [
+    "matched",
+    "matched",
+    "matched"
+   ],
+   "match_methods": [
+    "rxnav exact",
+    "rxnav exact",
+    "rxnav exact"
+   ],
+   "acb": 0,
+   "acb_gold": 0,
+   "beers_fp": [],
+   "beers_fn": [],
+   "warnings": [],
+   "baseline": {
+    "acb": 1,
+    "fp": [],
+    "fn": []
+   }
+  },
+  {
+   "id": "h08",
+   "input": "text",
+   "method": "llm:openai",
+   "extracted": [
+    "Artane",
+    "Clozaril",
+    "Zyloprim"
+   ],
+   "statuses": [
+    "matched",
+    "matched",
+    "matched"
+   ],
+   "match_methods": [
+    "local table name",
+    "rxnav exact",
+    "rxnav exact"
+   ],
+   "acb": 6,
+   "acb_gold": 6,
+   "beers_fp": [],
+   "beers_fn": [],
+   "warnings": [],
+   "baseline": {
+    "acb": 6,
+    "fp": [],
+    "fn": [
+     "clozapine|all",
+     "trihexyphenidyl|dementia"
+    ]
+   }
+  },
+  {
+   "id": "h09",
+   "input": "text",
+   "method": "llm:openai",
+   "extracted": [
+    "Tofranil",
+    "Norpramin",
+    "Prevacid"
+   ],
+   "statuses": [
+    "matched",
+    "matched",
+    "matched"
+   ],
+   "match_methods": [
+    "local table name",
+    "rxnav exact",
+    "rxnav exact"
+   ],
+   "acb": 6,
+   "acb_gold": 6,
+   "beers_fp": [],
+   "beers_fn": [],
+   "warnings": [],
+   "baseline": {
+    "acb": 5,
+    "fp": [],
+    "fn": [
+     "desipramine|dementia",
+     "desipramine|falls",
+     "imipramine|dementia",
+     "imipramine|falls",
+     "lansoprazole|all"
+    ]
+   }
+  },
+  {
+   "id": "h10",
+   "input": "text",
+   "method": "llm:openai",
+   "extracted": [
+    "Thorazine",
+    "Compazine",
+    "Pexeva"
+   ],
+   "statuses": [
+    "matched",
+    "matched",
+    "needs_review"
+   ],
+   "match_methods": [
+    "local table name",
+    "rxnav exact",
+    "rxnav approximate"
+   ],
+   "acb": 3,
+   "acb_gold": 6,
+   "beers_fp": [],
+   "beers_fn": [
+    "paroxetine|all",
+    "paroxetine|dementia"
+   ],
+   "warnings": [],
+   "baseline": {
+    "acb": 9,
+    "fp": [],
+    "fn": [
+     "chlorpromazine|all",
+     "paroxetine|dementia"
+    ]
+   }
+  },
+  {
+   "id": "h11",
+   "input": "text",
+   "method": "llm:openai",
+   "extracted": [
+    "Norflex ER",
+    "Tranxene",
+    "Lioresal"
+   ],
+   "statuses": [
+    "matched",
+    "matched",
+    "matched"
+   ],
+   "match_methods": [
+    "local table name",
+    "rxnav exact",
+    "rxnav exact"
+   ],
+   "acb": 4,
+   "acb_gold": 4,
+   "beers_fp": [],
+   "beers_fn": [],
+   "warnings": [],
+   "baseline": {
+    "acb": 3,
+    "fp": [],
+    "fn": [
+     "orphenadrine|falls"
+    ]
+   }
+  },
+  {
+   "id": "h12",
+   "input": "text",
+   "method": "llm:openai",
+   "extracted": [
+    "Librium",
+    "Zyloprim",
+    "Colcrys"
+   ],
+   "statuses": [
+    "needs_review",
+    "matched",
+    "matched"
+   ],
+   "match_methods": [
+    "rxnav approximate",
+    "rxnav exact",
+    "rxnav exact"
+   ],
+   "acb": 1,
+   "acb_gold": 1,
+   "beers_fp": [],
+   "beers_fn": [
+    "chlordiazepoxide|all",
+    "chlordiazepoxide|dementia",
+    "chlordiazepoxide|falls"
+   ],
+   "warnings": [],
+   "baseline": {
+    "acb": 1,
+    "fp": [],
+    "fn": []
+   }
+  },
+  {
+   "id": "h13",
+   "input": "text",
+   "method": "llm:openai",
+   "extracted": [
+    "Cordarone",
+    "Tenex",
+    "Altace"
+   ],
+   "statuses": [
+    "needs_review",
+    "needs_review",
+    "matched"
+   ],
+   "match_methods": [
+    "rxnav approximate",
+    "rxnav approximate",
+    "rxnav exact"
+   ],
+   "acb": 0,
+   "acb_gold": 0,
+   "beers_fp": [],
+   "beers_fn": [
+    "amiodarone|all",
+    "guanfacine|all"
+   ],
+   "warnings": [],
+   "baseline": {
+    "acb": 0,
+    "fp": [],
+    "fn": [
+     "guanfacine|all"
+    ]
+   }
+  },
+  {
+   "id": "h14",
+   "input": "text",
+   "method": "llm:openai",
+   "extracted": [
+    "Duragesic",
+    "Dilaudid",
+    "Zetia"
+   ],
+   "statuses": [
+    "matched",
+    "matched",
+    "matched"
+   ],
+   "match_methods": [
+    "local table name",
+    "rxnav exact",
+    "rxnav exact"
+   ],
+   "acb": 1,
+   "acb_gold": 1,
+   "beers_fp": [],
+   "beers_fn": [],
+   "warnings": [],
+   "baseline": {
+    "acb": 0,
+    "fp": [],
+    "fn": []
+   }
+  },
+  {
+   "id": "h15",
+   "input": "text",
+   "method": "llm:openai",
+   "extracted": [
+    "Geodon",
+    "Latuda",
+    "Invega"
+   ],
+   "statuses": [
+    "matched",
+    "matched",
+    "matched"
+   ],
+   "match_methods": [
+    "rxnav exact",
+    "rxnav exact",
+    "rxnav exact"
+   ],
+   "acb": 1,
+   "acb_gold": 1,
+   "beers_fp": [],
+   "beers_fn": [],
+   "warnings": [],
+   "baseline": {
+    "acb": 2,
+    "fp": [],
+    "fn": [
+     "lurasidone|all",
+     "paliperidone|all",
+     "ziprasidone|all"
+    ]
+   }
+  },
+  {
+   "id": "h16",
+   "input": "text",
+   "method": "llm:openai",
+   "extracted": [
+    "Aciphex",
+    "Metozolv",
+    "Diovan"
+   ],
+   "statuses": [
+    "matched",
+    "matched",
+    "matched"
+   ],
+   "match_methods": [
+    "rxnav exact",
+    "rxnav exact",
+    "rxnav exact"
+   ],
+   "acb": 0,
+   "acb_gold": 0,
+   "beers_fp": [],
+   "beers_fn": [],
+   "warnings": [],
+   "baseline": {
+    "acb": 1,
+    "fp": [],
+    "fn": [
+     "rabeprazole|all"
+    ]
+   }
+  },
+  {
+   "id": "h17",
+   "input": "text",
+   "method": "llm:openai",
+   "extracted": [
+    "Excedrin PM",
+    "Tegretol",
+    "Prozac Weekly"
+   ],
+   "statuses": [
+    "matched",
+    "matched",
+    "matched"
+   ],
+   "match_methods": [
+    "rxnav exact",
+    "rxnav exact",
+    "rxnav exact"
+   ],
+   "acb": 5,
+   "acb_gold": 5,
+   "beers_fp": [],
+   "beers_fn": [],
+   "warnings": [],
+   "baseline": {
+    "acb": 6,
+    "fp": [],
+    "fn": [
+     "diphenhydramine|falls"
+    ]
+   }
+  },
+  {
+   "id": "h18",
+   "input": "text",
+   "method": "llm:openai",
+   "extracted": [
+    "Fioricet",
+    "Naprosyn",
+    "Feldene"
+   ],
+   "statuses": [
+    "matched",
+    "matched",
+    "matched"
+   ],
+   "match_methods": [
+    "rxnav exact",
+    "rxnav exact",
+    "rxnav exact"
+   ],
+   "acb": 0,
+   "acb_gold": 0,
+   "beers_fp": [],
+   "beers_fn": [],
+   "warnings": [],
+   "baseline": {
+    "acb": 1,
+    "fp": [],
+    "fn": []
+   }
+  },
+  {
+   "id": "h19",
+   "input": "text",
+   "method": "llm:openai",
+   "extracted": [
+    "Lamictal",
+    "Topamax",
+    "BuSpar"
+   ],
+   "statuses": [
+    "matched",
+    "matched",
+    "matched"
+   ],
+   "match_methods": [
+    "rxnav exact",
+    "rxnav exact",
+    "rxnav exact"
+   ],
+   "acb": 0,
+   "acb_gold": 0,
+   "beers_fp": [],
+   "beers_fn": [],
+   "warnings": [],
+   "baseline": {
+    "acb": 2,
+    "fp": [],
+    "fn": []
+   }
+  },
+  {
+   "id": "h20",
+   "input": "text",
+   "method": "llm:openai",
+   "extracted": [
+    "Dilantin",
+    "Mirapex",
+    "Lopid"
+   ],
+   "statuses": [
+    "matched",
+    "matched",
+    "matched"
+   ],
+   "match_methods": [
+    "rxnav exact",
+    "rxnav exact",
+    "rxnav exact"
+   ],
+   "acb": 0,
+   "acb_gold": 0,
+   "beers_fp": [],
+   "beers_fn": [],
+   "warnings": [],
+   "baseline": {
+    "acb": 1,
+    "fp": [
+     "phenytoin|all",
+     "pramipexole|all"
+    ],
+    "fn": []
+   }
+  },
+  {
+   "id": "h21",
+   "input": "text",
+   "method": "llm:openai",
+   "extracted": [
+    "doxazocin",
+    "Tenex",
+    "Lopid"
+   ],
+   "statuses": [
+    "matched",
+    "needs_review",
+    "matched"
+   ],
+   "match_methods": [
+    "rxnav approximate",
+    "rxnav approximate",
+    "rxnav exact"
+   ],
+   "acb": 0,
+   "acb_gold": 0,
+   "beers_fp": [],
+   "beers_fn": [
+    "guanfacine|all"
+   ],
+   "warnings": [],
+   "baseline": {
+    "acb": 0,
+    "fp": [],
+    "fn": []
+   }
+  },
+  {
+   "id": "h22",
+   "input": "text",
+   "method": "llm:openai",
+   "extracted": [
+    "Luminal",
+    "Parafon Forte",
+    "Zyloprim"
+   ],
+   "statuses": [
+    "needs_review",
+    "needs_review",
+    "matched"
+   ],
+   "match_methods": [
+    "rxnav approximate",
+    "rxnav approximate",
+    "rxnav exact"
+   ],
+   "acb": 0,
+   "acb_gold": 0,
+   "beers_fp": [],
+   "beers_fn": [
+    "chlorzoxazone|all",
+    "phenobarbital|all",
+    "phenobarbital|falls"
+   ],
+   "warnings": [],
+   "baseline": {
+    "acb": 1,
+    "fp": [
+     "chlorzoxazone|falls"
+    ],
+    "fn": []
+   }
+  },
+  {
+   "id": "h23",
+   "input": "text",
+   "method": "llm:openai",
+   "extracted": [
+    "Estrace",
+    "Indocin",
+    "Altace"
+   ],
+   "statuses": [
+    "matched",
+    "matched",
+    "matched"
+   ],
+   "match_methods": [
+    "rxnav exact",
+    "rxnav exact",
+    "rxnav exact"
+   ],
+   "acb": 0,
+   "acb_gold": 0,
+   "beers_fp": [],
+   "beers_fn": [],
+   "warnings": [],
+   "baseline": {
+    "acb": 0,
+    "fp": [],
+    "fn": []
+   }
+  },
+  {
+   "id": "h24",
+   "input": "text",
+   "method": "llm:openai",
+   "extracted": [
+    "Voltaren",
+    "Ultracet",
+    "Savella"
+   ],
+   "statuses": [
+    "matched",
+    "matched",
+    "matched"
+   ],
+   "match_methods": [
+    "rxnav exact",
+    "rxnav exact",
+    "rxnav exact"
+   ],
+   "acb": 0,
+   "acb_gold": 0,
+   "beers_fp": [],
+   "beers_fn": [],
+   "warnings": [],
+   "baseline": {
+    "acb": 1,
+    "fp": [],
+    "fn": [
+     "diclofenac|all"
+    ]
+   }
+  },
+  {
+   "id": "h25",
+   "input": "text",
+   "method": "llm:openai",
+   "extracted": [
+    "Zolvarex",
+    "Nexaprine",
+    "Dilaudid"
+   ],
+   "statuses": [
+    "needs_review",
+    "needs_review",
+    "matched"
+   ],
+   "match_methods": [
+    "rxnav approximate",
+    "rxnav approximate",
+    "rxnav exact"
+   ],
+   "acb": 0,
+   "acb_gold": 0,
+   "beers_fp": [],
+   "beers_fn": [],
+   "warnings": [],
+   "baseline": {
+    "acb": 0,
+    "fp": [],
+    "fn": []
+   }
+  },
+  {
+   "id": "h26",
+   "input": "text",
+   "method": "llm:openai",
+   "extracted": [
+    "Imitrex",
+    "Tizanidine",
+    "Carafate"
+   ],
+   "statuses": [
+    "matched",
+    "matched",
+    "matched"
+   ],
+   "match_methods": [
+    "rxnav exact",
+    "rxnav exact",
+    "rxnav exact"
+   ],
+   "acb": 0,
+   "acb_gold": 0,
+   "beers_fp": [],
+   "beers_fn": [],
+   "warnings": [],
+   "baseline": {
+    "acb": 0,
+    "fp": [],
+    "fn": []
+   }
+  },
+  {
+   "id": "h27",
+   "input": "text",
+   "method": "llm:openai",
+   "extracted": [
+    "Diphenhydramin",
+    "oxybutinin",
+    "lorazapam"
+   ],
+   "statuses": [
+    "matched",
+    "matched",
+    "matched"
+   ],
+   "match_methods": [
+    "rxnav exact",
+    "rxnav approximate",
+    "rxnav approximate"
+   ],
+   "acb": 6,
+   "acb_gold": 6,
+   "beers_fp": [],
+   "beers_fn": [],
+   "warnings": [],
+   "baseline": {
+    "acb": 7,
+    "fp": [
+     "oxybutynin|all"
+    ],
+    "fn": []
+   }
+  },
+  {
+   "id": "h28",
+   "input": "text",
+   "method": "llm:openai",
+   "extracted": [
+    "amitriptylin",
+    "hydroxyzin pamoate",
+    "donepezyl"
+   ],
+   "statuses": [
+    "matched",
+    "matched",
+    "matched"
+   ],
+   "match_methods": [
+    "rxnav exact",
+    "rxnav exact",
+    "rxnav approximate"
+   ],
+   "acb": 6,
+   "acb_gold": 6,
+   "beers_fp": [],
+   "beers_fn": [],
+   "warnings": [],
+   "baseline": {
+    "acb": 7,
+    "fp": [],
+    "fn": []
+   }
+  },
+  {
+   "id": "h29",
+   "input": "text",
+   "method": "llm:openai",
+   "extracted": [
+    "trazadone",
+    "gabapentine",
+    "tramadole"
+   ],
+   "statuses": [
+    "matched",
+    "matched",
+    "matched"
+   ],
+   "match_methods": [
+    "rxnav approximate",
+    "rxnav exact",
+    "rxnav exact"
+   ],
+   "acb": 1,
+   "acb_gold": 1,
+   "beers_fp": [],
+   "beers_fn": [],
+   "warnings": [],
+   "baseline": {
+    "acb": 2,
+    "fp": [
+     "trazodone|falls"
+    ],
+    "fn": []
+   }
+  },
+  {
+   "id": "h30",
+   "input": "text",
+   "method": "llm:openai",
+   "extracted": [
+    "meclizin",
+    "zolpidum",
+    "rispiridone"
+   ],
+   "statuses": [
+    "matched",
+    "matched",
+    "matched"
+   ],
+   "match_methods": [
+    "rxnav exact",
+    "rxnav approximate",
+    "rxnav approximate"
+   ],
+   "acb": 4,
+   "acb_gold": 4,
+   "beers_fp": [],
+   "beers_fn": [],
+   "warnings": [],
+   "baseline": {
+    "acb": 5,
+    "fp": [],
+    "fn": [
+     "meclizine|falls",
+     "risperidone|all",
+     "zolpidem|dementia"
+    ]
+   }
+  },
+  {
+   "id": "h31",
+   "input": "text",
+   "method": "llm:openai",
+   "extracted": [
+    "hydrocodone/apap",
+    "Zestoretic",
+    "Pravachol"
+   ],
+   "statuses": [
+    "matched",
+    "matched",
+    "matched"
+   ],
+   "match_methods": [
+    "rxnav exact",
+    "rxnav exact",
+    "rxnav exact"
+   ],
+   "acb": 0,
+   "acb_gold": 0,
+   "beers_fp": [],
+   "beers_fn": [],
+   "warnings": [],
+   "baseline": {
+    "acb": 0,
+    "fp": [],
+    "fn": []
+   }
+  }
+ ]
+}

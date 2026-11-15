@@ -1,0 +1,3 @@
+case,written,status,expected,gold_ingredients,note
+c11,Zorvatrex,unmatched,yes,,No match in RxNorm or in the local drug list. Please check the spelling or ask the pharmacist.
+c27,Blorpaxin,unmatched,yes,,No match in RxNorm or in the local drug list. Please check the spelling or ask the pharmacist.

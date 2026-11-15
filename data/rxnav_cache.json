@@ -1150,6 +1150,11 @@
 "inputTerm": null
 }
 },
+"/approximateTerm.json?term=zzzqqxx&maxEntries=5&option=1": {
+"approximateGroup": {
+"inputTerm": null
+}
+},
 "/rxcui.json?name=abilify&search=2": {
 "idGroup": {
 "rxnormId": [
@@ -2921,6 +2926,9 @@
 "58930"
 ]
 }
+},
+"/rxcui.json?name=zzzqqxx&search=2": {
+"idGroup": {}
 },
 "/rxcui.json?name=zzzquil&search=2": {
 "idGroup": {
